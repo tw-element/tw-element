@@ -1,11 +1,13 @@
 {
   "name": "tw-element",
-  "version": "0.0.0-dev.1",
-  "description": "A Component Library for Vue 3",
-  "homepage": "https://tw-element.org/",
+  "version": "1.0.1",
+  "description": "A Component Library for Vue 3 viaTailwind Css",
+  "homepage": "https://github.com/tw-element/tw-element",
   "keywords": [
     "tw-element",
     "element",
+    "element-plus",
+    "tailwind css",
     "component library",
     "ui framework",
     "ui",
@@ -39,10 +41,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus.git"
+    "url": "git+https://github.com/tw-element/tw-element.git"
   },
   "bugs": {
-    "url": "https://github.com/element-plus/element-plus/issues"
+    "url": "https://github.com/tw-element/tw-element/issues"
   },
   "peerDependencies": {
     "vue": "^3.2.0"

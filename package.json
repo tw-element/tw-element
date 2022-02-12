@@ -18,6 +18,7 @@
     "e2e": "cypress open",
     "e2e:ci": "cypress run",
     "dev": "pnpm -C play dev",
+    "publish": "bash ./scripts/publish.sh",
     "gen": "bash ./scripts/gc.sh",
     "gen:version": "sucrase-node scripts/gen-version.ts",
     "update:version": "sucrase-node scripts/update-version.ts",
@@ -138,5 +139,26 @@
     "vue-jest": "5.0.0-alpha.10",
     "vue-router": "4.0.12",
     "vue-tsc": "0.31.2"
+  },
+  "description": "<p align=\"center\">   <img width=\"300px\" src=\"https://user-images.githubusercontent.com/10731096/95823103-9ce15780-0d5f-11eb-8010-1bd1b5910d4f.png\"> </p>",
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tw-element/tw-element.git"
+  },
+  "keywords": [
+    "tw-element",
+    "tailwind css",
+    "element-plus",
+    "vue3",
+    "ui"
+  ],
+  "author": "carveybunt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tw-element/tw-element/issues"
   }
 }
