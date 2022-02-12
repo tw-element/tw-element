@@ -90,7 +90,7 @@
 import { defineComponent, ref, computed, getCurrentInstance, watch } from 'vue'
 import TwCheckbox from '@tw-element/components/checkbox'
 import { TwIcon } from '@tw-element/components/icon'
-import { ArrowDown, ArrowUp } from '@tw-element/icons-vue'
+import { ArrowDown, ArrowUp } from '@element-plus/icons-vue'
 import { ClickOutside } from '@tw-element/directives'
 import { useLocale, useNamespace } from '@tw-element/hooks'
 import ElTooltip from '@tw-element/components/tooltip'

@@ -103,7 +103,7 @@ import {
   ZoomIn,
   Check,
   CircleCheck,
-} from '@tw-element/icons-vue'
+} from '@element-plus/icons-vue'
 import { useLocale, useNamespace } from '@tw-element/hooks'
 import TwProgress from '@tw-element/components/progress'
 

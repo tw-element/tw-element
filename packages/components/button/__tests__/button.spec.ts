@@ -1,6 +1,6 @@
 import { ref, h, nextTick, defineComponent } from 'vue'
 import { mount } from '@vue/test-utils'
-import { Loading, Search } from '@tw-element/icons-vue'
+import { Loading, Search } from '@element-plus/icons-vue'
 import Button from '../src/button.vue'
 import ButtonGroup from '../src/button-group.vue'
 

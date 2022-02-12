@@ -14,7 +14,7 @@
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
 import { TwIcon } from '@tw-element/components/icon'
-import { ArrowLeft } from '@tw-element/icons-vue'
+import { ArrowLeft } from '@element-plus/icons-vue'
 
 const paginationPrevProps = {
   disabled: Boolean,

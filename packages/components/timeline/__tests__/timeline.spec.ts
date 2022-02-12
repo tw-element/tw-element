@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue'
 import { mount } from '@vue/test-utils'
-import { MoreFilled } from '@tw-element/icons-vue'
+import { MoreFilled } from '@element-plus/icons-vue'
 import TimeLine from '../src/timeline'
 import TimeLineItem from '../src/timeline-item.vue'
 

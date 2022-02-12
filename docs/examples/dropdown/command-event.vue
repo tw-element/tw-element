@@ -17,7 +17,7 @@
 
 <script lang="ts" setup>
 import { TwMessage } from 'element-plus'
-import { ArrowDown } from '@tw-element/icons-vue'
+import { ArrowDown } from '@element-plus/icons-vue'
 
 const handleCommand = (command: string | number | object) => {
   TwMessage(`click on item ${command}`)

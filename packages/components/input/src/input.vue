@@ -147,7 +147,7 @@ import {
 } from 'vue'
 import { isClient } from '@vueuse/core'
 import { TwIcon } from '@tw-element/components/icon'
-import { CircleClose, View as IconView } from '@tw-element/icons-vue'
+import { CircleClose, View as IconView } from '@element-plus/icons-vue'
 import { ValidateComponentsMap, isObject, isKorean } from '@tw-element/utils'
 import {
   useAttrs,

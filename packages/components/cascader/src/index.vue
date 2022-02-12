@@ -197,7 +197,7 @@ import {
   UPDATE_MODEL_EVENT,
   CHANGE_EVENT,
 } from '@tw-element/constants'
-import { CircleClose, Check, ArrowDown } from '@tw-element/icons-vue'
+import { CircleClose, Check, ArrowDown } from '@element-plus/icons-vue'
 
 import type { Options } from '@tw-element/components/popper'
 import type { ComputedRef, PropType, Ref } from 'vue'

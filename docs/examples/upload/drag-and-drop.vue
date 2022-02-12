@@ -18,5 +18,5 @@
 </template>
 
 <script setup lang="ts">
-import { UploadFilled } from '@tw-element/icons-vue'
+import { UploadFilled } from '@element-plus/icons-vue'
 </script>

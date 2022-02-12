@@ -21,7 +21,7 @@ import { defineComponent, ref, computed, onMounted, shallowRef } from 'vue'
 import { useEventListener, useThrottleFn } from '@vueuse/core'
 import { TwIcon } from '@tw-element/components/icon'
 import { easeInOutCubic, throwError } from '@tw-element/utils'
-import { CaretTop } from '@tw-element/icons-vue'
+import { CaretTop } from '@element-plus/icons-vue'
 import { useNamespace } from '@tw-element/hooks'
 
 import { backtopEmits, backtopProps } from './backtop'

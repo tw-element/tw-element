@@ -31,7 +31,7 @@
 <script lang="ts">
 import { computed, defineComponent } from 'vue'
 import TwIcon from '@tw-element/components/icon'
-import { Close } from '@tw-element/icons-vue'
+import { Close } from '@element-plus/icons-vue'
 
 import { useSize, useNamespace } from '@tw-element/hooks'
 import { tagProps, tagEmits } from './tag'

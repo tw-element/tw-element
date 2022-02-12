@@ -30,7 +30,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ArrowDown } from '@tw-element/icons-vue'
+import { ArrowDown } from '@element-plus/icons-vue'
 
 const handleClick = () => {
   alert('button click')

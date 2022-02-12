@@ -17,7 +17,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ArrowDown } from '@tw-element/icons-vue'
+import { ArrowDown } from '@element-plus/icons-vue'
 </script>
 <style scoped>
 .example-showcase .el-dropdown + .el-dropdown {

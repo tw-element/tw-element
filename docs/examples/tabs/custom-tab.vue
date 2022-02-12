@@ -15,7 +15,7 @@
 </template>
 
 <script lang="ts" setup>
-import { Calendar } from '@tw-element/icons-vue'
+import { Calendar } from '@element-plus/icons-vue'
 </script>
 <style>
 .demo-tabs > .el-tabs__content {

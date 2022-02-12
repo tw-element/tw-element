@@ -9,7 +9,7 @@ importers:
       '@babel/preset-typescript': 7.16.7
       '@commitlint/cli': 16.1.0
       '@commitlint/config-conventional': 16.0.0
-      '@tw-element/icons-vue': ^0.2.6
+      '@element-plus/icons-vue': ^0.2.6
       '@pnpm/find-workspace-packages': 3.1.40
       '@pnpm/logger': 4.0.0
       '@pnpm/types': 7.9.0
@@ -87,7 +87,7 @@ importers:
       vue-router: 4.0.12
       vue-tsc: 0.31.2
     dependencies:
-      '@tw-element/icons-vue': registry.npmmirror.com/@tw-element/icons-vue/0.2.7_vue@3.2.30
+      '@element-plus/icons-vue': registry.npmmirror.com/@element-plus/icons-vue/0.2.7_vue@3.2.30
       '@popperjs/core': registry.npmmirror.com/@popperjs/core/2.11.2
       '@tw-element/components': link:packages/components
       '@tw-element/constants': link:packages/constants
@@ -262,7 +262,7 @@ importers:
   packages/tw-element:
     specifiers:
       '@ctrl/tinycolor': ^3.4.0
-      '@tw-element/icons-vue': ^0.2.6
+      '@element-plus/icons-vue': ^0.2.6
       '@popperjs/core': ^2.11.2
       '@types/lodash': ^4.14.178
       '@types/lodash-es': ^4.17.6
@@ -279,7 +279,7 @@ importers:
       vue-router: ^4.0.0
     dependencies:
       '@ctrl/tinycolor': registry.npmmirror.com/@ctrl/tinycolor/3.4.0
-      '@tw-element/icons-vue': registry.npmmirror.com/@tw-element/icons-vue/0.2.7_vue@3.2.30
+      '@element-plus/icons-vue': registry.npmmirror.com/@element-plus/icons-vue/0.2.7_vue@3.2.30
       '@popperjs/core': registry.npmmirror.com/@popperjs/core/2.11.2
       '@vueuse/core': registry.npmmirror.com/@vueuse/core/7.6.1_vue@3.2.30
       async-validator: registry.npmmirror.com/async-validator/4.0.7
@@ -301,14 +301,14 @@ importers:
 
   play:
     specifiers:
-      '@tw-element/icons-vue': ^0.2.6
+      '@element-plus/icons-vue': ^0.2.6
       '@vitejs/plugin-vue': 2.2.0
       unplugin-vue-components: 0.17.18
       vite: 2.8.1
       vite-plugin-inspect: 0.3.14
       vite-plugin-mkcert: 1.5.2
     dependencies:
-      '@tw-element/icons-vue': registry.npmmirror.com/@tw-element/icons-vue/0.2.7_vue@3.2.30
+      '@element-plus/icons-vue': registry.npmmirror.com/@element-plus/icons-vue/0.2.7_vue@3.2.30
     devDependencies:
       '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/2.2.0_vite@2.8.1+vue@3.2.30
       unplugin-vue-components: registry.npmmirror.com/unplugin-vue-components/0.17.18_c9970f11ee2cbebe23147edac4106c51
@@ -2278,10 +2278,10 @@ packages:
     transitivePeerDependencies:
       - '@algolia/client-search'
 
-  registry.npmmirror.com/@tw-element/icons-vue/0.2.7_vue@3.2.30:
-    resolution: {integrity: sha512-S8kDbfVaWkQvbUYQE1ui448tzaHfUvyESCep9J6uPRlViyQPXjdIfwLBhV6AmQSOfFS8rL+xehJGhvzPXLrSBg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tw-element/icons-vue/-/icons-vue-0.2.7.tgz}
-    id: registry.npmmirror.com/@tw-element/icons-vue/0.2.7
-    name: '@tw-element/icons-vue'
+  registry.npmmirror.com/@element-plus/icons-vue/0.2.7_vue@3.2.30:
+    resolution: {integrity: sha512-S8kDbfVaWkQvbUYQE1ui448tzaHfUvyESCep9J6uPRlViyQPXjdIfwLBhV6AmQSOfFS8rL+xehJGhvzPXLrSBg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@element-plus/icons-vue/-/icons-vue-0.2.7.tgz}
+    id: registry.npmmirror.com/@element-plus/icons-vue/0.2.7
+    name: '@element-plus/icons-vue'
     version: 0.2.7
     peerDependencies:
       vue: ^3.2.0
@@ -6621,7 +6621,7 @@ packages:
       vue: ^3.2.0
     dependencies:
       '@ctrl/tinycolor': registry.npmmirror.com/@ctrl/tinycolor/3.4.0
-      '@tw-element/icons-vue': registry.npmmirror.com/@tw-element/icons-vue/0.2.7_vue@3.2.30
+      '@element-plus/icons-vue': registry.npmmirror.com/@element-plus/icons-vue/0.2.7_vue@3.2.30
       '@popperjs/core': registry.npmmirror.com/@popperjs/core/2.11.2
       '@vueuse/core': registry.npmmirror.com/@vueuse/core/7.6.1_vue@3.2.30
       async-validator: registry.npmmirror.com/async-validator/4.0.7

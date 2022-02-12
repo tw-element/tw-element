@@ -3,5 +3,5 @@
 </template>
 
 <script lang="ts" setup>
-import { ArrowLeft } from '@tw-element/icons-vue'
+import { ArrowLeft } from '@element-plus/icons-vue'
 </script>

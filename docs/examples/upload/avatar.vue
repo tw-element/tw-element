@@ -14,7 +14,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import { TwMessage } from 'element-plus'
-import { Plus } from '@tw-element/icons-vue'
+import { Plus } from '@element-plus/icons-vue'
 import type {
   UploadFile,
   TwUploadProgressEvent,

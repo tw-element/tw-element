@@ -17,7 +17,7 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { Minus, Plus } from '@tw-element/icons-vue'
+import { Minus, Plus } from '@element-plus/icons-vue'
 
 const percentage = ref(20)
 const customColor = ref('#409eff')

@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import { ArrowLeft } from '@tw-element/icons-vue'
+import { ArrowLeft } from '@element-plus/icons-vue'
 import PageHeader from '../src/page-header.vue'
 
 const AXIOM = 'Rem is the best girl'

@@ -13,7 +13,7 @@ import {
 } from 'vue'
 import { Resize } from '@tw-element/directives'
 import TwIcon from '@tw-element/components/icon'
-import { More } from '@tw-element/icons-vue'
+import { More } from '@element-plus/icons-vue'
 import {
   buildProps,
   definePropType,

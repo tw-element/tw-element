@@ -107,7 +107,7 @@ import {
   RefreshRight,
   FullScreen,
   ScaleToOriginal,
-} from '@tw-element/icons-vue'
+} from '@element-plus/icons-vue'
 import { imageViewerProps, imageViewerEmits } from './image-viewer'
 
 import type { CSSProperties } from 'vue'

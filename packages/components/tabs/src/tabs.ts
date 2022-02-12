@@ -19,7 +19,7 @@ import {
   UPDATE_MODEL_EVENT,
 } from '@tw-element/constants'
 import TwIcon from '@tw-element/components/icon'
-import { Plus } from '@tw-element/icons-vue'
+import { Plus } from '@element-plus/icons-vue'
 import { tabsRootContextKey } from '@tw-element/tokens'
 import TabNav from './tab-nav'
 import type { TabsPaneContext } from '@tw-element/tokens'

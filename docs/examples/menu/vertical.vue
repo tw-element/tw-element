@@ -90,7 +90,7 @@ import {
   Document,
   Menu as IconMenu,
   Setting,
-} from '@tw-element/icons-vue'
+} from '@element-plus/icons-vue'
 const handleOpen = (key: string, keyPath: string[]) => {
   console.log(key, keyPath)
 }

@@ -1,6 +1,6 @@
 {
   "name": "tw-element",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A Component Library for Vue 3 viaTailwind Css",
   "homepage": "https://github.com/tw-element/tw-element",
   "keywords": [
@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@ctrl/tinycolor": "^3.4.0",
-    "@tw-element/icons-vue": "^0.2.6",
+    "@element-plus/icons-vue": "^0.2.6",
     "@popperjs/core": "^2.11.2",
     "@vueuse/core": "^7.6.0",
     "async-validator": "^4.0.7",

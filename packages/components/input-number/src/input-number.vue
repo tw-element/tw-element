@@ -76,7 +76,7 @@ import {
 } from '@tw-element/hooks'
 import TwInput from '@tw-element/components/input'
 import { isNumber, debugWarn } from '@tw-element/utils'
-import { ArrowUp, ArrowDown, Plus, Minus } from '@tw-element/icons-vue'
+import { ArrowUp, ArrowDown, Plus, Minus } from '@element-plus/icons-vue'
 import { inputNumberProps, inputNumberEmits } from './input-number'
 
 import type { ComponentPublicInstance } from 'vue'

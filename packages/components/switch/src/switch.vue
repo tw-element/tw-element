@@ -93,7 +93,7 @@ import { defineComponent, computed, onMounted, ref, nextTick, watch } from 'vue'
 import { isPromise } from '@vue/shared'
 import { isBoolean, throwError, debugWarn } from '@tw-element/utils'
 import TwIcon from '@tw-element/components/icon'
-import { Loading } from '@tw-element/icons-vue'
+import { Loading } from '@element-plus/icons-vue'
 import {
   UPDATE_MODEL_EVENT,
   CHANGE_EVENT,

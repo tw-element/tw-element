@@ -36,7 +36,7 @@ import dayjs from 'dayjs'
 import customParseFormat from 'dayjs/plugin/customParseFormat'
 import TwSelect from '@tw-element/components/select'
 import TwIcon from '@tw-element/components/icon'
-import { CircleClose, Clock } from '@tw-element/icons-vue'
+import { CircleClose, Clock } from '@element-plus/icons-vue'
 
 import type { PropType, Component } from 'vue'
 import type { ComponentSize } from '@tw-element/constants'

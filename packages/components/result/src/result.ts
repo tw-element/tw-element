@@ -4,7 +4,7 @@ import {
   CircleCheckFilled,
   CircleCloseFilled,
   InfoFilled,
-} from '@tw-element/icons-vue'
+} from '@element-plus/icons-vue'
 import type { Component, ExtractPropTypes } from 'vue'
 import type Result from './result.vue'
 

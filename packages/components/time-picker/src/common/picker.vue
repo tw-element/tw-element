@@ -164,7 +164,7 @@ import TwIcon from '@tw-element/components/icon'
 import ElTooltip from '@tw-element/components/tooltip'
 import { isEmpty } from '@tw-element/utils'
 import { EVENT_CODE } from '@tw-element/constants'
-import { Clock, Calendar } from '@tw-element/icons-vue'
+import { Clock, Calendar } from '@element-plus/icons-vue'
 import { timePickerDefaultProps } from './props'
 
 import type { Dayjs } from 'dayjs'

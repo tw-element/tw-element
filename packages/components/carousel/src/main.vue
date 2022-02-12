@@ -81,7 +81,7 @@ import {
   debugWarn,
 } from '@tw-element/utils'
 import { TwIcon } from '@tw-element/components/icon'
-import { ArrowLeft, ArrowRight } from '@tw-element/icons-vue'
+import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
 import { useNamespace } from '@tw-element/hooks'
 
 import type {

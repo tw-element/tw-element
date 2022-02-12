@@ -57,7 +57,7 @@ import { computed, defineComponent, reactive, toRefs } from 'vue'
 import { useLocale, useNamespace } from '@tw-element/hooks'
 import { TwCheckbox, TwCheckboxGroup } from '@tw-element/components/checkbox'
 import TwInput from '@tw-element/components/input'
-import { Search } from '@tw-element/icons-vue'
+import { Search } from '@element-plus/icons-vue'
 import { useCheck, useCheckProps, CHECKED_CHANGE_EVENT } from './useCheck'
 
 export default defineComponent({

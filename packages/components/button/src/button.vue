@@ -48,7 +48,7 @@ import {
   useSize,
 } from '@tw-element/hooks'
 import { buttonGroupContextKey } from '@tw-element/tokens'
-import { Loading } from '@tw-element/icons-vue'
+import { Loading } from '@element-plus/icons-vue'
 
 import { buttonEmits, buttonProps } from './button'
 

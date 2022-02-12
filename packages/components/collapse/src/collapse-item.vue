@@ -53,7 +53,7 @@ import { defineComponent, inject, computed, ref } from 'vue'
 import { generateId } from '@tw-element/utils'
 import TwCollapseTransition from '@tw-element/components/collapse-transition'
 import TwIcon from '@tw-element/components/icon'
-import { ArrowRight } from '@tw-element/icons-vue'
+import { ArrowRight } from '@element-plus/icons-vue'
 import { useNamespace } from '@tw-element/hooks'
 
 import type { PropType } from 'vue'

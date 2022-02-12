@@ -23,5 +23,5 @@
 </template>
 
 <script setup lang="ts">
-import { Search } from '@tw-element/icons-vue'
+import { Search } from '@element-plus/icons-vue'
 </script>

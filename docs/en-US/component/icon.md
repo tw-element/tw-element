@@ -11,7 +11,7 @@ Element Plus provides a set of common icons.
 
 - If you want to **use directly** like the example, you need to [globally register](https://v3.vuejs.org/guide/component-registration.html#global-registration) the components before using it.
 
-- If you want to see all available SVG icons please check [@tw-element/icons-vue](https://unpkg.com/browse/@tw-element/icons-vue@latest/dist/es/) and the source [element-plus-icons](https://github.com/element-plus/element-plus-icons) out or [Icon Collection](#icons-collection)
+- If you want to see all available SVG icons please check [@element-plus/icons-vue](https://unpkg.com/browse/@element-plus/icons-vue@latest/dist/es/) and the source [element-plus-icons](https://github.com/element-plus/element-plus-icons) out or [Icon Collection](#icons-collection)
 
 - CDN importing and [auto importing](https://github.com/antfu/unplugin-icons) is under developing.
 
@@ -23,11 +23,11 @@ Element Plus provides a set of common icons.
 # Choose a package manager you like.
 
 # NPM
-$ npm install @tw-element/icons-vue
+$ npm install @element-plus/icons-vue
 # Yarn
-$ yarn add @tw-element/icons-vue
+$ yarn add @element-plus/icons-vue
 # pnpm
-$ pnpm install @tw-element/icons-vue
+$ pnpm install @element-plus/icons-vue
 ```
 
 ## Simple usage
@@ -53,7 +53,7 @@ so you need to use an alias in order to render the icon, if you register `Menu` 
 ```
 
 <script setup>
-import { Edit, Share, Delete, Search, Loading } from '@tw-element/icons-vue'
+import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
 </script>
 
 <TwRow>

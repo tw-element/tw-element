@@ -239,7 +239,7 @@ import {
   removeResizeListener,
   isValidComponentSize,
 } from '@tw-element/utils'
-import { CircleClose, ArrowUp } from '@tw-element/icons-vue'
+import { CircleClose, ArrowUp } from '@element-plus/icons-vue'
 import TwOption from './option.vue'
 import TwSelectMenu from './select-dropdown.vue'
 import { useSelect, useSelectStates } from './useSelect'

@@ -1,7 +1,7 @@
 import { nextTick, markRaw } from 'vue'
 import { mount } from '@vue/test-utils'
 import { EVENT_CODE } from '@tw-element/constants'
-import { CircleClose, ArrowUp, CaretTop } from '@tw-element/icons-vue'
+import { CircleClose, ArrowUp, CaretTop } from '@element-plus/icons-vue'
 import { POPPER_CONTAINER_SELECTOR } from '@tw-element/hooks'
 import Select from '../src/select.vue'
 import Group from '../src/option-group.vue'

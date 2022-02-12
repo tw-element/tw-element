@@ -69,7 +69,7 @@ import TwIcon from '@tw-element/components/icon'
 import { twFormItemKey } from '@tw-element/tokens'
 import { UPDATE_MODEL_EVENT } from '@tw-element/constants'
 import { useLocale, useNamespace } from '@tw-element/hooks'
-import { ArrowLeft, ArrowRight } from '@tw-element/icons-vue'
+import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
 import TransferPanel from './transfer-panel.vue'
 import { useComputedData } from './useComputedData'
 import {

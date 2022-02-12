@@ -24,7 +24,7 @@
 </template>
 
 <script lang="ts" setup>
-import { Check } from '@tw-element/icons-vue'
+import { Check } from '@element-plus/icons-vue'
 </script>
 
 <style scoped>

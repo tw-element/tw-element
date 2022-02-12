@@ -102,7 +102,7 @@ import {
   Location,
   Tickets,
   OfficeBuilding,
-} from '@tw-element/icons-vue'
+} from '@element-plus/icons-vue'
 
 const size = ref('')
 const iconStyle = computed(() => {

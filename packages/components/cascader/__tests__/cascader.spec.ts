@@ -2,7 +2,7 @@ import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
 import { EVENT_CODE } from '@tw-element/constants'
 import { triggerEvent } from '@tw-element/test-utils'
-import { ArrowDown, Check, CircleClose } from '@tw-element/icons-vue'
+import { ArrowDown, Check, CircleClose } from '@element-plus/icons-vue'
 import { POPPER_CONTAINER_SELECTOR } from '@tw-element/hooks'
 import Cascader from '../src/index.vue'
 

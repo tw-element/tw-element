@@ -4,7 +4,7 @@ import { hasClass } from '@tw-element/utils'
 import { EVENT_CODE } from '@tw-element/constants'
 import { makeMountFunc } from '@tw-element/test-utils/make-mount'
 import { rAF } from '@tw-element/test-utils/tick'
-import { CircleClose } from '@tw-element/icons-vue'
+import { CircleClose } from '@element-plus/icons-vue'
 import { POPPER_CONTAINER_SELECTOR } from '@tw-element/hooks'
 import Select from '../src/select.vue'
 

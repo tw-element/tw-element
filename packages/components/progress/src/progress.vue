@@ -84,7 +84,7 @@ import {
   CircleClose,
   Check,
   Close,
-} from '@tw-element/icons-vue'
+} from '@element-plus/icons-vue'
 import { useNamespace } from '@tw-element/hooks'
 import { progressProps } from './progress'
 import type { CSSProperties } from 'vue'

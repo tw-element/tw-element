@@ -50,7 +50,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, inject } from 'vue'
-import { CaretRight } from '@tw-element/icons-vue'
+import { CaretRight } from '@element-plus/icons-vue'
 import TwIcon from '@tw-element/components/icon'
 import TwCheckbox from '@tw-element/components/checkbox'
 import { useNamespace } from '@tw-element/hooks'

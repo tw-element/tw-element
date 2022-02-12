@@ -1,4 +1,4 @@
-import { Star, StarFilled } from '@tw-element/icons-vue'
+import { Star, StarFilled } from '@element-plus/icons-vue'
 import { UPDATE_MODEL_EVENT } from '@tw-element/constants'
 import {
   buildProps,

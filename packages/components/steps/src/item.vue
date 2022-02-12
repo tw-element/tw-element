@@ -58,7 +58,7 @@ import {
   watch,
 } from 'vue'
 import { TwIcon } from '@tw-element/components/icon'
-import { Close, Check } from '@tw-element/icons-vue'
+import { Close, Check } from '@element-plus/icons-vue'
 
 import { useNamespace } from '@tw-element/hooks'
 import type { Ref, PropType, Component } from 'vue'

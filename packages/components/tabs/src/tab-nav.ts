@@ -22,7 +22,7 @@ import {
 } from '@tw-element/utils'
 import { EVENT_CODE } from '@tw-element/constants'
 import { TwIcon } from '@tw-element/components/icon'
-import { ArrowLeft, ArrowRight, Close } from '@tw-element/icons-vue'
+import { ArrowLeft, ArrowRight, Close } from '@element-plus/icons-vue'
 import { tabsRootContextKey } from '@tw-element/tokens'
 import TabBar from './tab-bar.vue'
 import type { ExtractPropTypes, CSSProperties } from 'vue'

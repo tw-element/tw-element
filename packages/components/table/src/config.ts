@@ -1,7 +1,7 @@
 import { h } from 'vue'
 import TwCheckbox from '@tw-element/components/checkbox'
 import { TwIcon } from '@tw-element/components/icon'
-import { ArrowRight, Loading } from '@tw-element/icons-vue'
+import { ArrowRight, Loading } from '@element-plus/icons-vue'
 import { getPropByPath } from '@tw-element/utils'
 
 import type { VNode } from 'vue'

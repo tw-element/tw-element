@@ -101,7 +101,7 @@ import { defineComponent, computed, ref, watch, inject, toRef } from 'vue'
 import dayjs from 'dayjs'
 import TwIcon from '@tw-element/components/icon'
 import { useLocale } from '@tw-element/hooks'
-import { DArrowLeft, DArrowRight } from '@tw-element/icons-vue'
+import { DArrowLeft, DArrowRight } from '@element-plus/icons-vue'
 import MonthTable from './basic-month-table.vue'
 
 import type { PropType } from 'vue'

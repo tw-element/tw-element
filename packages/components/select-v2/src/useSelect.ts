@@ -23,7 +23,7 @@ import {
 } from '@tw-element/utils'
 import { useDeprecateAppendToBody } from '@tw-element/components/popper'
 
-import { ArrowUp } from '@tw-element/icons-vue'
+import { ArrowUp } from '@element-plus/icons-vue'
 import { useAllowCreate } from './useAllowCreate'
 
 import { flattenOptions } from './util'

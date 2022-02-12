@@ -103,7 +103,7 @@ import ElTooltip, {
 } from '@tw-element/components/tooltip'
 import { useDeprecateAppendToBody } from '@tw-element/components/popper'
 import TwIcon from '@tw-element/components/icon'
-import { Loading } from '@tw-element/icons-vue'
+import { Loading } from '@element-plus/icons-vue'
 
 import type { Placement } from '@tw-element/components/popper'
 import type { PropType } from 'vue'

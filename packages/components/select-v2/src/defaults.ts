@@ -1,6 +1,6 @@
 import { isValidComponentSize } from '@tw-element/utils'
 import { useTooltipContentProps } from '@tw-element/components/tooltip'
-import { CircleClose } from '@tw-element/icons-vue'
+import { CircleClose } from '@element-plus/icons-vue'
 
 import type { PropType, Component } from 'vue'
 import type { ComponentSize } from '@tw-element/constants'
