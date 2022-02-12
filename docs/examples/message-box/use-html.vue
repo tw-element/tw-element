@@ -1,0 +1,17 @@
+<template>
+  <el-button type="text" @click="open">Click to open Message Box</el-button>
+</template>
+
+<script lang="ts" setup>
+import { TwMessageBox } from 'element-plus'
+
+const open = () => {
+  TwMessageBox.alert(
+    '<strong>proxy is <i>HTML</i> string</strong>',
+    'HTML String',
+    {
+      dangerouslyUseHTMLString: true,
+    }
+  )
+}
+</script>

@@ -1,0 +1,6 @@
+import '@tw-element/components/base/style'
+import '@tw-element/components/input/style/index'
+import '@tw-element/components/tag/style/index'
+import '@tw-element/components/scrollbar/style/index'
+import '@tw-element/components/popper/style/index'
+import '@tw-element/theme-chalk/src/select-v2.scss'

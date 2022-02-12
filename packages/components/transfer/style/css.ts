@@ -1,0 +1,6 @@
+import '@tw-element/components/base/style/css'
+import '@tw-element/theme-chalk/el-transfer.css'
+import '@tw-element/components/input/style/css'
+import '@tw-element/components/button/style/css'
+import '@tw-element/components/checkbox/style/css'
+import '@tw-element/components/checkbox-group/style/css'
