@@ -21,7 +21,7 @@
           v-for="(border, i) in borderColors"
           :key="i"
           class="demo-color-box demo-color-box-other demo-color-box-lite"
-          :style="{ background: `var(--el-border-color-${border.type})` }"
+          :style="{ background: `var(--tw-border-color-${border.type})` }"
         >
           {{ formatType(border.type) + ' Border' }}
           <div class="value">
@@ -66,7 +66,7 @@ export default defineComponent({
   setup() {
     const getColorValue = (type: string) => {
       return getComputedStyle(document.documentElement).getPropertyValue(
-        `--el-border-color-${type}`
+        `--tw-border-color-${type}`
       )
     }
 
@@ -78,12 +78,12 @@ export default defineComponent({
     }
 
     const getCssVarName = (namespace: string, type: string) => {
-      return `var(--el-${namespace}-${type})`
+      return `var(--tw-${namespace}-${type})`
     }
 
     const getCssVarValue = (namespace, type) => {
       return getComputedStyle(document.documentElement).getPropertyValue(
-        `--el-${namespace}-${type}`
+        `--tw-${namespace}-${type}`
       )
     }
 

@@ -27,7 +27,7 @@ defineProps<{
   font-weight: 500;
   line-height: 24px;
   color: var(--text-color);
-  transition: color var(--el-transition-duration);
+  transition: color var(--tw-transition-duration);
 
   &.active {
     border-bottom: 2px solid var(--brand-color);

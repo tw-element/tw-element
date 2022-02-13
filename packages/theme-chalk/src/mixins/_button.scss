@@ -3,16 +3,16 @@
 @use '../common/var' as *;
 
 @mixin button-plain($color, $type) {
-  --el-button-text-color: var(--el-color-#{$type});
-  --el-button-bg-color: #{map.get($colors, $type, 'light-9')};
-  --el-button-border-color: #{map.get($colors, $type, 'light-6')};
+  --tw-button-text-color: var(--tw-color-#{$type});
+  --tw-button-bg-color: #{map.get($colors, $type, 'light-9')};
+  --tw-button-border-color: #{map.get($colors, $type, 'light-6')};
 
-  --el-button-hover-text-color: var(--el-color-white);
-  --el-button-hover-bg-color: var(--el-color-#{$type});
-  --el-button-hover-border-color: var(--el-color-#{$type});
+  --tw-button-hover-text-color: var(--tw-color-white);
+  --tw-button-hover-bg-color: var(--tw-color-#{$type});
+  --tw-button-hover-border-color: var(--tw-color-#{$type});
 
-  --el-button-active-text-color: var(--el-color-white);
-  --el-button-active-border-color: var(--el-color-#{$type});
+  --tw-button-active-text-color: var(--tw-color-white);
+  --tw-button-active-border-color: var(--tw-color-#{$type});
 
   &.is-disabled {
     &,
@@ -27,11 +27,11 @@
 }
 
 @mixin button-variant($type) {
-  --el-button-text-color: var(--el-color-white);
-  --el-button-hover-text-color: var(--el-color-white);
-  --el-button-disabled-text-color: var(--el-color-white);
+  --tw-button-text-color: var(--tw-color-white);
+  --tw-button-hover-text-color: var(--tw-color-white);
+  --tw-button-disabled-text-color: var(--tw-color-white);
   &.is-plain {
-    @include button-plain(var(--el-button-bg-color), $type);
+    @include button-plain(var(--tw-button-bg-color), $type);
   }
 }
 

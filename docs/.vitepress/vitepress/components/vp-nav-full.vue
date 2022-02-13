@@ -43,8 +43,8 @@ const themeEnabled = useFeatureFlag('theme')
   &.el-fade-in-enter-active,
   &.el-fade-in-leave-active {
     .full-screen-container {
-      transition: transform var(--el-transition-duration)
-        var(--el-transition-function-ease-in-out-bezier);
+      transition: transform var(--tw-transition-duration)
+        var(--tw-transition-function-ease-in-out-bezier);
     }
   }
 

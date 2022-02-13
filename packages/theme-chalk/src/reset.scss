@@ -4,18 +4,18 @@ body {
   font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
     'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
   font-weight: 400;
-  font-size: var(--el-font-size-base);
+  font-size: var(--tw-font-size-base);
   color: $color-black;
   -webkit-font-smoothing: antialiased;
 }
 
 a {
-  color: var(--el-color-primary);
+  color: var(--tw-color-primary);
   text-decoration: none;
 
   &:hover,
   &:focus {
-    color: var(--el-color-primary-light-2);
+    color: var(--tw-color-primary-light-2);
   }
 
   &:active {
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--el-text-color-regular);
+  color: var(--tw-text-color-regular);
   font-weight: inherit;
 
   &:first-child {
@@ -42,15 +42,15 @@ h6 {
 }
 
 h1 {
-  font-size: #{var(--el-font-size-base) + 6px};
+  font-size: #{var(--tw-font-size-base) + 6px};
 }
 
 h2 {
-  font-size: #{var(--el-font-size-base) + 4px};
+  font-size: #{var(--tw-font-size-base) + 4px};
 }
 
 h3 {
-  font-size: #{var(--el-font-size-base) + 2px};
+  font-size: #{var(--tw-font-size-base) + 2px};
 }
 
 h4,
@@ -74,11 +74,11 @@ p {
 
 sup,
 sub {
-  font-size: #{var(--el-font-size-base) - 1px};
+  font-size: #{var(--tw-font-size-base) - 1px};
 }
 
 small {
-  font-size: #{var(--el-font-size-base) - 2px};
+  font-size: #{var(--tw-font-size-base) - 2px};
 }
 
 hr {

@@ -23,7 +23,7 @@ export default defineComponent({
     return {
       style: computed(() => {
         return props.width
-          ? ({ '--el-aside-width': props.width } as CSSProperties)
+          ? ({ '--tw-aside-width': props.width } as CSSProperties)
           : {}
       }),
       ns,

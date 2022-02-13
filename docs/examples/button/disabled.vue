@@ -20,11 +20,11 @@
 
 <style>
 :root {
-  --el-color-primary: #409eff;
-  --el-color-success: #67c23a;
-  --el-color-warning: #e6a23c;
-  --el-color-danger: #f56c6c;
-  --el-color-error: #f56c6c;
-  --el-color-info: #909399;
+  --tw-color-primary: #409eff;
+  --tw-color-success: #67c23a;
+  --tw-color-warning: #e6a23c;
+  --tw-color-danger: #f56c6c;
+  --tw-color-error: #f56c6c;
+  --tw-color-info: #909399;
 }
 </style>

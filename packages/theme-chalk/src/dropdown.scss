@@ -44,8 +44,8 @@ $dropdown-divider-width: 1px !default;
 
   display: inline-flex;
   position: relative;
-  color: var(--el-text-color-regular);
-  font-size: var(--el-font-size-base);
+  color: var(--tw-text-color-regular);
+  font-size: var(--tw-font-size-base);
   line-height: 1;
   vertical-align: top;
 
@@ -56,8 +56,8 @@ $dropdown-divider-width: 1px !default;
 
     @include picker-popper(
       $color-white,
-      1px solid var(--el-border-color-light),
-      var(--el-dropdown-menu-box-shadow)
+      1px solid var(--tw-border-color-light),
+      var(--tw-dropdown-menu-box-shadow)
     );
 
     .#{$namespace}-dropdown-menu {
@@ -69,7 +69,7 @@ $dropdown-divider-width: 1px !default;
     }
 
     @include b(scrollbar__bar) {
-      z-index: calc(var(--el-dropdown-menu-index) + 1);
+      z-index: calc(var(--tw-dropdown-menu-index) + 1);
     }
 
     @include b(dropdown__list) {
@@ -107,7 +107,7 @@ $dropdown-divider-width: 1px !default;
     }
 
     &.#{$namespace}-button::before {
-      background: var(--el-border-color-base);
+      background: var(--tw-border-color-base);
       opacity: 0.5;
     }
 
@@ -152,13 +152,13 @@ $dropdown-menu-padding-vertical: map.merge(
   position: relative;
   top: 0;
   left: 0;
-  z-index: var(--el-dropdown-menu-index);
+  z-index: var(--tw-dropdown-menu-index);
   padding: map.get($dropdown-menu-padding-vertical, 'default')-$border-width-base
     0;
   margin: 0;
   background-color: $color-white;
   border: none;
-  border-radius: var(--el-border-radius-base);
+  border-radius: var(--tw-border-radius-base);
   box-shadow: none;
 
   @include e(item) {
@@ -169,13 +169,13 @@ $dropdown-menu-padding-vertical: map.merge(
     line-height: map.get($dropdown-item-line-height, 'default');
     padding: map.get($dropdown-item-padding, 'default');
     margin: 0;
-    font-size: var(--el-font-size-base);
-    color: var(--el-text-color-regular);
+    font-size: var(--tw-font-size-base);
+    color: var(--tw-text-color-regular);
     cursor: pointer;
     outline: none;
     &:not(.is-disabled):focus {
-      background-color: var(--el-dropdown-menuItem-hover-fill);
-      color: var(--el-dropdown-menuItem-hover-color);
+      background-color: var(--tw-dropdown-menuItem-hover-fill);
+      color: var(--tw-dropdown-menuItem-hover-color);
     }
 
     i {
@@ -184,12 +184,12 @@ $dropdown-menu-padding-vertical: map.merge(
 
     @include m(divided) {
       margin: map.get($dropdown-item-divided-margin, 'default');
-      border-top: 1px solid var(--el-border-color-lighter);
+      border-top: 1px solid var(--tw-border-color-lighter);
     }
 
     @include when(disabled) {
       cursor: not-allowed;
-      color: var(--el-text-color-disabled-base);
+      color: var(--tw-text-color-disabled-base);
     }
   }
 

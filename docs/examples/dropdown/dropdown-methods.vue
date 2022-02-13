@@ -49,7 +49,7 @@ function showClick() {
 <style scoped>
 .example-showcase .el-dropdown-link {
   cursor: pointer;
-  color: var(--el-color-primary);
+  color: var(--tw-color-primary);
   display: flex;
   align-items: center;
 }

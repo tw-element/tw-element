@@ -1,17 +1,17 @@
 // css variables
 :root {
-  --text-color: var(--el-text-color-primary);
-  --text-color-light: var(--el-text-color-regular);
-  --text-color-lighter: var(--el-text-color-secondary);
+  --text-color: var(--tw-text-color-primary);
+  --text-color-light: var(--tw-text-color-regular);
+  --text-color-lighter: var(--tw-text-color-secondary);
 
-  --brand-color: var(--el-color-primary);
-  --brand-color-light: var(--el-color-primary-light-1);
-  --bg-brand-color: var(--el-color-primary-light-9);
-  --bg-color: var(--el-color-white);
+  --brand-color: var(--tw-color-primary);
+  --brand-color-light: var(--tw-color-primary-light-1);
+  --bg-brand-color: var(--tw-color-primary-light-9);
+  --bg-color: var(--tw-color-white);
   --bg-color-soft: #fafafa;
   --bg-color-mute: #f2f2f2;
-  --border-color: var(--el-border-color-base);
-  --border-color-light: var(--el-border-color-lighter);
+  --border-color: var(--tw-border-color-base);
+  --border-color-light: var(--tw-border-color-lighter);
 
   --font-family: Inter, Roboto, Oxygen, Fira Sans, Helvetica Neue, sans-serif;
 
@@ -19,9 +19,9 @@
     'Courier New', monospace;
 
   // info
-  --success-color: var(--el-color-success);
-  --warning-color: var(--el-color-warning);
-  --danger-color: var(--el-color-danger);
+  --success-color: var(--tw-color-success);
+  --warning-color: var(--tw-color-warning);
+  --danger-color: var(--tw-color-danger);
 
   // header vars
   --header-height: 55px;
@@ -39,14 +39,14 @@
   // --dropdown-z-index: 22;
 
   // code block vars
-  --code-font-size: var(--el-font-size-base);
-  --code-bg-color: var(--el-bg-color);
+  --code-font-size: var(--tw-font-size-base);
+  --code-bg-color: var(--tw-bg-color);
   --code-text-color: var(--text-color);
   --code-font-family: var(--font-family-mono);
 
   // doc search vars
   --docsearch-primary-color: var(--brand-color);
-  --docsearch-searchbox-background: var(--el-bg-color);
+  --docsearch-searchbox-background: var(--tw-bg-color);
 }
 
 :root {

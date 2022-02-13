@@ -25,7 +25,7 @@ export default defineComponent({
         () =>
           (props.height
             ? {
-                '--el-header-height': props.height,
+                '--tw-header-height': props.height,
               }
             : {}) as CSSProperties
       ),

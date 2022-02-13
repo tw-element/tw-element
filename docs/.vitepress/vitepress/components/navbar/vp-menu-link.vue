@@ -56,7 +56,7 @@ const onNavClick = (item: Link) => {
   font-size: 14px;
   font-weight: 500;
   color: var(--text-color);
-  transition: color var(--el-transition-duration);
+  transition: color var(--tw-transition-duration);
   border-bottom: 2px solid transparent;
 
   &.active {

@@ -111,11 +111,11 @@ const tableData = ref(Array(20).fill(item))
 .layout-container-demo .el-header {
   position: relative;
   background-color: #b3c0d1;
-  color: var(--el-text-color-primary);
+  color: var(--tw-text-color-primary);
 }
 .layout-container-demo .el-aside {
   width: 240px;
-  color: var(--el-text-color-primary);
+  color: var(--tw-text-color-primary);
   background: #fff !important;
   border-right: solid 1px #e6e6e6;
   box-sizing: border-box;

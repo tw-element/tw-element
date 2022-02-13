@@ -10,7 +10,7 @@
       <span
         style="
           float: right;
-          color: var(--el-text-color-secondary);
+          color: var(--tw-text-color-secondary);
           font-size: 13px;
         "
         >{{ item.value }}</span

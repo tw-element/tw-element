@@ -31,7 +31,7 @@ const onDelete = () => {
   margin: 10px;
   text-align: center;
   border-radius: 4px;
-  background: var(--el-color-primary-light-9);
-  color: var(--el-color-primary);
+  background: var(--tw-color-primary-light-9);
+  color: var(--tw-color-primary);
 }
 </style>

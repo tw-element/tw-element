@@ -19,8 +19,8 @@
   outline: none;
   cursor: pointer;
   padding: 0;
-  font-size: var(--el-link-font-size);
-  font-weight: var(--el-link-font-weight);
+  font-size: var(--tw-link-font-size);
+  font-weight: var(--tw-link-font-weight);
 
   @include when(underline) {
     &:hover:after {
@@ -30,7 +30,7 @@
       right: 0;
       height: 0;
       bottom: 0;
-      border-bottom: 1px solid var(--el-link-default-active-color);
+      border-bottom: 1px solid var(--tw-link-default-active-color);
     }
   }
 
@@ -45,32 +45,32 @@
   }
 
   &.#{$namespace}-link--default {
-    color: var(--el-link-default-text-color);
+    color: var(--tw-link-default-text-color);
 
     &:hover {
-      color: var(--el-link-default-active-color);
+      color: var(--tw-link-default-active-color);
     }
 
     &:after {
-      border-color: var(--el-link-default-active-color);
+      border-color: var(--tw-link-default-active-color);
     }
 
     @include when(disabled) {
-      color: var(--el-link-disabled-text-color);
+      color: var(--tw-link-disabled-text-color);
     }
   }
 
   @each $type in $types {
     &.#{$namespace}-link--#{$type} {
-      --el-link-text-color: var(--el-color-#{$type});
-      color: var(--el-link-text-color);
+      --tw-link-text-color: var(--tw-color-#{$type});
+      color: var(--tw-link-text-color);
 
       &:hover {
         color: mix(map.get($link-text-color, $type), $color-white, 80%);
       }
 
       &:after {
-        border-color: var(--el-link-text-color);
+        border-color: var(--tw-link-text-color);
       }
 
       @include when(disabled) {
@@ -78,7 +78,7 @@
       }
       @include when(underline) {
         &:hover:after {
-          border-color: var(--el-link-text-color);
+          border-color: var(--tw-link-text-color);
         }
       }
     }

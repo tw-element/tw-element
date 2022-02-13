@@ -15,6 +15,6 @@ import { Edit, Share, Delete, Search, Upload } from '@element-plus/icons-vue'
 
 <style>
 :root {
-  --el-color-primary: #409eff;
+  --tw-color-primary: #409eff;
 }
 </style>

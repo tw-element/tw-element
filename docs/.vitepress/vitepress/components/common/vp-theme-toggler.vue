@@ -20,8 +20,8 @@ import VPSwitch from './vp-switch.vue'
 
 .dark-icon,
 .light-icon {
-  transition: color var(--el-transition-duration),
-    opacity var(--el-transition-duration);
+  transition: color var(--tw-transition-duration),
+    opacity var(--tw-transition-duration);
 }
 
 .light-icon {

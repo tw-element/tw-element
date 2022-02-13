@@ -22,7 +22,7 @@
   margin: 10px;
   text-align: center;
   border-radius: 4px;
-  background: var(--el-color-danger-lighter);
-  color: var(--el-color-danger);
+  background: var(--tw-color-danger-lighter);
+  color: var(--tw-color-danger);
 }
 </style>

@@ -49,7 +49,7 @@
             </p>
             <p
               class="demo-rich-content__mention"
-              style="margin: 0; font-size: 14px; color: var(--el-color-info)"
+              style="margin: 0; font-size: 14px; color: var(--tw-color-info)"
             >
               @element-plus
             </p>

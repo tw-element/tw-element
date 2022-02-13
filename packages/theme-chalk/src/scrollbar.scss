@@ -33,19 +33,19 @@
     cursor: pointer;
     border-radius: inherit;
     background-color: var(
-      --el-scrollbar-bg-color,
+      --tw-scrollbar-bg-color,
       map.get($scrollbar, 'bg-color')
     );
-    transition: var(--el-transition-duration) background-color;
-    opacity: var(--el-scrollbar-opacity, map.get($scrollbar, 'opacity'));
+    transition: var(--tw-transition-duration) background-color;
+    opacity: var(--tw-scrollbar-opacity, map.get($scrollbar, 'opacity'));
 
     &:hover {
       background-color: var(
-        --el-scrollbar-hover-bg-color,
+        --tw-scrollbar-hover-bg-color,
         map.get($scrollbar, 'hover-bg-color')
       );
       opacity: var(
-        --el-scrollbar-hover-opacity,
+        --tw-scrollbar-hover-opacity,
         map.get($scrollbar, 'hover-opacity')
       );
     }

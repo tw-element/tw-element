@@ -8,20 +8,20 @@
 
 @include b(cascader-panel) {
   display: flex;
-  border-radius: var(--el-cascader-menu-radius);
-  font-size: var(--el-cascader-menu-font-size);
+  border-radius: var(--tw-cascader-menu-radius);
+  font-size: var(--tw-cascader-menu-font-size);
 
   @include when(bordered) {
-    border: var(--el-cascader-menu-border);
-    border-radius: var(--el-cascader-menu-radius);
+    border: var(--tw-cascader-menu-border);
+    border-radius: var(--tw-cascader-menu-radius);
   }
 }
 
 @include b(cascader-menu) {
   min-width: 180px;
   box-sizing: border-box;
-  color: var(--el-cascader-menu-text-color);
-  border-right: var(--el-cascader-menu-border);
+  color: var(--tw-cascader-menu-text-color);
+  border-right: var(--tw-cascader-menu-border);
 
   &:last-child {
     border-right: none;
@@ -62,7 +62,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: var(--el-cascader-color-empty);
+    color: var(--tw-cascader-color-empty);
   }
 }
 
@@ -76,13 +76,13 @@
   outline: none;
 
   &.is-selectable.in-active-path {
-    color: var(--el-cascader-menu-text-color);
+    color: var(--tw-cascader-menu-text-color);
   }
 
   &.in-active-path,
   &.is-selectable.in-checked-path,
   &.is-active {
-    color: var(--el-cascader-menu-selected-text-color);
+    color: var(--tw-cascader-menu-selected-text-color);
     font-weight: bold;
   }
 
@@ -91,12 +91,12 @@
 
     &:hover,
     &:focus {
-      background: var(--el-cascader-node-background-hover);
+      background: var(--tw-cascader-node-background-hover);
     }
   }
 
   @include when(disabled) {
-    color: var(--el-cascader-node-color-disabled);
+    color: var(--tw-cascader-node-color-disabled);
     cursor: not-allowed;
   }
 

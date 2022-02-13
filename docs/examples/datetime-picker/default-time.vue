@@ -41,7 +41,7 @@ const defaultTime2 = [
 .block {
   padding: 30px 0;
   text-align: center;
-  border-right: solid 1px var(--el-border-color-base);
+  border-right: solid 1px var(--tw-border-color-base);
   flex: 1;
 }
 .block:last-child {
@@ -49,7 +49,7 @@ const defaultTime2 = [
 }
 .block .demonstration {
   display: block;
-  color: var(--el-text-color-secondary);
+  color: var(--tw-text-color-secondary);
   font-size: 14px;
   margin-bottom: 20px;
 }

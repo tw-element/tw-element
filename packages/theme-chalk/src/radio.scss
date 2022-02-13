@@ -20,15 +20,15 @@ $radio-font-size: map.merge(
 }
 
 @include b(radio) {
-  color: var(--el-radio-text-color);
-  font-weight: var(--el-radio-font-weight);
+  color: var(--tw-radio-text-color);
+  font-weight: var(--tw-radio-font-weight);
   position: relative;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   white-space: nowrap;
   outline: none;
-  font-size: var(--el-font-size-base);
+  font-size: var(--tw-font-size-base);
   user-select: none;
   margin-right: 32px;
   height: map.get($radio-height, 'default');
@@ -44,17 +44,17 @@ $radio-font-size: map.merge(
     padding: 0 map.get($checkbox-bordered-padding-right, 'default')-$border-width-base
       0 map.get($checkbox-bordered-padding-left, 'default')-$border-width-base;
 
-    border-radius: var(--el-border-radius-base);
-    border: var(--el-border-base);
+    border-radius: var(--tw-border-radius-base);
+    border: var(--tw-border-base);
     box-sizing: border-box;
 
     &.is-checked {
-      border-color: var(--el-color-primary);
+      border-color: var(--tw-color-primary);
     }
 
     &.is-disabled {
       cursor: not-allowed;
-      border-color: var(--el-border-color-lighter);
+      border-color: var(--tw-border-color-lighter);
     }
 
     @each $size in (large, small) {
@@ -63,7 +63,7 @@ $radio-font-size: map.merge(
           map.get($checkbox-bordered-padding-right, $size)-$border-width-base
           0
           map.get($checkbox-bordered-padding-left, $size)-$border-width-base;
-        border-radius: var(--el-border-radius-base);
+        border-radius: var(--tw-border-radius-base);
 
         .#{$namespace}-radio__label {
           font-size: map.get($button-font-size, $size);
@@ -115,7 +115,7 @@ $radio-font-size: map.merge(
         }
       }
       & + span.#{$namespace}-radio__label {
-        color: var(--el-text-color-placeholder);
+        color: var(--tw-text-color-placeholder);
         cursor: not-allowed;
       }
     }
@@ -137,30 +137,30 @@ $radio-font-size: map.merge(
 
     @include when(focus) {
       .#{$namespace}-radio__inner {
-        border-color: var(--el-radio-input-border-color-hover);
+        border-color: var(--tw-radio-input-border-color-hover);
       }
     }
   }
   @include e(inner) {
-    border: var(--el-radio-input-border);
-    border-radius: var(--el-radio-input-border-radius);
-    width: var(--el-radio-input-width);
-    height: var(--el-radio-input-height);
-    background-color: var(--el-radio-input-bg-color);
+    border: var(--tw-radio-input-border);
+    border-radius: var(--tw-radio-input-border-radius);
+    width: var(--tw-radio-input-width);
+    height: var(--tw-radio-input-height);
+    background-color: var(--tw-radio-input-bg-color);
     position: relative;
     cursor: pointer;
     display: inline-block;
     box-sizing: border-box;
 
     &:hover {
-      border-color: var(--el-radio-input-border-color-hover);
+      border-color: var(--tw-radio-input-border-color-hover);
     }
 
     &::after {
       width: 4px;
       height: 4px;
-      border-radius: var(--el-radio-input-border-radius);
-      background-color: var(--el-color-white);
+      border-radius: var(--tw-radio-input-border-radius);
+      background-color: var(--tw-color-white);
       content: '';
       position: absolute;
       left: 50%;
@@ -185,12 +185,12 @@ $radio-font-size: map.merge(
   &:focus:not(.is-focus):not(:active):not(.is-disabled) {
     /*获得焦点时 样式提醒*/
     .#{$namespace}-radio__inner {
-      box-shadow: 0 0 2px 2px var(--el-radio-input-border-color-hover);
+      box-shadow: 0 0 2px 2px var(--tw-radio-input-border-color-hover);
     }
   }
 
   @include e(label) {
-    font-size: var(--el-radio-font-size);
+    font-size: var(--tw-radio-font-size);
     padding-left: 8px;
   }
 

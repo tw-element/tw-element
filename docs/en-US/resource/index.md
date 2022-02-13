@@ -72,7 +72,7 @@ p {
   padding-bottom: 28px;
   width: 100%;
   background: #ffffff;
-  border: 1px solid var(--el-border-color-base);
+  border: 1px solid var(--tw-border-color-base);
   border-radius: 5px;
   box-sizing: border-box;
   text-align: center;

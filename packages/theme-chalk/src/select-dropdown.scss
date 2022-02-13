@@ -4,8 +4,8 @@
 @use 'common/var' as *;
 
 @include b(select-dropdown) {
-  z-index: calc(var(--el-index-top) + 1);
-  border-radius: var(--el-border-radius-base);
+  z-index: calc(var(--tw-index-top) + 1);
+  border-radius: var(--tw-border-radius-base);
   box-sizing: border-box;
 
   @include when(multiple) {
@@ -42,7 +42,7 @@
   margin: 0;
   text-align: center;
   color: map.get($select-dropdown, 'empty-color');
-  font-size: var(--el-select-font-size);
+  font-size: var(--tw-select-font-size);
 }
 
 @include b(select-dropdown__wrap) {

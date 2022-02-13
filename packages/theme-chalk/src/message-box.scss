@@ -11,14 +11,14 @@
 
 @include b(message-box) {
   display: inline-block;
-  width: var(--el-messagebox-width);
+  width: var(--tw-messagebox-width);
   padding-bottom: 10px;
   vertical-align: middle;
-  background-color: var(--el-color-white);
-  border-radius: var(--el-messagebox-border-radius);
-  border: 1px solid var(--el-border-color-lighter);
-  font-size: var(--el-messagebox-font-size);
-  box-shadow: var(--el-box-shadow-light);
+  background-color: var(--tw-color-white);
+  border-radius: var(--tw-messagebox-border-radius);
+  border: 1px solid var(--tw-border-color-lighter);
+  font-size: var(--tw-messagebox-font-size);
+  box-shadow: var(--tw-box-shadow-light);
   text-align: left;
   overflow: hidden;
   backface-visibility: hidden;
@@ -52,46 +52,46 @@
 
   @include e(header) {
     position: relative;
-    padding: var(--el-messagebox-padding-primary);
+    padding: var(--tw-messagebox-padding-primary);
     padding-bottom: 10px;
   }
 
   @include e(title) {
     padding-left: 0;
     margin-bottom: 0;
-    font-size: var(--el-messagebox-font-size);
+    font-size: var(--tw-messagebox-font-size);
     line-height: 1;
-    color: var(--el-messagebox-title-color);
+    color: var(--tw-messagebox-title-color);
   }
 
   @include e(headerbtn) {
     position: absolute;
-    top: var(--el-messagebox-padding-primary);
-    right: var(--el-messagebox-padding-primary);
+    top: var(--tw-messagebox-padding-primary);
+    right: var(--tw-messagebox-padding-primary);
     padding: 0;
     border: none;
     outline: none;
     background: transparent;
-    font-size: var(--el-message-close-size, map.get($message, 'close-size'));
+    font-size: var(--tw-message-close-size, map.get($message, 'close-size'));
     cursor: pointer;
 
     .#{$namespace}-message-box__close {
-      color: var(--el-color-info);
+      color: var(--tw-color-info);
       font-size: inherit;
     }
 
     &:focus,
     &:hover {
       .#{$namespace}-message-box__close {
-        color: var(--el-color-primary);
+        color: var(--tw-color-primary);
       }
     }
   }
 
   @include e(content) {
-    padding: 10px var(--el-messagebox-padding-primary);
-    color: var(--el-messagebox-content-color);
-    font-size: var(--el-messagebox-content-font-size);
+    padding: 10px var(--tw-messagebox-padding-primary);
+    color: var(--tw-messagebox-content-color);
+    font-size: var(--tw-messagebox-content-font-size);
   }
 
   @include e(container) {
@@ -102,10 +102,10 @@
     padding-top: 15px;
 
     & div.invalid > input {
-      border-color: var(--el-color-error);
+      border-color: var(--tw-color-error);
 
       &:focus {
-        border-color: var(--el-color-error);
+        border-color: var(--tw-color-error);
       }
     }
   }
@@ -129,8 +129,8 @@
 
     @each $type in (success, info, warning, error) {
       &.#{$namespace}-message-box-icon--#{$type} {
-        --el-messagebox-color: var(--el-color-#{$type});
-        color: var(--el-messagebox-color);
+        --tw-messagebox-color: var(--tw-color-#{$type});
+        color: var(--tw-messagebox-color);
       }
     }
   }
@@ -145,8 +145,8 @@
   }
 
   @include e(errormsg) {
-    color: var(--el-color-error);
-    font-size: var(--el-messagebox-error-font-size);
+    color: var(--tw-color-error);
+    font-size: var(--tw-messagebox-error-font-size);
     min-height: 18px;
     margin-top: 2px;
   }
@@ -193,7 +193,7 @@
     }
 
     @include e(content) {
-      $padding-horizontal: calc(var(--el-messagebox-padding-primary) + 12px);
+      $padding-horizontal: calc(var(--tw-messagebox-padding-primary) + 12px);
 
       padding-left: $padding-horizontal;
       padding-right: $padding-horizontal;
@@ -203,13 +203,13 @@
 
 .fade-in-linear-enter-active {
   .#{$namespace}-overlay-message-box {
-    animation: msgbox-fade-in var(--el-transition-duration);
+    animation: msgbox-fade-in var(--tw-transition-duration);
   }
 }
 
 .fade-in-linear-leave-active {
   .#{$namespace}-overlay-message-box {
-    animation: msgbox-fade-in var(--el-transition-duration) reverse;
+    animation: msgbox-fade-in var(--tw-transition-duration) reverse;
   }
 }
 

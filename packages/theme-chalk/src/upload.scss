@@ -13,7 +13,7 @@
 
   @include e(tip) {
     font-size: 12px;
-    color: var(--el-text-color-regular);
+    color: var(--tw-text-color-regular);
     margin-top: 7px;
   }
 
@@ -44,16 +44,16 @@
     }
 
     &:hover {
-      border-color: var(--el-color-primary);
-      color: var(--el-color-primary);
+      border-color: var(--tw-color-primary);
+      color: var(--tw-color-primary);
     }
   }
   &:focus {
-    border-color: var(--el-color-primary);
-    color: var(--el-color-primary);
+    border-color: var(--tw-color-primary);
+    color: var(--tw-color-primary);
 
     .#{$namespace}-upload-dragger {
-      border-color: var(--el-color-primary);
+      border-color: var(--tw-color-primary);
     }
   }
 }
@@ -72,7 +72,7 @@
 
   .#{$namespace}-icon--upload {
     font-size: 67px;
-    color: var(--el-text-color-placeholder);
+    color: var(--tw-text-color-placeholder);
     margin: 40px 0 16px;
     line-height: 50px;
   }
@@ -88,23 +88,23 @@
   }
 
   .#{$namespace}-upload__text {
-    color: var(--el-text-color-regular);
+    color: var(--tw-text-color-regular);
     font-size: 14px;
     text-align: center;
 
     em {
-      color: var(--el-color-primary);
+      color: var(--tw-color-primary);
       font-style: normal;
     }
   }
 
   &:hover {
-    border-color: var(--el-color-primary);
+    border-color: var(--tw-color-primary);
   }
 
   @include when(dragover) {
     background-color: rgba(32, 159, 255, 0.06);
-    border: 2px dashed var(--el-color-primary);
+    border: 2px dashed var(--tw-color-primary);
   }
 }
 
@@ -116,7 +116,7 @@
   @include e(item) {
     transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
     font-size: 14px;
-    color: var(--el-text-color-regular);
+    color: var(--tw-text-color-regular);
     line-height: 1.8;
     margin-top: 5px;
     position: relative;
@@ -146,7 +146,7 @@
     }
 
     & .#{$namespace}-icon--upload-success {
-      color: var(--el-color-success);
+      color: var(--tw-color-success);
     }
 
     .#{$namespace}-icon--close {
@@ -156,7 +156,7 @@
       right: 5px;
       cursor: pointer;
       opacity: 0.75;
-      color: var(--el-text-color-regular);
+      color: var(--tw-text-color-regular);
       //transform: scale(.7);
 
       &:hover {
@@ -172,11 +172,11 @@
       font-size: 12px;
       cursor: pointer;
       opacity: 1;
-      color: var(--el-color-primary);
+      color: var(--tw-color-primary);
     }
 
     &:hover {
-      background-color: var(--el-bg-color);
+      background-color: var(--tw-bg-color);
 
       .#{$namespace}-icon--close {
         display: inline-block;
@@ -194,7 +194,7 @@
 
       .#{$namespace}-upload-list__item-name:hover,
       .#{$namespace}-upload-list__item-name:focus {
-        color: var(--el-color-primary);
+        color: var(--tw-color-primary);
         cursor: pointer;
       }
 
@@ -231,18 +231,18 @@
   }
 
   @include e(item-name) {
-    color: var(--el-text-color-regular);
+    color: var(--tw-text-color-regular);
     display: block;
     margin-right: 40px;
     overflow: hidden;
     padding-left: 4px;
     text-overflow: ellipsis;
-    transition: color var(--el-transition-duration);
+    transition: color var(--tw-transition-duration);
     white-space: nowrap;
 
     & .#{$namespace}-icon {
       margin-right: 7px;
-      color: var(--el-text-color-secondary);
+      color: var(--tw-text-color-secondary);
 
       svg {
         vertical-align: text-bottom;
@@ -263,11 +263,11 @@
     right: 10px;
     top: 0;
     font-size: 12px;
-    color: var(--el-text-color-regular);
+    color: var(--tw-text-color-regular);
     display: none;
 
     &:hover {
-      color: var(--el-color-primary);
+      color: var(--tw-color-primary);
     }
   }
 
@@ -346,7 +346,7 @@
       opacity: 0;
       font-size: 20px;
       background-color: rgba(0, 0, 0, 0.5);
-      transition: opacity var(--el-transition-duration);
+      transition: opacity var(--tw-transition-duration);
       &::after {
         display: inline-block;
         content: '';
@@ -551,7 +551,7 @@
       font-size: 14px;
       cursor: pointer;
       vertical-align: middle;
-      transition: var(--el-transition-md-fade);
+      transition: var(--tw-transition-md-fade);
       margin-top: 60px;
 
       i {
@@ -601,7 +601,7 @@
     margin: 0;
     line-height: 36px;
     font-size: 14px;
-    color: var(--el-text-color-primary);
+    color: var(--tw-text-color-primary);
   }
 
   + .#{$namespace}-upload__inner {

@@ -25,7 +25,7 @@ export default defineComponent({
 
     const dividerStyle = computed(() => {
       return {
-        '--el-border-style': props.borderStyle,
+        '--tw-border-style': props.borderStyle,
       } as CSSProperties
     })
 

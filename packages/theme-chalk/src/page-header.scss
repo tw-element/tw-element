@@ -19,7 +19,7 @@
       right: -20px;
       top: 50%;
       transform: translateY(-50%);
-      background-color: var(--el-border-color-base);
+      background-color: var(--tw-border-color-base);
     }
 
     @include e(icon) {
@@ -41,6 +41,6 @@
 
   @include e(content) {
     font-size: 18px;
-    color: var(--el-text-color-primary);
+    color: var(--tw-text-color-primary);
   }
 }

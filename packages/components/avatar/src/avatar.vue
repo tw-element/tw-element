@@ -50,7 +50,7 @@ export default defineComponent({
       const { size } = props
       return isNumber(size)
         ? ({
-            '--el-avatar-size': addUnit(size),
+            '--tw-avatar-size': addUnit(size),
           } as CSSProperties)
         : undefined
     })

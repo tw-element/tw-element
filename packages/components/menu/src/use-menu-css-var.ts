@@ -6,11 +6,11 @@ import type { MenuProps } from './menu'
 export const useMenuCssVar = (props: MenuProps) => {
   return computed(() => {
     return {
-      '--el-menu-text-color': props.textColor || '',
-      '--el-menu-hover-text-color': props.textColor || '',
-      '--el-menu-bg-color': props.backgroundColor || '',
-      '--el-menu-hover-bg-color': useMenuColor(props).value || '',
-      '--el-menu-active-color': props.activeTextColor || '',
+      '--tw-menu-text-color': props.textColor || '',
+      '--tw-menu-hover-text-color': props.textColor || '',
+      '--tw-menu-bg-color': props.backgroundColor || '',
+      '--tw-menu-hover-bg-color': useMenuColor(props).value || '',
+      '--tw-menu-active-color': props.activeTextColor || '',
     }
   })
 }

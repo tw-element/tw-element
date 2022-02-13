@@ -43,7 +43,7 @@ export default defineComponent({
 
     const getColorValue = (type: string) => {
       return getComputedStyle(document.documentElement).getPropertyValue(
-        `--el-color-${type}`
+        `--tw-color-${type}`
       )
     }
 

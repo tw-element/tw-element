@@ -34,7 +34,7 @@ export const useDialog = (
 
   const style = computed<CSSProperties>(() => {
     const style: CSSProperties = {}
-    const varPrefix = `--el-dialog`
+    const varPrefix = `--tw-dialog`
     if (!props.fullscreen) {
       if (props.top) {
         style[`${varPrefix}-margin-top`] = props.top

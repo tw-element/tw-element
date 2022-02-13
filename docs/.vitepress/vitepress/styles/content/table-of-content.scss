@@ -50,7 +50,7 @@
         .toc-link {
           position: relative;
           color: var(--text-color-lighter);
-          transition: color var(--el-transition-duration);
+          transition: color var(--tw-transition-duration);
           &.active {
             color: var(--brand-color);
           }

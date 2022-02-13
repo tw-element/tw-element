@@ -30,7 +30,7 @@ import { Eleme } from '@element-plus/icons-vue'
 
 <style scoped>
 :root {
-  --el-color-primary: #409eff;
+  --tw-color-primary: #409eff;
 }
 .el-button .custom-loading .circular {
   margin-right: 6px;
@@ -43,7 +43,7 @@ import { Eleme } from '@element-plus/icons-vue'
   stroke-dasharray: 90, 150;
   stroke-dashoffset: 0;
   stroke-width: 2;
-  stroke: var(--el-button-text-color);
+  stroke: var(--tw-button-text-color);
   stroke-linecap: round;
 }
 </style>

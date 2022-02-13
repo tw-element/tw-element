@@ -51,7 +51,7 @@ describe('Divider.vue', () => {
     })
     expect(
       getComputedStyle(wrapper.element, null).getPropertyValue(
-        '--el-border-style'
+        '--tw-border-style'
       )
     ).toBe('dashed')
   })
@@ -64,7 +64,7 @@ describe('Divider.vue', () => {
     })
     expect(
       getComputedStyle(wrapper.element, null).getPropertyValue(
-        '--el-border-style'
+        '--tw-border-style'
       )
     ).toBe('solid')
   })

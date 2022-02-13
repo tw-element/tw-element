@@ -8,7 +8,7 @@
 
 @include b(popper) {
   position: absolute;
-  border-radius: var(--el-popper-border-radius);
+  border-radius: var(--tw-popper-border-radius);
   padding: 5px 11px;
   z-index: 2000;
   font-size: 12px;
@@ -20,24 +20,24 @@
   $arrow-selector: #{& + '__arrow'};
 
   @include when(dark) {
-    color: var(--el-color-white);
-    background: var(--el-text-color-primary);
-    border: 1px solid var(--el-text-color-primary);
+    color: var(--tw-color-white);
+    background: var(--tw-text-color-primary);
+    border: 1px solid var(--tw-text-color-primary);
 
     #{$arrow-selector}::before {
-      border: 1px solid var(--el-text-color-primary);
-      background: var(--el-text-color-primary);
+      border: 1px solid var(--tw-text-color-primary);
+      background: var(--tw-text-color-primary);
       right: 0;
     }
   }
 
   @include when(light) {
-    background: var(--el-color-white);
-    border: 1px solid var(--el-border-color-light);
+    background: var(--tw-color-white);
+    border: 1px solid var(--tw-border-color-light);
 
     #{$arrow-selector}::before {
-      border: 1px solid var(--el-border-color-light);
-      background: var(--el-color-white);
+      border: 1px solid var(--tw-border-color-light);
+      background: var(--tw-color-white);
       right: 0;
     }
   }
@@ -59,7 +59,7 @@
       z-index: -1;
       content: ' ';
       transform: rotate(45deg);
-      background: var(--el-text-color-primary);
+      background: var(--tw-text-color-primary);
       box-sizing: border-box;
     }
   }

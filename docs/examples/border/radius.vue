@@ -14,7 +14,7 @@
         class="radius"
         :style="{
           borderRadius: radius.type
-            ? `var(--el-border-radius-${radius.type})`
+            ? `var(--tw-border-radius-${radius.type})`
             : '',
         }"
       ></div>
@@ -47,26 +47,26 @@ const radiusGroup = ref([
 const getValue = (type: string) => {
   const getCssVarValue = (prefix, type) =>
     getComputedStyle(document.documentElement).getPropertyValue(
-      `--el-${prefix}-${type}`
+      `--tw-${prefix}-${type}`
     )
   return getCssVarValue('border-radius', type)
 }
 </script>
 <style scoped>
 .demo-radius .title {
-  color: var(--el-text-color-regular);
+  color: var(--tw-text-color-regular);
   font-size: 18px;
   margin: 10px 0;
 }
 .demo-radius .value {
-  color: var(--el-text-color-primary);
+  color: var(--tw-text-color-primary);
   font-size: 16px;
   margin: 10px 0;
 }
 .demo-radius .radius {
   height: 40px;
   width: 70%;
-  border: 1px solid var(--el-border-color-base);
+  border: 1px solid var(--tw-border-color-base);
   border-radius: 0;
   margin-top: 20px;
 }

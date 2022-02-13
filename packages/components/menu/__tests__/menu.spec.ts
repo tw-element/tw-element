@@ -62,7 +62,7 @@ describe('menu', () => {
     // const item2 = await wrapper.findComponent({ ref: 'item2' })
 
     expect(
-      window.getComputedStyle(instance)._values['--el-menu-bg-color']
+      window.getComputedStyle(instance)._values['--tw-menu-bg-color']
     ).toEqual(backgroundColor)
 
     // We can not test final style, so comment it out for now.

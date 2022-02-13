@@ -3,7 +3,7 @@
     <template v-for="(shadow, i) in shadowGroup" :key="i">
       <div
         class="demo-shadow"
-        :style="{ boxShadow: `var(--el-box-shadow-${shadow.type})` }"
+        :style="{ boxShadow: `var(--tw-box-shadow-${shadow.type})` }"
       ></div>
       <span class="demo-shadow-text"
         >{{ shadow.name }}
@@ -29,7 +29,7 @@ const shadowGroup = ref([
 const getValue = (type: string) => {
   const getCssVarValue = (prefix, type) =>
     getComputedStyle(document.documentElement).getPropertyValue(
-      `--el-${prefix}-${type}`
+      `--tw-${prefix}-${type}`
     )
   return getCssVarValue('box-shadow', type)
 }
@@ -41,7 +41,7 @@ const getValue = (type: string) => {
 }
 .demo-shadow-text {
   line-height: 50px;
-  color: var(--el-text-color-regular);
+  color: var(--tw-text-color-regular);
   font-size: 14px;
 }
 </style>

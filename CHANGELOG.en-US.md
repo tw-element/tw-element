@@ -371,7 +371,7 @@ _2021-12-10_
 
 - Change icon package name (#4625 by @sxzz)
 - Components refactor drawer (#4282 by @Alanscut)
-- Style rename -color-base to --el-bg-color (#4615 by @YunYouJun)
+- Style rename -color-base to --tw-bg-color (#4615 by @YunYouJun)
 - Components refactor calendar (#4325 by @Alanscut)
 - Components refactor progress
 - Components refactor progress

@@ -25,7 +25,7 @@ import { ArrowDown } from '@element-plus/icons-vue'
 }
 .example-showcase .el-dropdown-link {
   cursor: pointer;
-  color: var(--el-color-primary);
+  color: var(--tw-color-primary);
   display: flex;
   align-items: center;
 }

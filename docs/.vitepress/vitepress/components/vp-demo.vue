@@ -117,7 +117,7 @@ const copyCode = async () => {
 <style scoped lang="scss">
 .example {
   border: 1px solid var(--border-color);
-  border-radius: var(--el-border-radius-base);
+  border-radius: var(--tw-border-radius-base);
   overflow: hidden;
 
   .op-btns {

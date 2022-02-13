@@ -44,6 +44,6 @@ const visible = ref(false)
 
 <style>
 .singleton-tooltip {
-  transition: transform 0.3s var(--el-transition-function-fast-bezier);
+  transition: transform 0.3s var(--tw-transition-function-fast-bezier);
 }
 </style>

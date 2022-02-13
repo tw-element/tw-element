@@ -25,7 +25,7 @@ export default defineComponent({
         () =>
           (props.height
             ? {
-                '--el-footer-height': props.height,
+                '--tw-footer-height': props.height,
               }
             : {}) as CSSProperties
       ),

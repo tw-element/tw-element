@@ -45,7 +45,7 @@ const { circleUrl, squareUrl, sizeList } = toRefs(state)
 .demo-basic .sub-title {
   margin-bottom: 10px;
   font-size: 14px;
-  color: var(--el-text-color-secondary);
+  color: var(--tw-text-color-secondary);
 }
 .demo-basic .demo-basic--circle,
 .demo-basic .demo-basic--square {
@@ -54,12 +54,12 @@ const { circleUrl, squareUrl, sizeList } = toRefs(state)
   align-items: center;
 }
 .demo-basic .block:not(:last-child) {
-  border-right: 1px solid var(--el-border-color-base);
+  border-right: 1px solid var(--tw-border-color-base);
 }
 .demo-basic .block {
   flex: 1;
 }
 .demo-basic .el-col:not(:last-child) {
-  border-right: 1px solid var(--el-border-color-base);
+  border-right: 1px solid var(--tw-border-color-base);
 }
 </style>

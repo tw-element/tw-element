@@ -60,7 +60,7 @@ const onSwitchLang = (lang: string) => {
   justify-content: space-between;
   line-height: 24px;
   .toggle-icon {
-    transition: transform var(--el-transition-duration);
+    transition: transform var(--tw-transition-duration);
     transform: rotate(180deg);
 
     &.expanded {

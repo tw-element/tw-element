@@ -38,10 +38,10 @@ $rate-height: map.merge(
   & .#{$namespace}-rate__icon {
     position: relative;
     display: inline-block;
-    font-size: var(--el-rate-icon-size);
-    margin-right: var(--el-rate-icon-margin);
-    color: var(--el-rate-icon-color);
-    transition: var(--el-transition-duration);
+    font-size: var(--tw-rate-icon-size);
+    margin-right: var(--tw-rate-icon-margin);
+    color: var(--tw-rate-icon-color);
+    transition: var(--tw-transition-duration);
     &.hover {
       transform: scale(1.15);
     }
@@ -62,7 +62,7 @@ $rate-height: map.merge(
   }
 
   @include e(text) {
-    font-size: var(--el-rate-font-size);
+    font-size: var(--tw-rate-font-size);
     vertical-align: middle;
   }
 

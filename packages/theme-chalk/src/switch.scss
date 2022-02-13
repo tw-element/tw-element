@@ -33,7 +33,7 @@ $switch-font-size: map.merge(
   align-items: center;
   position: relative;
   font-size: map.get($switch-font-size, 'default');
-  line-height: var(--el-switch-height);
+  line-height: var(--tw-switch-height);
   height: map.get($switch-height, 'default');
   vertical-align: middle;
   @include when(disabled) {
@@ -44,17 +44,17 @@ $switch-font-size: map.merge(
   }
 
   @include e(label) {
-    transition: var(--el-transition-duration-fast);
-    height: var(--el-switch-height);
+    transition: var(--tw-transition-duration-fast);
+    height: var(--tw-switch-height);
     display: inline-block;
     font-size: map.get($switch-font-size, 'default');
     font-weight: 500;
     cursor: pointer;
     vertical-align: middle;
-    color: var(--el-text-color-primary);
+    color: var(--tw-text-color-primary);
 
     @include when(active) {
-      color: var(--el-color-primary);
+      color: var(--tw-color-primary);
     }
 
     @include m(left) {
@@ -89,25 +89,25 @@ $switch-font-size: map.merge(
     margin: 0;
     display: inline-block;
     position: relative;
-    width: var(--el-switch-width);
-    height: var(--el-switch-height);
-    border: 1px solid var(--el-switch-off-color);
+    width: var(--tw-switch-width);
+    height: var(--tw-switch-height);
+    border: 1px solid var(--tw-switch-off-color);
     outline: none;
-    border-radius: var(--el-switch-core-border-radius);
+    border-radius: var(--tw-switch-core-border-radius);
     box-sizing: border-box;
-    background: var(--el-switch-off-color);
+    background: var(--tw-switch-off-color);
     cursor: pointer;
-    transition: border-color var(--el-transition-duration),
-      background-color var(--el-transition-duration);
+    transition: border-color var(--tw-transition-duration),
+      background-color var(--tw-transition-duration);
     vertical-align: middle;
 
     .#{$namespace}-switch__inner {
       position: absolute;
       top: 1px;
       left: 1px;
-      transition: all var(--el-transition-duration);
-      width: var(--el-switch-button-size);
-      height: var(--el-switch-button-size);
+      transition: all var(--tw-transition-duration);
+      width: var(--tw-switch-button-size);
+      height: var(--tw-switch-button-size);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -115,8 +115,8 @@ $switch-font-size: map.merge(
 
       .is-icon,
       .is-text {
-        color: var(--el-color-white);
-        transition: opacity var(--el-transition-duration);
+        color: var(--tw-color-white);
+        transition: opacity var(--tw-transition-duration);
         position: absolute;
         user-select: none;
       }
@@ -126,19 +126,19 @@ $switch-font-size: map.merge(
       position: absolute;
       top: 1px;
       left: 1px;
-      border-radius: var(--el-border-radius-circle);
-      transition: all var(--el-transition-duration);
-      width: var(--el-switch-button-size);
-      height: var(--el-switch-button-size);
-      background-color: var(--el-color-white);
+      border-radius: var(--tw-border-radius-circle);
+      transition: all var(--tw-transition-duration);
+      width: var(--tw-switch-button-size);
+      height: var(--tw-switch-button-size);
+      background-color: var(--tw-color-white);
       display: flex;
       justify-content: center;
       align-items: center;
-      color: var(--el-switch-off-color);
+      color: var(--tw-switch-off-color);
 
       .is-icon,
       .is-text {
-        transition: opacity var(--el-transition-duration);
+        transition: opacity var(--tw-transition-duration);
         position: absolute;
         user-select: none;
       }
@@ -159,18 +159,18 @@ $switch-font-size: map.merge(
 
   @include when(checked) {
     .#{$namespace}-switch__core {
-      border-color: var(--el-switch-on-color);
-      background-color: var(--el-switch-on-color);
+      border-color: var(--tw-switch-on-color);
+      background-color: var(--tw-switch-on-color);
 
       .#{$namespace}-switch__action {
         left: 100%;
-        margin-left: calc(-1px - var(--el-switch-button-size));
-        color: var(--el-switch-on-color);
+        margin-left: calc(-1px - var(--tw-switch-button-size));
+        color: var(--tw-switch-on-color);
       }
 
       .#{$namespace}-switch__inner {
         left: 50%;
-        margin-left: calc(-1px - var(--el-switch-button-size));
+        margin-left: calc(-1px - var(--tw-switch-button-size));
       }
     }
   }

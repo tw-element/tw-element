@@ -26,9 +26,9 @@
 </template>
 <style scoped>
 .my-label {
-  background: var(--el-color-success-lighter);
+  background: var(--tw-color-success-lighter);
 }
 .my-content {
-  background: var(--el-color-danger-lighter);
+  background: var(--tw-color-danger-lighter);
 }
 </style>

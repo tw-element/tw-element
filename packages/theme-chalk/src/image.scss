@@ -18,7 +18,7 @@
 
   @include e(placeholder) {
     @extend %size !optional;
-    background: var(--el-bg-color);
+    background: var(--tw-bg-color);
   }
 
   @include e(error) {
@@ -27,8 +27,8 @@
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    background: var(--el-bg-color);
-    color: var(--el-text-color-placeholder);
+    background: var(--tw-bg-color);
+    color: var(--tw-text-color-placeholder);
     vertical-align: middle;
   }
 

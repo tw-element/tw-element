@@ -9,7 +9,7 @@
 
   display: inline-block;
   position: relative;
-  font-size: var(--el-font-size-base);
+  font-size: var(--tw-font-size-base);
   line-height: map.get($input-height, 'default');
   outline: none;
 
@@ -17,7 +17,7 @@
     .#{$namespace}-input__inner {
       cursor: pointer;
       border-color: var(
-        --el-input-hover-border,
+        --tw-input-hover-border,
         map.get($input, 'hover-border')
       );
     }
@@ -31,7 +31,7 @@
 
       &:focus {
         border-color: var(
-          --el-input-focus-border,
+          --tw-input-focus-border,
           map.get($input, 'focus-border')
         );
       }
@@ -48,7 +48,7 @@
     }
 
     .icon-arrow-down {
-      transition: transform var(--el-transition-duration);
+      transition: transform var(--tw-transition-duration);
       font-size: 14px;
 
       @include when(reverse) {
@@ -58,7 +58,7 @@
 
     .icon-circle-close:hover {
       color: var(
-        --el-input-clear-hover-color,
+        --tw-input-clear-hover-color,
         map.get($input, 'clear-hover-color')
       );
     }
@@ -66,7 +66,7 @@
     @include when(focus) {
       .#{$namespace}-input__inner {
         border-color: var(
-          --el-input-focus-border,
+          --tw-input-focus-border,
           map.get($input, 'focus-border')
         );
       }
@@ -82,8 +82,8 @@
 
   @include when(disabled) {
     .#{$namespace}-cascader__label {
-      z-index: calc(var(--el-index-normal) + 1);
-      color: var(--el-disabled-text-color);
+      z-index: calc(var(--tw-index-normal) + 1);
+      color: var(--tw-disabled-text-color);
     }
   }
 
@@ -92,17 +92,17 @@
   }
 
   @include e(dropdown) {
-    font-size: var(--el-cascader-menu-font-size);
-    border-radius: var(--el-cascader-menu-radius);
+    font-size: var(--tw-cascader-menu-font-size);
+    border-radius: var(--tw-cascader-menu-radius);
 
     @include picker-popper(
-      var(--el-cascader-menu-fill),
-      var(--el-cascader-menu-border),
-      var(--el-cascader-menu-shadow)
+      var(--tw-cascader-menu-fill),
+      var(--tw-cascader-menu-border),
+      var(--tw-cascader-menu-shadow)
     );
 
     &.#{$namespace}-popper {
-      box-shadow: var(--el-cascader-menu-shadow);
+      box-shadow: var(--tw-cascader-menu-shadow);
     }
   }
 
@@ -124,7 +124,7 @@
       max-width: 100%;
       margin: 2px 0 2px 6px;
       text-overflow: ellipsis;
-      background: var(--el-cascader-tag-background);
+      background: var(--tw-cascader-tag-background);
 
       &:not(.is-hit) {
         border-color: transparent;
@@ -138,26 +138,26 @@
 
       .#{$namespace}-icon-close {
         flex: none;
-        background-color: var(--el-text-color-placeholder);
-        color: var(--el-color-white);
+        background-color: var(--tw-text-color-placeholder);
+        color: var(--tw-color-white);
 
         &:hover {
-          background-color: var(--el-text-color-secondary);
+          background-color: var(--tw-text-color-secondary);
         }
       }
     }
   }
 
   @include e(suggestion-panel) {
-    border-radius: var(--el-cascader-menu-radius);
+    border-radius: var(--tw-cascader-menu-radius);
   }
 
   @include e(suggestion-list) {
     max-height: 204px;
     margin: 0;
     padding: 6px 0;
-    font-size: var(--el-font-size-base);
-    color: var(--el-cascader-menu-text-color);
+    font-size: var(--tw-font-size-base);
+    color: var(--tw-cascader-menu-text-color);
     text-align: center;
   }
 
@@ -173,11 +173,11 @@
 
     &:hover,
     &:focus {
-      background: var(--el-cascader-node-background-hover);
+      background: var(--tw-cascader-node-background-hover);
     }
 
     &.is-checked {
-      color: var(--el-cascader-menu-selected-text-color);
+      color: var(--tw-cascader-menu-selected-text-color);
       font-weight: bold;
     }
 
@@ -188,7 +188,7 @@
 
   @include e(empty-text) {
     margin: 10px 0;
-    color: var(--el-cascader-color-empty);
+    color: var(--tw-cascader-color-empty);
   }
 
   @include e(search-input) {
@@ -197,13 +197,13 @@
     min-width: 60px;
     margin: 2px 0 2px 15px;
     padding: 0;
-    color: var(--el-cascader-menu-text-color);
+    color: var(--tw-cascader-menu-text-color);
     border: none;
     outline: none;
     box-sizing: border-box;
 
     &::placeholder {
-      color: var(--el-text-color-placeholder);
+      color: var(--tw-text-color-placeholder);
     }
   }
 }

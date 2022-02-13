@@ -95,7 +95,7 @@ export default defineComponent({
 
     // calculate hover & active color by color
     const typeColor = computed(
-      () => useCssVar(`--el-color-${props.type}`).value
+      () => useCssVar(`--tw-color-${props.type}`).value
     )
     const buttonStyle = computed(() => {
       let styles = {}
@@ -106,26 +106,26 @@ export default defineComponent({
         const shadeBgColor = new TinyColor(buttonColor).shade(10).toString()
         if (props.plain) {
           styles = {
-            '--el-button-bg-color': new TinyColor(buttonColor)
+            '--tw-button-bg-color': new TinyColor(buttonColor)
               .tint(90)
               .toString(),
-            '--el-button-text-color': buttonColor,
-            '--el-button-hover-text-color': 'var(--el-color-white)',
-            '--el-button-hover-bg-color': buttonColor,
-            '--el-button-hover-border-color': buttonColor,
-            '--el-button-active-bg-color': shadeBgColor,
-            '--el-button-active-text-color': 'var(--el-color-white)',
-            '--el-button-active-border-color': shadeBgColor,
+            '--tw-button-text-color': buttonColor,
+            '--tw-button-hover-text-color': 'var(--tw-color-white)',
+            '--tw-button-hover-bg-color': buttonColor,
+            '--tw-button-hover-border-color': buttonColor,
+            '--tw-button-active-bg-color': shadeBgColor,
+            '--tw-button-active-text-color': 'var(--tw-color-white)',
+            '--tw-button-active-border-color': shadeBgColor,
           }
         } else {
           const tintBgColor = new TinyColor(buttonColor).tint(20).toString()
           styles = {
-            '--el-button-bg-color': buttonColor,
-            '--el-button-border-color': buttonColor,
-            '--el-button-hover-bg-color': tintBgColor,
-            '--el-button-hover-border-color': tintBgColor,
-            '--el-button-active-bg-color': shadeBgColor,
-            '--el-button-active-border-color': shadeBgColor,
+            '--tw-button-bg-color': buttonColor,
+            '--tw-button-border-color': buttonColor,
+            '--tw-button-hover-bg-color': tintBgColor,
+            '--tw-button-hover-border-color': tintBgColor,
+            '--tw-button-active-bg-color': shadeBgColor,
+            '--tw-button-active-border-color': shadeBgColor,
           }
         }
 
@@ -133,8 +133,8 @@ export default defineComponent({
           const disabledButtonColor = new TinyColor(buttonColor)
             .tint(50)
             .toString()
-          styles['--el-button-disabled-bg-color'] = disabledButtonColor
-          styles['--el-button-disabled-border-color'] = disabledButtonColor
+          styles['--tw-button-disabled-bg-color'] = disabledButtonColor
+          styles['--tw-button-disabled-border-color'] = disabledButtonColor
         }
       }
 

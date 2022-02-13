@@ -9,9 +9,9 @@
   @include e(popper) {
     @include set-css-var-type('datepicker', 'border-color', $datepicker);
     @include picker-popper(
-      var(--el-color-white),
-      1px solid var(--el-datepicker-border-color),
-      var(--el-box-shadow-light)
+      var(--tw-color-white),
+      1px solid var(--tw-datepicker-border-color),
+      var(--tw-box-shadow-light)
     );
   }
 }
@@ -25,27 +25,27 @@
 
   &.#{$namespace}-input,
   &.#{$namespace}-input__inner {
-    width: var(--el-date-editor-width);
+    width: var(--tw-date-editor-width);
   }
 
   @include m((monthrange)) {
     &.#{$namespace}-input,
     &.#{$namespace}-input__inner {
-      width: var(--el-date-editor-monthrange-width);
+      width: var(--tw-date-editor-monthrange-width);
     }
   }
 
   @include m((daterange, timerange)) {
     &.#{$namespace}-input,
     &.#{$namespace}-input__inner {
-      width: var(--el-date-editor-daterange-width);
+      width: var(--tw-date-editor-daterange-width);
     }
   }
 
   @include m(datetimerange) {
     &.#{$namespace}-input,
     &.#{$namespace}-input__inner {
-      width: var(--el-date-editor-datetimerange-width);
+      width: var(--tw-date-editor-datetimerange-width);
     }
   }
 
@@ -64,14 +64,14 @@
     cursor: pointer;
 
     &:hover {
-      color: var(--el-text-color-secondary);
+      color: var(--tw-text-color-secondary);
     }
   }
 
   .#{$namespace}-range__icon {
     height: inherit;
     font-size: 14px;
-    color: var(--el-text-color-placeholder);
+    color: var(--tw-text-color-placeholder);
     float: left;
 
     svg {
@@ -89,11 +89,11 @@
     padding: 0;
     width: 39%;
     text-align: center;
-    font-size: var(--el-font-size-base);
-    color: var(--el-text-color-regular);
+    font-size: var(--tw-font-size-base);
+    color: var(--tw-text-color-regular);
 
     &::placeholder {
-      color: var(--el-text-color-placeholder);
+      color: var(--tw-text-color-placeholder);
     }
   }
 
@@ -107,18 +107,18 @@
     margin: 0;
     font-size: 14px;
     word-break: keep-all;
-    color: var(--el-text-color-primary);
+    color: var(--tw-text-color-primary);
   }
 
   .#{$namespace}-range__close-icon {
     font-size: 14px;
-    color: var(--el-text-color-placeholder);
+    color: var(--tw-text-color-placeholder);
     height: inherit;
     width: unset;
     cursor: pointer;
 
     &:hover {
-      color: var(--el-text-color-secondary);
+      color: var(--tw-text-color-secondary);
     }
 
     svg {
@@ -144,10 +144,10 @@
   }
 
   @include when(active) {
-    border-color: var(--el-color-primary);
+    border-color: var(--tw-color-primary);
 
     &:hover {
-      border-color: var(--el-color-primary);
+      border-color: var(--tw-color-primary);
     }
   }
 

@@ -77,7 +77,7 @@ describe('Header', () => {
       },
     })
     const vm = wrapper.vm
-    expect(getCssVariable(vm.$el, '--el-header-height')).toEqual('100px')
+    expect(getCssVariable(vm.$el, '--tw-header-height')).toEqual('100px')
   })
 })
 
@@ -95,7 +95,7 @@ describe('Aside', () => {
     })
 
     const vm = wrapper.vm
-    expect(getCssVariable(vm.$el, '--el-aside-width')).toEqual('200px')
+    expect(getCssVariable(vm.$el, '--tw-aside-width')).toEqual('200px')
   })
 })
 
@@ -119,6 +119,6 @@ describe('Footer', () => {
       },
     })
     const vm = wrapper.vm
-    expect(getCssVariable(vm.$el, '--el-footer-height')).toEqual('100px')
+    expect(getCssVariable(vm.$el, '--tw-footer-height')).toEqual('100px')
   })
 })
