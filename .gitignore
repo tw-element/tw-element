@@ -17,3 +17,7 @@ packages/tw-element/version.ts
 *.local
 cypress/screenshots/*
 cypress/videos/*
+
+# tailwind css files
+tailwinds.css
+te-main.css
