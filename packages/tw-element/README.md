@@ -1,11 +1,11 @@
-# `element-plus`
+# `tw-element`
 
 > TODO: description
 
 ## Usage
 
 ```
-const elementPlus = require('element-plus');
+const twElement = require('tw-element');
 
 // TODO: DEMONSTRATE API
 ```

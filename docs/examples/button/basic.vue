@@ -1,7 +1,7 @@
 <template>
   <tw-row class="mb-4">
-    <tw-button>Default</tw-button>
-    <tw-button type="primary">Primary</tw-button>
+    <tw-button>Defaultsss</tw-button>
+    <tw-button type="primary">Primaryss</tw-button>
     <tw-button type="success">Success</tw-button>
     <tw-button type="info">Info</tw-button>
     <tw-button type="warning">Warning</tw-button>
