@@ -18,7 +18,6 @@
     "e2e": "cypress open",
     "e2e:ci": "cypress run",
     "dev": "pnpm -C play dev",
-    "publish": "bash ./scripts/publish.sh",
     "gen": "bash ./scripts/gc.sh",
     "gen:version": "sucrase-node scripts/gen-version.ts",
     "update:version": "sucrase-node scripts/update-version.ts",
@@ -37,7 +36,8 @@
     "prepare": "husky install",
     "postinstall": "pnpm gen:version",
     "preinstall": "npx only-allow pnpm -y",
-    "twout": "npx tailwindcss -i tailwind.css -o tailwinds.css --watch"
+    "twwatch": "npx tailwindcss -i tailwind.css -o tailwinds.css --watch",
+    "twmin": "npx tailwindcss -i tailwind.css -o tailwinds.css --minify"
   },
   "config": {
     "commitizen": {
