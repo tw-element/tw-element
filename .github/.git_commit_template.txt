@@ -1,2 +1,2 @@
 # [TYPE](SCOPE): [el-component-name] DESCRIPTION#[ISSUE]
-# example: feat(components): [el-button] add type for form usage #1234
+# example: feat(components): [tw-button] add type for form usage #1234

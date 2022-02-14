@@ -33,7 +33,7 @@
             <span>Delicious hamburger</span>
             <div class="bottom card-header">
               <span class="time">{{ currentDate }}</span>
-              <el-button type="text" class="button">Operation button</el-button>
+              <tw-button type="text" class="button">Operation button</tw-button>
             </div>
           </div>
         </el-card>

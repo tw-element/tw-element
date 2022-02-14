@@ -1,9 +1,9 @@
 <template>
   <el-badge value="new" class="item">
-    <el-button>comments</el-button>
+    <tw-button>comments</tw-button>
   </el-badge>
   <el-badge value="hot" class="item">
-    <el-button>replies</el-button>
+    <tw-button>replies</tw-button>
   </el-badge>
 </template>
 

@@ -207,7 +207,7 @@ describe('Datetime Picker', () => {
     await nextTick()
     // click now button
     const btn = document.querySelector(
-      '.el-picker-panel__footer .el-button--text'
+      '.el-picker-panel__footer .tw-button--text'
     ) as HTMLElement
     btn.click()
     await nextTick()
@@ -246,7 +246,7 @@ describe('Datetime Picker', () => {
       ) as HTMLElement
     ).click()
     // click confirm button
-    document.querySelectorAll('.el-picker-panel__footer .el-button')[1].click()
+    document.querySelectorAll('.el-picker-panel__footer .tw-button')[1].click()
     const vm = wrapper.vm as any
     expect(dayjs(vm.value).format(formatStr)).toBe('2000-10-01 12:00:00')
   })
@@ -421,7 +421,7 @@ describe('Datetimerange', () => {
     await nextTick()
     ;(
       document.querySelectorAll(
-        '.el-picker-panel__footer .el-button'
+        '.el-picker-panel__footer .tw-button'
       )[1] as HTMLElement
     ).click()
     await nextTick()
@@ -494,7 +494,7 @@ describe('Datetimerange', () => {
     triggerEvent(rightCell, 'click', true)
     await nextTick()
     const btn = document.querySelectorAll(
-      '.el-picker-panel__footer .el-button'
+      '.el-picker-panel__footer .tw-button'
     )[1] as HTMLElement
     btn.click()
     await nextTick()
@@ -542,7 +542,7 @@ describe('Datetimerange', () => {
     button.click()
     await nextTick()
     const btn = document.querySelectorAll(
-      '.el-picker-panel__footer .el-button'
+      '.el-picker-panel__footer .tw-button'
     )[1] as HTMLElement
     btn.click()
     await nextTick()
@@ -580,7 +580,7 @@ describe('Datetimerange', () => {
     triggerEvent(leftDateInput, 'change', true)
     await nextTick()
     const btn = document.querySelectorAll(
-      '.el-picker-panel__footer .el-button'
+      '.el-picker-panel__footer .tw-button'
     )[1] as HTMLElement
     expect(btn.getAttribute('disabled')).not.toBeUndefined() // invalid input disables button
     btn.click()
@@ -739,7 +739,7 @@ describe('Datetimerange', () => {
     await nextTick()
     ;(
       document.querySelectorAll(
-        '.el-picker-panel__footer .el-button'
+        '.el-picker-panel__footer .tw-button'
       )[1] as HTMLElement
     ).click()
     await nextTick()

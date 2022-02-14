@@ -8,18 +8,18 @@
     <el-table-column prop="zip" label="Zip" width="120" />
     <el-table-column fixed="right" label="Operations" width="120">
       <template #default="scope">
-        <el-button
+        <tw-button
           type="text"
           size="small"
           @click.prevent="deleteRow(scope.$index)"
         >
           Remove
-        </el-button>
+        </tw-button>
       </template>
     </el-table-column>
   </el-table>
-  <el-button class="mt-4" style="width: 100%" @click="onAddItem"
-    >Add Item</el-button
+  <tw-button class="mt-4" style="width: 100%" @click="onAddItem"
+    >Add Item</tw-button
   >
 </template>
 

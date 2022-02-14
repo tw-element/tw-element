@@ -25,10 +25,10 @@
       <el-input v-model.number="ruleForm.age"></el-input>
     </el-form-item>
     <el-form-item>
-      <el-button type="primary" @click="submitForm(ruleFormRef)"
-        >Submit</el-button
+      <tw-button type="primary" @click="submitForm(ruleFormRef)"
+        >Submit</tw-button
       >
-      <el-button @click="resetForm(ruleFormRef)">Reset</el-button>
+      <tw-button @click="resetForm(ruleFormRef)">Reset</tw-button>
     </el-form-item>
   </el-form>
 </template>

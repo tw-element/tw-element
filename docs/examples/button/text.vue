@@ -1,4 +1,4 @@
 <template>
-  <el-button type="text">Text Button</el-button>
-  <el-button type="text" disabled>Text Button</el-button>
+  <tw-button type="text">Text Button</tw-button>
+  <tw-button type="text" disabled>Text Button</tw-button>
 </template>

@@ -3,21 +3,21 @@
     <template #header="{ date }">
       <span>Custom header content</span>
       <span>{{ date }}</span>
-      <el-button-group>
-        <el-button size="small" @click="selectDate('prev-year')"
-          >Previous Year</el-button
+      <tw-button-group>
+        <tw-button size="small" @click="selectDate('prev-year')"
+          >Previous Year</tw-button
         >
-        <el-button size="small" @click="selectDate('prev-month')"
-          >Previous Month</el-button
+        <tw-button size="small" @click="selectDate('prev-month')"
+          >Previous Month</tw-button
         >
-        <el-button size="small" @click="selectDate('today')">Today</el-button>
-        <el-button size="small" @click="selectDate('next-month')"
-          >Next Month</el-button
+        <tw-button size="small" @click="selectDate('today')">Today</tw-button>
+        <tw-button size="small" @click="selectDate('next-month')"
+          >Next Month</tw-button
         >
-        <el-button size="small" @click="selectDate('next-year')"
-          >Next Year</el-button
+        <tw-button size="small" @click="selectDate('next-year')"
+          >Next Year</tw-button
         >
-      </el-button-group>
+      </tw-button-group>
     </template>
   </el-calendar>
 </template>

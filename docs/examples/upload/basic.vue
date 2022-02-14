@@ -10,7 +10,7 @@
     :on-exceed="handleExceed"
     :file-list="fileList"
   >
-    <el-button type="primary">Click to upload</el-button>
+    <tw-button type="primary">Click to upload</tw-button>
     <template #tip>
       <div class="el-upload__tip">
         jpg/png files with a size less than 500kb

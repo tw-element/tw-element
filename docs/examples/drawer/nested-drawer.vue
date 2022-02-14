@@ -1,11 +1,11 @@
 <template>
-  <el-button type="primary" style="margin-left: 16px" @click="drawer = true">
+  <tw-button type="primary" style="margin-left: 16px" @click="drawer = true">
     open
-  </el-button>
+  </tw-button>
 
   <el-drawer v-model="drawer" title="I'm outer Drawer" size="50%">
     <div>
-      <el-button @click="innerDrawer = true">Click me!</el-button>
+      <tw-button @click="innerDrawer = true">Click me!</tw-button>
       <el-drawer
         v-model="innerDrawer"
         title="I'm inner Drawer"

@@ -1,7 +1,7 @@
 <template>
   <div class="demo-progress">
     <el-progress :percentage="50">
-      <el-button type="text">Content</el-button>
+      <tw-button type="text">Content</tw-button>
     </el-progress>
     <el-progress
       :text-inside="true"
@@ -12,7 +12,7 @@
       <span>Content</span>
     </el-progress>
     <el-progress type="circle" :percentage="100" status="success">
-      <el-button type="success" :icon="Check" circle></el-button>
+      <tw-button type="success" :icon="Check" circle></tw-button>
     </el-progress>
     <el-progress type="dashboard" :percentage="80">
       <template #default="{ percentage }">

@@ -1,8 +1,8 @@
 <template>
   <div style="margin-bottom: 20px">
-    <el-button size="small" @click="addTab(editableTabsValue)">
+    <tw-button size="small" @click="addTab(editableTabsValue)">
       add tab
-    </el-button>
+    </tw-button>
   </div>
   <el-tabs
     v-model="editableTabsValue"

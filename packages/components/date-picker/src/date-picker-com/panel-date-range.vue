@@ -210,7 +210,7 @@
       </div>
     </div>
     <div v-if="showTime" class="el-picker-panel__footer">
-      <el-button
+      <tw-button
         v-if="clearable"
         size="small"
         type="text"
@@ -218,8 +218,8 @@
         @click="handleClear"
       >
         {{ t('el.datepicker.clear') }}
-      </el-button>
-      <el-button
+      </tw-button>
+      <tw-button
         plain
         size="small"
         class="el-picker-panel__link-btn"
@@ -227,7 +227,7 @@
         @click="handleConfirm(false)"
       >
         {{ t('el.datepicker.confirm') }}
-      </el-button>
+      </tw-button>
     </div>
   </div>
 </template>

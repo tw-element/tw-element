@@ -1,5 +1,5 @@
 <template>
-  <el-row class="block-col-2">
+  <tw-row class="block-col-2">
     <el-col :span="8">
       <span class="demonstration">hover to trigger</span>
       <el-dropdown>
@@ -57,7 +57,7 @@
         </template>
       </el-dropdown>
     </el-col>
-  </el-row>
+  </tw-row>
 </template>
 
 <script lang="ts" setup>

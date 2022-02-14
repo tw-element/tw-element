@@ -1,5 +1,5 @@
 <template>
-  <el-button plain @click="open"> Hide close button </el-button>
+  <tw-button plain @click="open"> Hide close button </tw-button>
 </template>
 
 <script lang="ts" setup>

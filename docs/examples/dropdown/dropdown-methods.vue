@@ -3,7 +3,7 @@
     <p>open(close) the Dropdown list2 will close(open) the Dropdown List1.</p>
   </div>
   <div style="margin: 15px">
-    <el-button @click="showClick">show</el-button>
+    <tw-button @click="showClick">show</tw-button>
   </div>
   <el-dropdown ref="dropdown1" trigger="contextmenu" style="margin-right: 30px">
     <span class="el-dropdown-link"> Dropdown List1 </span>

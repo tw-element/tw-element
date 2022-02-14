@@ -2,15 +2,15 @@
   <el-popover v-model:visible="visible" placement="top" :width="160">
     <p>Are you sure to delete this?</p>
     <div style="text-align: right; margin: 0">
-      <el-button size="small" type="text" @click="visible = false"
-        >cancel</el-button
+      <tw-button size="small" type="text" @click="visible = false"
+        >cancel</tw-button
       >
-      <el-button size="small" type="primary" @click="visible = false"
-        >confirm</el-button
+      <tw-button size="small" type="primary" @click="visible = false"
+        >confirm</tw-button
       >
     </div>
     <template #reference>
-      <el-button @click="visible = true">Delete</el-button>
+      <tw-button @click="visible = true">Delete</tw-button>
     </template>
   </el-popover>
 </template>

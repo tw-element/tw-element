@@ -58,7 +58,7 @@ A good commit message enables us:
 Below is a template commit message for your reference.
 
 ```md
-feat(components): [el-button] I did something with button
+feat(components): [tw-button] I did something with button
 
 Blank between subject and body is expected.(period is expected)
 Describes your change in one line or multi-line.

@@ -116,7 +116,7 @@ _2022-01-22_
 - Hooks [use-namespace] add bm (#5475 by @sxzz)
 - Components [el-dropdown]add handleOpen and handleClose methods (#5444 by @Alanscut)
 - Components [tree] node-click passes event object (#4312 by @msidolphin)
-- Components [el-button] support for customize loading component (#5505 by @msidolphin)
+- Components [tw-button] support for customize loading component (#5505 by @msidolphin)
 
 #### Bug fixes
 
@@ -347,7 +347,7 @@ _2021-12-10_
 - Components dropdown menu divided style, close #4631 (#4638 by @YunYouJun)
 - Components [el-config-provider] autoInsertSpace false (#4629 by @Alanscut)
 - Locale update ca (#4644 by @oscaralbareda)
-- Components [el-button] computed type (#4641 by @btea)
+- Components [tw-button] computed type (#4641 by @btea)
 - Style icon font-size inherit (#4565 by @YunYouJun)
 - Hooks fix translate option (#4619 by @sxzz)
 - Components [el-message] fit badge error type (#4662 by @btea)
@@ -466,7 +466,7 @@ _2021-11-09_
 - Components refactor result
 - Components [el-result] improve props
 - Components refactor row
-- Components [el-row] improve props
+- Components [tw-row] improve props
 - Components refactor radio
 
 ### 1.2.0-beta.2
@@ -699,7 +699,7 @@ _2021-09-28_
 - Build support esm and minified full bundle (#3677 by @sxzz)
 - Docs enable mirror site redirection (#3683 by @JeremyWuuuuu)
 - Theme-chalk use @use instead of @import & remove /\*\*/ comment (#3696 by @YunYouJun)
-- Components [el-button-group] add type prop (#3702 by @sxzz)
+- Components [tw-button-group] add type prop (#3702 by @sxzz)
 
 #### Bug fixes
 
@@ -843,7 +843,7 @@ _2021-09-22_
 - Remove mitt (#3356 by @purepear)
 - Style add css var width & margin-top for dialog (#3431 by @YunYouJun)
 - Remove mitt (#3474 by @sxzz)
-- [el-button] delete isEmpty (#3479 by @xiaoxian521)
+- [tw-button] delete isEmpty (#3479 by @xiaoxian521)
 - Remove import-from (#3503 by @YunYouJun)
 - Support latest volar (#3508 by @sxzz)
 

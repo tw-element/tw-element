@@ -1,5 +1,5 @@
 <template>
-  <el-row class="demo-avatar demo-basic">
+  <tw-row class="demo-avatar demo-basic">
     <el-col :span="12">
       <div class="sub-title">circle</div>
       <div class="demo-basic--circle">
@@ -22,7 +22,7 @@
         </div>
       </div>
     </el-col>
-  </el-row>
+  </tw-row>
 </template>
 <script lang="ts" setup>
 import { reactive, toRefs } from 'vue'

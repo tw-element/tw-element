@@ -3,10 +3,10 @@
     <el-progress type="dashboard" :percentage="percentage" :color="colors" />
     <el-progress type="dashboard" :percentage="percentage2" :color="colors" />
     <div>
-      <el-button-group>
-        <el-button :icon="Minus" @click="decrease" />
-        <el-button :icon="Plus" @click="increase" />
-      </el-button-group>
+      <tw-button-group>
+        <tw-button :icon="Minus" @click="decrease" />
+        <tw-button :icon="Plus" @click="increase" />
+      </tw-button-group>
     </div>
   </div>
 </template>

@@ -3,9 +3,9 @@
     <el-config-provider :locale="locale2">
       <el-color-picker :model-value="''" style="vertical-align: middle" />
     </el-config-provider>
-    <el-button style="margin-left: 8px; vertical-align: middle" @click="toggle">
+    <tw-button style="margin-left: 8px; vertical-align: middle" @click="toggle">
       Switch Lang
-    </el-button>
+    </tw-button>
   </div>
 </template>
 

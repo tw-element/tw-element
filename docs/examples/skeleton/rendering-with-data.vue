@@ -1,6 +1,6 @@
 <template>
   <el-space direction="vertical" alignment="flex-start">
-    <el-button @click="setLoading">Click me to reload</el-button>
+    <tw-button @click="setLoading">Click me to reload</tw-button>
     <el-skeleton style="width: 240px" :loading="loading" animated :count="3">
       <template #template>
         <el-skeleton-item variant="image" style="width: 400px; height: 267px" />
@@ -31,7 +31,7 @@
             <span>{{ item.name }}</span>
             <div class="bottom card-header">
               <span class="time">{{ currentDate }}</span>
-              <el-button type="text" class="button">Operation button</el-button>
+              <tw-button type="text" class="button">Operation button</tw-button>
             </div>
           </div>
         </el-card>

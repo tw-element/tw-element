@@ -10,11 +10,11 @@
   />
 
   <div class="buttons">
-    <el-button @click="getCheckedNodes">get by node</el-button>
-    <el-button @click="getCheckedKeys">get by key</el-button>
-    <el-button @click="setCheckedNodes">set by node</el-button>
-    <el-button @click="setCheckedKeys">set by key</el-button>
-    <el-button @click="resetChecked">reset</el-button>
+    <tw-button @click="getCheckedNodes">get by node</tw-button>
+    <tw-button @click="getCheckedKeys">get by key</tw-button>
+    <tw-button @click="setCheckedNodes">set by node</tw-button>
+    <tw-button @click="setCheckedKeys">set by key</tw-button>
+    <tw-button @click="resetChecked">reset</tw-button>
   </div>
 </template>
 

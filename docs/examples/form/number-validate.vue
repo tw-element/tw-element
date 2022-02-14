@@ -20,8 +20,8 @@
       ></el-input>
     </el-form-item>
     <el-form-item>
-      <el-button type="primary" @click="submitForm(formRef)">Submit</el-button>
-      <el-button @click="resetForm(formRef)">Reset</el-button>
+      <tw-button type="primary" @click="submitForm(formRef)">Submit</tw-button>
+      <tw-button @click="resetForm(formRef)">Reset</tw-button>
     </el-form-item>
   </el-form>
 </template>

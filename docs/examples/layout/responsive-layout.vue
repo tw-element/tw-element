@@ -1,5 +1,5 @@
 <template>
-  <el-row :gutter="10">
+  <tw-row :gutter="10">
     <el-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1"
       ><div class="grid-content bg-purple"></div
     ></el-col>
@@ -12,7 +12,7 @@
     <el-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1"
       ><div class="grid-content bg-purple-light"></div
     ></el-col>
-  </el-row>
+  </tw-row>
 </template>
 
 <style>

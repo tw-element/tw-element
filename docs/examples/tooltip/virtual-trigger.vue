@@ -8,7 +8,7 @@
     virtual-triggering
     :virtual-ref="triggerRef"
   />
-  <el-button @click="visible = !visible">test</el-button>
+  <tw-button @click="visible = !visible">test</tw-button>
 </template>
 
 <script setup lang="ts">

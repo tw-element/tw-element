@@ -1,13 +1,13 @@
 <template>
   <el-tooltip content="Top center" placement="top">
-    <el-button>Dark</el-button>
+    <tw-button>Dark</tw-button>
   </el-tooltip>
   <el-tooltip content="Bottom center" placement="bottom" effect="light">
-    <el-button>Light</el-button>
+    <tw-button>Light</tw-button>
   </el-tooltip>
 
   <el-tooltip content="Bottom center" effect="customized">
-    <el-button>Customized theme</el-button>
+    <tw-button>Customized theme</tw-button>
   </el-tooltip>
 </template>
 

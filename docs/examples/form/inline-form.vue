@@ -10,7 +10,7 @@
       </el-select>
     </el-form-item>
     <el-form-item>
-      <el-button type="primary" @click="onSubmit">Query</el-button>
+      <tw-button type="primary" @click="onSubmit">Query</tw-button>
     </el-form-item>
   </el-form>
 </template>

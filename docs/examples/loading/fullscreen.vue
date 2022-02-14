@@ -1,12 +1,12 @@
 <template>
-  <el-button
+  <tw-button
     v-loading.fullscreen.lock="fullscreenLoading"
     type="primary"
     @click="openFullScreen1"
   >
     As a directive
-  </el-button>
-  <el-button type="primary" @click="openFullScreen2"> As a service </el-button>
+  </tw-button>
+  <tw-button type="primary" @click="openFullScreen2"> As a service </tw-button>
 </template>
 
 <script lang="ts" setup>

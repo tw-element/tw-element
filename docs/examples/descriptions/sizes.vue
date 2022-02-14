@@ -13,7 +13,7 @@
     border
   >
     <template #extra>
-      <el-button type="primary">Operation</el-button>
+      <tw-button type="primary">Operation</tw-button>
     </template>
     <el-descriptions-item>
       <template #label>
@@ -80,7 +80,7 @@
     :style="blockMargin"
   >
     <template #extra>
-      <el-button type="primary">Operation</el-button>
+      <tw-button type="primary">Operation</tw-button>
     </template>
     <el-descriptions-item label="Username">kooriookami</el-descriptions-item>
     <el-descriptions-item label="Telephone">18100000000</el-descriptions-item>

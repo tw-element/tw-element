@@ -32,12 +32,12 @@ describe('Col', () => {
 
   it('gutter', () => {
     const TestComponent = {
-      template: `<el-row :gutter="20">
+      template: `<tw-row :gutter="20">
       <el-col :span="12" ref="col"></el-col>
-    </el-row>`,
+    </tw-row>`,
       components: {
         'el-col': Col,
-        'el-row': Row,
+        'tw-row': Row,
       },
     }
     const wrapper = mount(TestComponent)
@@ -86,13 +86,13 @@ describe('Col', () => {
 
   it('responsive', () => {
     const TestComponent = {
-      template: `<el-row :gutter="20">
+      template: `<tw-row :gutter="20">
       <el-col ref="col" :sm="{ span: 4, offset: 2 }" :md="8" :lg="{ span: 6, offset: 3 }">
       </el-col>
-    </el-row>`,
+    </tw-row>`,
       components: {
         'el-col': Col,
-        'el-row': Row,
+        'tw-row': Row,
       },
     }
     const wrapper = mount(TestComponent)
@@ -109,7 +109,7 @@ describe('Col', () => {
 describe('Row', () => {
   test('create', () => {
     const wrapper = mount(Row)
-    expect(wrapper.classes()).toContain('el-row')
+    expect(wrapper.classes()).toContain('tw-row')
   })
 
   test('gutter', () => {

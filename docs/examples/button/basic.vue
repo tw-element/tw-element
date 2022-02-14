@@ -1,40 +1,40 @@
 <template>
-  <el-row class="mb-4">
-    <el-button>Default</el-button>
-    <el-button type="primary">Primary</el-button>
-    <el-button type="success">Success</el-button>
-    <el-button type="info">Info</el-button>
-    <el-button type="warning">Warning</el-button>
-    <el-button type="danger">Danger</el-button>
-    <el-button>中文</el-button>
-  </el-row>
+  <tw-row class="mb-4">
+    <tw-button>Default</tw-button>
+    <tw-button type="primary">Primary</tw-button>
+    <tw-button type="success">Success</tw-button>
+    <tw-button type="info">Info</tw-button>
+    <tw-button type="warning">Warning</tw-button>
+    <tw-button type="danger">Danger</tw-button>
+    <tw-button>中文</tw-button>
+  </tw-row>
 
-  <el-row class="mb-4">
-    <el-button plain>Plain</el-button>
-    <el-button type="primary" plain>Primary</el-button>
-    <el-button type="success" plain>Success</el-button>
-    <el-button type="info" plain>Info</el-button>
-    <el-button type="warning" plain>Warning</el-button>
-    <el-button type="danger" plain>Danger</el-button>
-  </el-row>
+  <tw-row class="mb-4">
+    <tw-button plain>Plain</tw-button>
+    <tw-button type="primary" plain>Primary</tw-button>
+    <tw-button type="success" plain>Success</tw-button>
+    <tw-button type="info" plain>Info</tw-button>
+    <tw-button type="warning" plain>Warning</tw-button>
+    <tw-button type="danger" plain>Danger</tw-button>
+  </tw-row>
 
-  <el-row class="mb-4">
-    <el-button round>Round</el-button>
-    <el-button type="primary" round>Primary</el-button>
-    <el-button type="success" round>Success</el-button>
-    <el-button type="info" round>Info</el-button>
-    <el-button type="warning" round>Warning</el-button>
-    <el-button type="danger" round>Danger</el-button>
-  </el-row>
+  <tw-row class="mb-4">
+    <tw-button round>Round</tw-button>
+    <tw-button type="primary" round>Primary</tw-button>
+    <tw-button type="success" round>Success</tw-button>
+    <tw-button type="info" round>Info</tw-button>
+    <tw-button type="warning" round>Warning</tw-button>
+    <tw-button type="danger" round>Danger</tw-button>
+  </tw-row>
 
-  <el-row>
-    <el-button :icon="Search" circle></el-button>
-    <el-button type="primary" :icon="Edit" circle></el-button>
-    <el-button type="success" :icon="Check" circle></el-button>
-    <el-button type="info" :icon="Message" circle></el-button>
-    <el-button type="warning" :icon="Star" circle></el-button>
-    <el-button type="danger" :icon="Delete" circle></el-button>
-  </el-row>
+  <tw-row>
+    <tw-button :icon="Search" circle></tw-button>
+    <tw-button type="primary" :icon="Edit" circle></tw-button>
+    <tw-button type="success" :icon="Check" circle></tw-button>
+    <tw-button type="info" :icon="Message" circle></tw-button>
+    <tw-button type="warning" :icon="Star" circle></tw-button>
+    <tw-button type="danger" :icon="Delete" circle></tw-button>
+  </tw-row>
 </template>
 
 <script lang="ts" setup>

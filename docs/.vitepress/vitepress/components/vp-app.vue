@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import { TwMessageBox } from 'element-plus'
+import { TwMessageBox } from 'tw-element'
 import nprogress from 'nprogress'
 import dayjs from 'dayjs'
 import { useToggle } from '../composables/toggle'
@@ -58,7 +58,7 @@ onMounted(async () => {
   )
 
   if (lang.value === 'zh-CN') {
-    if (location.host === 'element-plus.gitee.io') return
+    if (location.host === 'tw-element.gitee.io') return
     const userPrefer = window.localStorage.getItem(USER_PREFER_GITHUB_PAGE)
     if (userPrefer) {
       // no alert in the next 90 days
@@ -80,7 +80,7 @@ onMounted(async () => {
         }
       )
       const toLang = '/zh-CN/'
-      location.href = `https://element-plus.gitee.io${toLang}${location.pathname.slice(
+      location.href = `https://tw-element.gitee.io${toLang}${location.pathname.slice(
         toLang.length
       )}`
     } catch {

@@ -1,7 +1,7 @@
 <template>
   <el-badge is-dot class="item">query</el-badge>
   <el-badge is-dot class="item">
-    <el-button class="share-button" :icon="Share" type="primary"></el-button>
+    <tw-button class="share-button" :icon="Share" type="primary"></tw-button>
   </el-badge>
 </template>
 

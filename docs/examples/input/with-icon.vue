@@ -1,6 +1,6 @@
 <template>
   <div class="demo-input-suffix">
-    <el-row :gutter="20">
+    <tw-row :gutter="20">
       <span class="ml-3 w-35 text-gray-600 inline-flex items-center"
         >Using attributes</span
       >
@@ -16,10 +16,10 @@
         placeholder="Type something"
         :prefix-icon="Search"
       />
-    </el-row>
+    </tw-row>
   </div>
   <div class="demo-input-suffix">
-    <el-row :gutter="20">
+    <tw-row :gutter="20">
       <span class="ml-3 w-35 text-gray-600 inline-flex items-center"
         >Using slots</span
       >
@@ -33,7 +33,7 @@
           <el-icon class="el-input__icon"><search /></el-icon>
         </template>
       </el-input>
-    </el-row>
+    </tw-row>
   </div>
 </template>
 

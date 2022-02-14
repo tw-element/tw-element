@@ -11,7 +11,7 @@ describe('Button.vue', () => {
     const wrapper = mount(Button, {
       props: { type: 'primary' },
     })
-    expect(wrapper.classes()).toContain('el-button--primary')
+    expect(wrapper.classes()).toContain('tw-button--primary')
   })
 
   it('icon', () => {
@@ -37,7 +37,7 @@ describe('Button.vue', () => {
     const wrapper = mount(Button, {
       props: { size: 'large' },
     })
-    expect(wrapper.classes()).toContain('el-button--large')
+    expect(wrapper.classes()).toContain('tw-button--large')
   })
   it('plain', () => {
     const wrapper = mount(Button, {
@@ -147,16 +147,16 @@ describe('Button Group', () => {
   it('create', () => {
     const wrapper = mount({
       template: `
-        <el-button-group>
-        <el-button type="primary">Prev</el-button>
-        <el-button type="primary">Next</el-button>
-        </el-button-group>`,
+        <tw-button-group>
+        <tw-button type="primary">Prev</tw-button>
+        <tw-button type="primary">Next</tw-button>
+        </tw-button-group>`,
       components: {
-        'el-button-group': ButtonGroup,
-        'el-button': Button,
+        'tw-button-group': ButtonGroup,
+        'tw-button': Button,
       },
     })
-    expect(wrapper.classes()).toContain('el-button-group')
+    expect(wrapper.classes()).toContain('tw-button-group')
     expect(wrapper.findAll('button').length).toBe(2)
   })
 
@@ -171,16 +171,16 @@ describe('Button Group', () => {
           ])
       },
     })
-    expect(wrapper.classes()).toContain('el-button-group')
+    expect(wrapper.classes()).toContain('tw-button-group')
     expect(
-      wrapper.findAll('.el-button-group button.el-button--small').length
+      wrapper.findAll('.tw-button-group button.tw-button--small').length
     ).toBe(2)
 
     size.value = 'large'
     await nextTick()
 
     expect(
-      wrapper.findAll('.el-button-group button.el-button--large').length
+      wrapper.findAll('.tw-button-group button.tw-button--large').length
     ).toBe(2)
   })
 
@@ -194,12 +194,12 @@ describe('Button Group', () => {
           ])
       },
     })
-    expect(wrapper.classes()).toContain('el-button-group')
+    expect(wrapper.classes()).toContain('tw-button-group')
     expect(
-      wrapper.findAll('.el-button-group button.el-button--primary').length
+      wrapper.findAll('.tw-button-group button.tw-button--primary').length
     ).toBe(1)
     expect(
-      wrapper.findAll('.el-button-group button.el-button--warning').length
+      wrapper.findAll('.tw-button-group button.tw-button--warning').length
     ).toBe(1)
   })
 
@@ -212,9 +212,9 @@ describe('Button Group', () => {
         autoInsertSpace: true,
       },
     })
-    expect(wrapper.find('.el-button span').text()).toBe('中文')
-    expect(wrapper.find('.el-button span').classes()).toContain(
-      'el-button__text--expand'
+    expect(wrapper.find('.tw-button span').text()).toBe('中文')
+    expect(wrapper.find('.tw-button span').classes()).toContain(
+      'tw-button__text--expand'
     )
   })
 })

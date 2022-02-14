@@ -1,6 +1,6 @@
 <template>
-  <el-row>
-    <el-button color="#626aef" style="color: white">Custom</el-button>
-    <el-button color="#626aef" plain>Custom</el-button>
-  </el-row>
+  <tw-row>
+    <tw-button color="#626aef" style="color: white">Custom</tw-button>
+    <tw-button color="#626aef" plain>Custom</tw-button>
+  </tw-row>
 </template>

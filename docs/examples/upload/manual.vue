@@ -6,10 +6,10 @@
     :auto-upload="false"
   >
     <template #trigger>
-      <el-button type="primary">select file</el-button>
+      <tw-button type="primary">select file</tw-button>
     </template>
-    <el-button class="ml-3" type="success" @click="submitUpload"
-      >upload to server</el-button
+    <tw-button class="ml-3" type="success" @click="submitUpload"
+      >upload to server</tw-button
     >
     <template #tip>
       <div class="el-upload__tip">

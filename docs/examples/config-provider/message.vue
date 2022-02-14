@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-config-provider :message="config">
-      <el-button @click="open">open</el-button>
+      <tw-button @click="open">open</tw-button>
     </el-config-provider>
   </div>
 </template>

@@ -1,5 +1,5 @@
 {
-  "cSpell.words": ["Element Plus", "element-plus"],
+  "cSpell.words": ["Tw Element", "tw-element"],
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true

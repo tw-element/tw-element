@@ -94,7 +94,7 @@
             </div>
           </div>
           <div class="el-message-box__btns">
-            <el-button
+            <tw-button
               v-if="showCancTwButton"
               :loading="cancTwButtonLoading"
               :class="[cancTwButtonClass]"
@@ -104,8 +104,8 @@
               @keydown.prevent.enter="handleAction('cancel')"
             >
               {{ cancTwButtonText || t('el.messagebox.cancel') }}
-            </el-button>
-            <el-button
+            </tw-button>
+            <tw-button
               v-show="showConfirmButton"
               ref="confirmRef"
               type="primary"
@@ -118,7 +118,7 @@
               @keydown.prevent.enter="handleAction('confirm')"
             >
               {{ confirmButtonText || t('el.messagebox.confirm') }}
-            </el-button>
+            </tw-button>
           </div>
         </div>
       </div>

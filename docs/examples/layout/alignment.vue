@@ -1,36 +1,36 @@
 <template>
-  <el-row class="row-bg">
+  <tw-row class="row-bg">
     <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
     <el-col :span="6"><div class="grid-content bg-purple-light"></div></el-col>
     <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
-  </el-row>
-  <el-row class="row-bg" justify="center">
+  </tw-row>
+  <tw-row class="row-bg" justify="center">
     <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
     <el-col :span="6"><div class="grid-content bg-purple-light"></div></el-col>
     <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
-  </el-row>
-  <el-row class="row-bg" justify="end">
+  </tw-row>
+  <tw-row class="row-bg" justify="end">
     <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
     <el-col :span="6"><div class="grid-content bg-purple-light"></div></el-col>
     <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
-  </el-row>
-  <el-row class="row-bg" justify="space-between">
+  </tw-row>
+  <tw-row class="row-bg" justify="space-between">
     <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
     <el-col :span="6"><div class="grid-content bg-purple-light"></div></el-col>
     <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
-  </el-row>
-  <el-row class="row-bg" justify="space-around">
+  </tw-row>
+  <tw-row class="row-bg" justify="space-around">
     <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
     <el-col :span="6"><div class="grid-content bg-purple-light"></div></el-col>
     <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
-  </el-row>
+  </tw-row>
 </template>
 
 <style>
-.el-row {
+.tw-row {
   margin-bottom: 20px;
 }
-.el-row:last-child {
+.tw-row:last-child {
   margin-bottom: 0;
 }
 .el-col {

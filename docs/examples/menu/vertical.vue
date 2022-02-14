@@ -1,5 +1,5 @@
 <template>
-  <el-row class="tac">
+  <tw-row class="tac">
     <el-col :span="12">
       <h5 class="mb-2">Default colors</h5>
       <el-menu
@@ -81,7 +81,7 @@
         </el-menu-item>
       </el-menu>
     </el-col>
-  </el-row>
+  </tw-row>
 </template>
 
 <script lang="ts" setup>

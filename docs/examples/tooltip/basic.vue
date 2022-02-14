@@ -7,7 +7,7 @@
         content="Top Left prompts info"
         placement="top-start"
       >
-        <el-button>top-start</el-button>
+        <tw-button>top-start</tw-button>
       </el-tooltip>
       <el-tooltip
         class="box-item"
@@ -15,7 +15,7 @@
         content="Top Center prompts info"
         placement="top"
       >
-        <el-button>top</el-button>
+        <tw-button>top</tw-button>
       </el-tooltip>
       <el-tooltip
         class="box-item"
@@ -23,7 +23,7 @@
         content="Top Right prompts info"
         placement="top-end"
       >
-        <el-button>top-end</el-button>
+        <tw-button>top-end</tw-button>
       </el-tooltip>
     </div>
     <div class="row">
@@ -33,7 +33,7 @@
         content="Left Top prompts info"
         placement="left-start"
       >
-        <el-button>left-start</el-button>
+        <tw-button>left-start</tw-button>
       </el-tooltip>
       <el-tooltip
         class="box-item"
@@ -41,7 +41,7 @@
         content="Right Top prompts info"
         placement="right-start"
       >
-        <el-button>right-start</el-button>
+        <tw-button>right-start</tw-button>
       </el-tooltip>
     </div>
     <div class="row">
@@ -51,7 +51,7 @@
         content="Left Center prompts info"
         placement="left"
       >
-        <el-button class="mt-3 mb-3">left</el-button>
+        <tw-button class="mt-3 mb-3">left</tw-button>
       </el-tooltip>
       <el-tooltip
         class="box-item"
@@ -59,7 +59,7 @@
         content="Right Center prompts info"
         placement="right"
       >
-        <el-button>right</el-button>
+        <tw-button>right</tw-button>
       </el-tooltip>
     </div>
     <div class="row">
@@ -69,7 +69,7 @@
         content="Left Bottom prompts info"
         placement="left-end"
       >
-        <el-button>left-end</el-button>
+        <tw-button>left-end</tw-button>
       </el-tooltip>
       <el-tooltip
         class="box-item"
@@ -77,7 +77,7 @@
         content="Right Bottom prompts info"
         placement="right-end"
       >
-        <el-button>right-end</el-button>
+        <tw-button>right-end</tw-button>
       </el-tooltip>
     </div>
     <div class="row center">
@@ -87,7 +87,7 @@
         content="Bottom Left prompts info"
         placement="bottom-start"
       >
-        <el-button>bottom-start</el-button>
+        <tw-button>bottom-start</tw-button>
       </el-tooltip>
       <el-tooltip
         class="box-item"
@@ -95,7 +95,7 @@
         content="Bottom Center prompts info"
         placement="bottom"
       >
-        <el-button>bottom</el-button>
+        <tw-button>bottom</tw-button>
       </el-tooltip>
       <el-tooltip
         class="box-item"
@@ -103,7 +103,7 @@
         content="Bottom Right prompts info"
         placement="bottom-end"
       >
-        <el-button>bottom-end</el-button>
+        <tw-button>bottom-end</tw-button>
       </el-tooltip>
     </div>
   </div>

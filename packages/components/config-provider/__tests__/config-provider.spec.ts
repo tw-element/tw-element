@@ -108,18 +108,18 @@ describe('config-provider', () => {
         },
         template: `
           <el-config-provider :button="config">
-            <el-button>中文</el-button>
+            <tw-button>中文</tw-button>
           </el-config-provider>
           <button class="toggle" @click="config.autoInsertSpace = !config.autoInsertSpace">toggle</button>
         `,
       })
       await nextTick()
       expect(
-        wrapper.find('.el-button .el-button__text--expand').exists()
+        wrapper.find('.tw-button .tw-button__text--expand').exists()
       ).toBeTruthy()
       await wrapper.find('.toggle').trigger('click')
       expect(
-        wrapper.find('.el-button .el-button__text--expand').exists()
+        wrapper.find('.tw-button .tw-button__text--expand').exists()
       ).toBeFalsy()
     })
   })
@@ -139,13 +139,13 @@ describe('config-provider', () => {
         },
         template: `
           <el-config-provider :namespace="namespace">
-            <el-button>test str</el-button>
+            <tw-button>test str</tw-button>
           </el-config-provider>
         `,
       })
       await nextTick()
       expect(wrapper.find('button').classes().join('')).toBe(
-        'el-button' + 'el-button--default'
+        'tw-button' + 'tw-button--default'
       )
       wrapper.vm.namespace = 'ep'
       await nextTick()
@@ -176,24 +176,24 @@ describe('config-provider', () => {
         },
         template: `
           <el-config-provider :message="config">
-            <el-button @click="open">open</el-button>
+            <tw-button @click="open">open</tw-button>
           </el-config-provider>
         `,
       })
       await nextTick()
-      wrapper.find('.el-button').trigger('click')
-      wrapper.find('.el-button').trigger('click')
-      wrapper.find('.el-button').trigger('click')
-      wrapper.find('.el-button').trigger('click')
+      wrapper.find('.tw-button').trigger('click')
+      wrapper.find('.tw-button').trigger('click')
+      wrapper.find('.tw-button').trigger('click')
+      wrapper.find('.tw-button').trigger('click')
       await nextTick()
       expect(document.querySelectorAll('.el-message').length).toBe(3)
 
       wrapper.vm.config.max = 10
       await nextTick()
-      wrapper.find('.el-button').trigger('click')
-      wrapper.find('.el-button').trigger('click')
-      wrapper.find('.el-button').trigger('click')
-      wrapper.find('.el-button').trigger('click')
+      wrapper.find('.tw-button').trigger('click')
+      wrapper.find('.tw-button').trigger('click')
+      wrapper.find('.tw-button').trigger('click')
+      wrapper.find('.tw-button').trigger('click')
       await nextTick()
       expect(document.querySelectorAll('.el-message').length).toBe(7)
     })
@@ -223,16 +223,16 @@ describe('config-provider', () => {
         template: `
           <el-config-provider :message="config">
             <el-config-provider :message="overrideConfig">
-              <el-button @click="open">open</el-button>
+              <tw-button @click="open">open</tw-button>
             </el-config-provider>
           </el-config-provider>
         `,
       })
       jest.runAllTimers()
       await rAF()
-      wrapper.find('.el-button').trigger('click')
-      wrapper.find('.el-button').trigger('click')
-      wrapper.find('.el-button').trigger('click')
+      wrapper.find('.tw-button').trigger('click')
+      wrapper.find('.tw-button').trigger('click')
+      wrapper.find('.tw-button').trigger('click')
       await nextTick()
       expect(document.querySelectorAll('.el-message').length).toBe(1)
     })

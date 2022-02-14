@@ -1,5 +1,5 @@
 <template>
-  <el-row :gutter="12">
+  <tw-row :gutter="12">
     <el-col :span="10" :xs="{ span: 12 }">
       <div class="demo-color-box" :style="{ background: primary }">
         Brand Color
@@ -17,7 +17,7 @@
         </div>
       </div>
     </el-col>
-  </el-row>
+  </tw-row>
 </template>
 
 <script lang="ts">

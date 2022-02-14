@@ -110,7 +110,7 @@ And refer to the [docs](https://github.com/element-plus/unplugin-element-plus#re
 
 ```html
 <template>
-  <el-button>I am TwButton</el-button>
+  <tw-button>I am TwButton</tw-button>
 </template>
 <script>
   import { TwButton } from 'element-plus'

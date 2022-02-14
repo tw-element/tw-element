@@ -1,9 +1,9 @@
 <template>
-  <el-button type="text" @click="table = true"
-    >Open Drawer with nested table</el-button
+  <tw-button type="text" @click="table = true"
+    >Open Drawer with nested table</tw-button
   >
-  <el-button type="text" @click="dialog = true"
-    >Open Drawer with nested form</el-button
+  <tw-button type="text" @click="dialog = true"
+    >Open Drawer with nested form</tw-button
   >
   <el-drawer
     v-model="table"
@@ -50,10 +50,10 @@
         </el-form-item>
       </el-form>
       <div class="demo-drawer__footer">
-        <el-button @click="cancTwForm">Cancel</el-button>
-        <el-button type="primary" :loading="loading" @click="onClick">{{
+        <tw-button @click="cancTwForm">Cancel</tw-button>
+        <tw-button type="primary" :loading="loading" @click="onClick">{{
           loading ? 'Submitting ...' : 'Submit'
-        }}</el-button>
+        }}</tw-button>
       </div>
     </div>
   </el-drawer>

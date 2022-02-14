@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-button @click="show = !show">Click Me</el-button>
+    <tw-button @click="show = !show">Click Me</tw-button>
 
     <div style="margin-top: 20px; height: 200px">
       <el-collapse-transition>

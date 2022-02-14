@@ -7,10 +7,10 @@
     <el-progress :percentage="percentage" :color="customColors" />
     <el-progress :percentage="percentage" :color="customColors" />
     <div>
-      <el-button-group>
-        <el-button :icon="Minus" @click="decrease" />
-        <el-button :icon="Plus" @click="increase" />
-      </el-button-group>
+      <tw-button-group>
+        <tw-button :icon="Minus" @click="decrease" />
+        <tw-button :icon="Plus" @click="increase" />
+      </tw-button-group>
     </div>
   </div>
 </template>

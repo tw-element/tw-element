@@ -194,12 +194,12 @@ useEventListener(window, 'scroll', handleScroll)
         <el-tooltip placement="top" :hide-after="1000" :offset="20">
           <template #content>
             {{ homeLang['21'] }}
-            <a href="mailto:element-plus@outlook.com" target="_blank">
-              &nbsp;element-plus@outlook.com
+            <a href="mailto:tw-element@outlook.com" target="_blank">
+              &nbsp;tw-element@outlook.com
             </a>
           </template>
-          <a href="mailto:element-plus@outlook.com" target="_blank">
-            <el-button round>{{ homeLang['20'] }}</el-button>
+          <a href="mailto:tw-element@outlook.com" target="_blank">
+            <tw-button round>{{ homeLang['20'] }}</tw-button>
           </a>
         </el-tooltip>
       </div>
@@ -239,14 +239,14 @@ useEventListener(window, 'scroll', handleScroll)
     <div class="footer-main">
       <h4>{{ homeLang['10'] }}</h4>
       <a
-        href="https://github.com/element-plus/element-plus"
+        href="https://github.com/tw-element/tw-element"
         class="footer-main-link"
         target="_blank"
       >
         {{ homeLang['11'] }}
       </a>
       <a
-        href="https://github.com/element-plus/element-plus/releases"
+        href="https://github.com/tw-element/tw-element/releases"
         class="footer-main-link"
         target="_blank"
       >
@@ -278,21 +278,21 @@ useEventListener(window, 'scroll', handleScroll)
         {{ homeLang['15'] }}
       </a>
       <a
-        href="https://github.com/element-plus/element-plus/issues"
+        href="https://github.com/tw-element/tw-element/issues"
         class="footer-main-link"
         target="_blank"
       >
         {{ homeLang['16'] }}
       </a>
       <a
-        href="https://github.com/element-plus/element-plus/blob/dev/.github/CONTRIBUTING.en-US.md"
+        href="https://github.com/tw-element/tw-element/blob/dev/.github/CONTRIBUTING.en-US.md"
         class="footer-main-link"
         target="_blank"
       >
         {{ homeLang['17'] }}
       </a>
       <a
-        href="https://segmentfault.com/t/element-plus"
+        href="https://segmentfault.com/t/tw-element"
         class="footer-main-link"
         target="_blank"
       >

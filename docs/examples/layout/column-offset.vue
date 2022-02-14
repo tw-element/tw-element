@@ -1,30 +1,30 @@
 <template>
-  <el-row :gutter="20">
+  <tw-row :gutter="20">
     <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
     <el-col :span="6" :offset="6"
       ><div class="grid-content bg-purple"></div
     ></el-col>
-  </el-row>
-  <el-row :gutter="20">
+  </tw-row>
+  <tw-row :gutter="20">
     <el-col :span="6" :offset="6"
       ><div class="grid-content bg-purple"></div
     ></el-col>
     <el-col :span="6" :offset="6"
       ><div class="grid-content bg-purple"></div
     ></el-col>
-  </el-row>
-  <el-row :gutter="20">
+  </tw-row>
+  <tw-row :gutter="20">
     <el-col :span="12" :offset="6"
       ><div class="grid-content bg-purple"></div
     ></el-col>
-  </el-row>
+  </tw-row>
 </template>
 
 <style>
-.el-row {
+.tw-row {
   margin-bottom: 20px;
 }
-.el-row:last-child {
+.tw-row:last-child {
   margin-bottom: 0;
 }
 .el-col {

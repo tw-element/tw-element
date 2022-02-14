@@ -8,10 +8,10 @@
     <el-table-column prop="zip" label="Zip" width="120" />
     <el-table-column fixed="right" label="Operations" width="120">
       <template #default>
-        <el-button type="text" size="small" @click="handleClick"
-          >Detail</el-button
+        <tw-button type="text" size="small" @click="handleClick"
+          >Detail</tw-button
         >
-        <el-button type="text" size="small">Edit</el-button>
+        <tw-button type="text" size="small">Edit</tw-button>
       </template>
     </el-table-column>
   </el-table>

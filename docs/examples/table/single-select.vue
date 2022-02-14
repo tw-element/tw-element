@@ -12,8 +12,8 @@
     <el-table-column property="address" label="Address" />
   </el-table>
   <div style="margin-top: 20px">
-    <el-button @click="setCurrent(tableData[1])">Select second row</el-button>
-    <el-button @click="setCurrent()">Clear selection</el-button>
+    <tw-button @click="setCurrent(tableData[1])">Select second row</tw-button>
+    <tw-button @click="setCurrent()">Clear selection</tw-button>
   </div>
 </template>
 

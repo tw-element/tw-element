@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-wrap items-center">
     <el-dropdown>
-      <el-button type="primary">
+      <tw-button type="primary">
         Dropdown List<el-icon class="el-icon--right"><arrow-down /></el-icon>
-      </el-button>
+      </tw-button>
       <template #dropdown>
         <el-dropdown-menu>
           <el-dropdown-item>Action 1</el-dropdown-item>

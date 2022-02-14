@@ -9,7 +9,7 @@
   >
     <el-space>
       string
-      <el-button> button </el-button>
+      <tw-button> button </tw-button>
       <el-card>
         <template #header> header </template>
         body
@@ -26,7 +26,7 @@
   >
     <el-space alignment="flex-start">
       string
-      <el-button> button </el-button>
+      <tw-button> button </tw-button>
       <el-card>
         <template #header> header </template>
         body
@@ -43,7 +43,7 @@
   >
     <el-space alignment="flex-end">
       string
-      <el-button> button </el-button>
+      <tw-button> button </tw-button>
       <el-card>
         <template #header> header </template>
         body

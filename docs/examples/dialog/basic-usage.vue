@@ -1,6 +1,6 @@
 <template>
-  <el-button type="text" @click="dialogVisible = true"
-    >click to open the Dialog</el-button
+  <tw-button type="text" @click="dialogVisible = true"
+    >click to open the Dialog</tw-button
   >
 
   <el-dialog
@@ -12,9 +12,9 @@
     <span>This is a message</span>
     <template #footer>
       <span class="dialog-footer">
-        <el-button @click="dialogVisible = false">Cancel</el-button>
-        <el-button type="primary" @click="dialogVisible = false"
-          >Confirm</el-button
+        <tw-button @click="dialogVisible = false">Cancel</tw-button>
+        <tw-button type="primary" @click="dialogVisible = false"
+          >Confirm</tw-button
         >
       </span>
     </template>

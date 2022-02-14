@@ -1,6 +1,6 @@
 <template>
-  <el-button @click="resetDateFilter">reset date filter</el-button>
-  <el-button @click="clearFilter">reset all filters</el-button>
+  <tw-button @click="resetDateFilter">reset date filter</tw-button>
+  <tw-button @click="clearFilter">reset all filters</tw-button>
   <el-table ref="tableRef" row-key="date" :data="tableData" style="width: 100%">
     <el-table-column
       prop="date"

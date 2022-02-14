@@ -3,9 +3,9 @@
     <template #content>
       <span>Content</span>
     </template>
-    <el-button @mouseenter="visible = true" @mouseleave="visible = false">
+    <tw-button @mouseenter="visible = true" @mouseleave="visible = false">
       Hover me
-    </el-button>
+    </tw-button>
   </el-tooltip>
 </template>
 

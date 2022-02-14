@@ -1,2 +1,2 @@
 import '@tw-element/components/base/style/css'
-import '@tw-element/theme-chalk/el-button-group.css'
+import '@tw-element/theme-chalk/tw-button-group.css'

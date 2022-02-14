@@ -23,7 +23,7 @@
         </el-select>
       </template>
       <template #append>
-        <el-button :icon="Search"></el-button>
+        <tw-button :icon="Search"></tw-button>
       </template>
     </el-input>
   </div>

@@ -16,7 +16,7 @@
       <slot name="left-footer"></slot>
     </transfer-panel>
     <div :class="ns.e('buttons')">
-      <el-button
+      <tw-button
         type="primary"
         :class="[ns.e('button'), ns.is('with-texts', hasButtonTexts)]"
         :disabled="rightChecked.length === 0"
@@ -24,8 +24,8 @@
       >
         <el-icon><arrow-left /></el-icon>
         <span v-if="buttonTexts[0] !== undefined">{{ buttonTexts[0] }}</span>
-      </el-button>
-      <el-button
+      </tw-button>
+      <tw-button
         type="primary"
         :class="[ns.e('button'), ns.is('with-texts', hasButtonTexts)]"
         :disabled="leftChecked.length === 0"
@@ -33,7 +33,7 @@
       >
         <span v-if="buttonTexts[1] !== undefined">{{ buttonTexts[1] }}</span>
         <el-icon><arrow-right /></el-icon>
-      </el-button>
+      </tw-button>
     </div>
     <transfer-panel
       ref="rightPanel"
@@ -64,12 +64,12 @@ import {
   toRefs,
   watch,
 } from 'vue'
+import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
 import TwButton from '@tw-element/components/button'
 import TwIcon from '@tw-element/components/icon'
 import { twFormItemKey } from '@tw-element/tokens'
 import { UPDATE_MODEL_EVENT } from '@tw-element/constants'
 import { useLocale, useNamespace } from '@tw-element/hooks'
-import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
 import TransferPanel from './transfer-panel.vue'
 import { useComputedData } from './useComputedData'
 import {

@@ -165,7 +165,7 @@ describe('Calendar.vue', () => {
       () => ({ value: new Date('2019-04-01') })
     )
     await nextTick()
-    const btns = wrapper.findAll('.el-button')
+    const btns = wrapper.findAll('.tw-button')
     const prevBtn = btns.at(0)
     const nextBtn = btns.at(2)
     await prevBtn.trigger('click')

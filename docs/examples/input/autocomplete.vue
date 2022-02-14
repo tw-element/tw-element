@@ -1,5 +1,5 @@
 <template>
-  <el-row class="demo-autocomplete text-center">
+  <tw-row class="demo-autocomplete text-center">
     <el-col :span="12">
       <div class="sub-title my-2 text-sm text-gray-600">
         list suggestions when activated
@@ -25,7 +25,7 @@
         @select="handleSelect"
       />
     </el-col>
-  </el-row>
+  </tw-row>
 </template>
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue'

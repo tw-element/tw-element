@@ -1,5 +1,5 @@
 <template>
-  <el-row :gutter="12" class="demo-radius">
+  <tw-row :gutter="12" class="demo-radius">
     <el-col
       v-for="(radius, i) in radiusGroup"
       :key="i"
@@ -19,7 +19,7 @@
         }"
       ></div>
     </el-col>
-  </el-row>
+  </tw-row>
 </template>
 
 <script lang="ts" setup>

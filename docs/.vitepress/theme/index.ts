@@ -1,4 +1,4 @@
-import ElementPlus from 'element-plus'
+import TwElement from 'tw-element'
 
 // windicss layers
 import 'virtual:windi-base.css'
@@ -18,7 +18,7 @@ export default define<Theme>({
   NotFound,
   Layout: VPApp,
   enhanceApp: ({ app }) => {
-    app.use(ElementPlus)
+    app.use(TwElement)
 
     globals.forEach(([name, Comp]) => {
       app.component(name, Comp)

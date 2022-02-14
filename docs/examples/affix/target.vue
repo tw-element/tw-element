@@ -1,7 +1,7 @@
 <template>
   <div class="affix-container">
     <el-affix target=".affix-container" :offset="80">
-      <el-button type="primary">Target container</el-button>
+      <tw-button type="primary">Target container</tw-button>
     </el-affix>
   </div>
 </template>

@@ -816,7 +816,7 @@ describe('Tree.vue', () => {
         methods: {
           renderContent(h, node) {
             return h('div', { class: 'custom-content' }, [
-              h('button', { class: 'el-button' }, [node.node.label]),
+              h('button', { class: 'tw-button' }, [node.node.label]),
             ])
           },
         },
@@ -857,7 +857,7 @@ describe('Tree.vue', () => {
       methods: {
         renderContent(h, node) {
           return h('div', { class: 'custom-content' }, [
-            h('button', { class: 'el-button' }, [node.node.label]),
+            h('button', { class: 'tw-button' }, [node.node.label]),
           ])
         },
       },

@@ -13,10 +13,10 @@
     <el-table-column property="address" label="Address" show-overflow-tooltip />
   </el-table>
   <div style="margin-top: 20px">
-    <el-button @click="toggleSelection([tableData[1], tableData[2]])"
-      >Toggle selection status of second and third rows</el-button
+    <tw-button @click="toggleSelection([tableData[1], tableData[2]])"
+      >Toggle selection status of second and third rows</tw-button
     >
-    <el-button @click="toggleSelection()">Clear selection</el-button>
+    <tw-button @click="toggleSelection()">Clear selection</tw-button>
   </div>
 </template>
 

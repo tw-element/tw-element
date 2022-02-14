@@ -68,8 +68,8 @@
       </el-radio-group>
     </el-form-item>
     <el-form-item>
-      <el-button type="primary" @click="onSubmit">Create</el-button>
-      <el-button>Cancel</el-button>
+      <tw-button type="primary" @click="onSubmit">Create</tw-button>
+      <tw-button>Cancel</tw-button>
     </el-form-item>
   </el-form>
 </template>

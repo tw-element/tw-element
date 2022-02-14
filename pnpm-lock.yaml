@@ -182,12 +182,12 @@ importers:
       axios: 0.25.0
       clipboard-copy: 4.0.1
       cross-env: 7.0.3
-      element-plus: npm:element-plus@latest
       escape-html: 1.0.3
       markdown-it: 12.3.2
       markdown-it-container: 3.0.0
       normalize.css: 8.0.1
       nprogress: 0.2.0
+      tw-element: npm:tw-element@latest
       unplugin-icons: 0.13.1
       unplugin-vue-components: 0.17.18
       vite: 2.8.1
@@ -200,9 +200,9 @@ importers:
       '@vueuse/core': registry.npmmirror.com/@vueuse/core/7.6.1_vue@3.2.30
       axios: registry.npmmirror.com/axios/0.25.0
       clipboard-copy: registry.npmmirror.com/clipboard-copy/4.0.1
-      element-plus: registry.npmmirror.com/element-plus/2.0.1_vue@3.2.30
       normalize.css: registry.npmmirror.com/normalize.css/8.0.1
       nprogress: registry.npmmirror.com/nprogress/0.2.0
+      tw-element: link:../packages/tw-element
     devDependencies:
       '@crowdin/cli': registry.npmmirror.com/@crowdin/cli/3.7.7
       '@iconify-json/ri': registry.npmmirror.com/@iconify-json/ri/1.0.2
@@ -6611,28 +6611,6 @@ packages:
     name: electron-to-chromium
     version: 1.4.68
     dev: true
-
-  registry.npmmirror.com/element-plus/2.0.1_vue@3.2.30:
-    resolution: {integrity: sha512-Cdx3JhbMNGwVsU12DUewIltJ1hUYVSgx2iBB8AuNzzOxAqcxSA9e7p2lfNp8oCBQeh4ThRSaOkdLnJyO4mS3qQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/element-plus/-/element-plus-2.0.1.tgz}
-    id: registry.npmmirror.com/element-plus/2.0.1
-    name: element-plus
-    version: 2.0.1
-    peerDependencies:
-      vue: ^3.2.0
-    dependencies:
-      '@ctrl/tinycolor': registry.npmmirror.com/@ctrl/tinycolor/3.4.0
-      '@element-plus/icons-vue': registry.npmmirror.com/@element-plus/icons-vue/0.2.7_vue@3.2.30
-      '@popperjs/core': registry.npmmirror.com/@popperjs/core/2.11.2
-      '@vueuse/core': registry.npmmirror.com/@vueuse/core/7.6.1_vue@3.2.30
-      async-validator: registry.npmmirror.com/async-validator/4.0.7
-      dayjs: registry.npmmirror.com/dayjs/1.10.7
-      lodash: registry.npmmirror.com/lodash/4.17.21
-      memoize-one: registry.npmmirror.com/memoize-one/6.0.0
-      normalize-wheel-es: registry.npmmirror.com/normalize-wheel-es/1.1.1
-      vue: registry.npmmirror.com/vue/3.2.30
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-    dev: false
 
   registry.npmmirror.com/emittery/0.7.2:
     resolution: {integrity: sha512-A8OG5SR/ij3SsJdWDJdkkSYUjQdCUx6APQXem0SaEePBSRg4eymGYwBkKo1Y6DU+af/Jn2dBQqDBvjnr9Vi8nQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/emittery/-/emittery-0.7.2.tgz}

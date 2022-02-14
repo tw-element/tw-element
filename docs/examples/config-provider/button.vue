@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-config-provider :button="config">
-      <el-button>中文</el-button>
+      <tw-button>中文</tw-button>
     </el-config-provider>
     <div>
       <el-checkbox v-model="config.autoInsertSpace"

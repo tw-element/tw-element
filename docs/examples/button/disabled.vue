@@ -1,21 +1,21 @@
 <template>
-  <el-row class="mb-4">
-    <el-button disabled>Default</el-button>
-    <el-button type="primary" disabled>Primary</el-button>
-    <el-button type="success" disabled>Success</el-button>
-    <el-button type="info" disabled>Info</el-button>
-    <el-button type="warning" disabled>Warning</el-button>
-    <el-button type="danger" disabled>Danger</el-button>
-  </el-row>
+  <tw-row class="mb-4">
+    <tw-button disabled>Default</tw-button>
+    <tw-button type="primary" disabled>Primary</tw-button>
+    <tw-button type="success" disabled>Success</tw-button>
+    <tw-button type="info" disabled>Info</tw-button>
+    <tw-button type="warning" disabled>Warning</tw-button>
+    <tw-button type="danger" disabled>Danger</tw-button>
+  </tw-row>
 
-  <el-row>
-    <el-button plain disabled>Plain</el-button>
-    <el-button type="primary" plain disabled>Primary</el-button>
-    <el-button type="success" plain disabled>Success</el-button>
-    <el-button type="info" plain disabled>Info</el-button>
-    <el-button type="warning" plain disabled>Warning</el-button>
-    <el-button type="danger" plain disabled>Danger</el-button>
-  </el-row>
+  <tw-row>
+    <tw-button plain disabled>Plain</tw-button>
+    <tw-button type="primary" plain disabled>Primary</tw-button>
+    <tw-button type="success" plain disabled>Success</tw-button>
+    <tw-button type="info" plain disabled>Info</tw-button>
+    <tw-button type="warning" plain disabled>Warning</tw-button>
+    <tw-button type="danger" plain disabled>Danger</tw-button>
+  </tw-row>
 </template>
 
 <style>

@@ -40,12 +40,12 @@ so you need to use an alias in order to render the icon, if you register `Menu` 
 :::
 
 ```vue
-<!-- Use el-icon to provide attributes to SVG icon -->
+<!-- Use tw-icon to provide attributes to SVG icon -->
 <template>
   <div>
-    <el-icon :size="size" :color="color">
+    <tw-icon :size="size" :color="color">
       <edit></edit>
-    </el-icon>
+    </tw-icon>
     <!-- Or use it independently without derive attributes from parent -->
     <edit></edit>
   </div>
@@ -65,9 +65,9 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
   </div>
 </TwRow>
 
-## Combined with el-icon
+## Combined with tw-icon
 
-`el-icon` provides extra attributes for raw SVG icon, for more detail, please read to the end.
+`tw-icon` provides extra attributes for raw SVG icon, for more detail, please read to the end.
 
 ```vue
 <template>
@@ -75,24 +75,24 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
     with extra class <b>is-loading</b>, your icon is able to rotate 360 deg in 2
     seconds, you can also override this
   </p>
-  <el-icon :size="20">
+  <tw-icon :size="20">
     <edit />
-  </el-icon>
-  <el-icon color="#409EFC" class="no-inherit">
+  </tw-icon>
+  <tw-icon color="#409EFC" class="no-inherit">
     <share />
-  </el-icon>
-  <el-icon>
+  </tw-icon>
+  <tw-icon>
     <delete />
-  </el-icon>
-  <el-icon class="is-loading">
+  </tw-icon>
+  <tw-icon class="is-loading">
     <loading />
-  </el-icon>
-  <el-button type="primary">
-    <el-icon style="vertical-align: middle;">
+  </tw-icon>
+  <tw-button type="primary">
+    <tw-icon style="vertical-align: middle;">
       <search />
-    </el-icon>
+    </tw-icon>
     <span style="vertical-align: middle;"> Search </span>
-  </el-button>
+  </tw-button>
 </template>
 ```
 

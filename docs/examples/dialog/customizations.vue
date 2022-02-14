@@ -1,6 +1,6 @@
 <template>
-  <el-button type="text" @click="dialogTableVisible = true"
-    >open a Table nested Dialog</el-button
+  <tw-button type="text" @click="dialogTableVisible = true"
+    >open a Table nested Dialog</tw-button
   >
 
   <el-dialog v-model="dialogTableVisible" title="Shipping address">
@@ -20,8 +20,8 @@
   </el-dialog>
 
   <!-- Form -->
-  <el-button type="text" @click="dialogFormVisible = true"
-    >open a Form nested Dialog</el-button
+  <tw-button type="text" @click="dialogFormVisible = true"
+    >open a Form nested Dialog</tw-button
   >
 
   <el-dialog v-model="dialogFormVisible" title="Shipping address">
@@ -38,9 +38,9 @@
     </el-form>
     <template #footer>
       <span class="dialog-footer">
-        <el-button @click="dialogFormVisible = false">Cancel</el-button>
-        <el-button type="primary" @click="dialogFormVisible = false"
-          >Confirm</el-button
+        <tw-button @click="dialogFormVisible = false">Cancel</tw-button>
+        <tw-button type="primary" @click="dialogFormVisible = false"
+          >Confirm</tw-button
         >
       </span>
     </template>
@@ -89,7 +89,7 @@ const gridData = [
 ]
 </script>
 <style scoped>
-.el-button--text {
+.tw-button--text {
   margin-right: 15px;
 }
 .el-select {

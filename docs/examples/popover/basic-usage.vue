@@ -7,7 +7,7 @@
     content="this is content, this is content, this is content"
   >
     <template #reference>
-      <el-button>Hover to activate</el-button>
+      <tw-button>Hover to activate</tw-button>
     </template>
   </el-popover>
 
@@ -19,7 +19,7 @@
     content="this is content, this is content, this is content"
   >
     <template #reference>
-      <el-button>Click to activate</el-button>
+      <tw-button>Click to activate</tw-button>
     </template>
   </el-popover>
 
@@ -32,7 +32,7 @@
     content="this is content, this is content, this is content"
   >
     <template #reference>
-      <el-button>Focus to activate</el-button>
+      <tw-button>Focus to activate</tw-button>
     </template>
   </el-popover>
 
@@ -44,7 +44,7 @@
     content="this is content, this is content, this is content"
   >
     <template #reference>
-      <el-button @click="visible = !visible">Manual to activate</el-button>
+      <tw-button @click="visible = !visible">Manual to activate</tw-button>
     </template>
   </el-popover>
 </template>

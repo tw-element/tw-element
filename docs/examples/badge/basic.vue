@@ -1,15 +1,15 @@
 <template>
   <el-badge :value="12" class="item">
-    <el-button>comments</el-button>
+    <tw-button>comments</tw-button>
   </el-badge>
   <el-badge :value="3" class="item">
-    <el-button>replies</el-button>
+    <tw-button>replies</tw-button>
   </el-badge>
   <el-badge :value="1" class="item" type="primary">
-    <el-button>comments</el-button>
+    <tw-button>comments</tw-button>
   </el-badge>
   <el-badge :value="2" class="item" type="warning">
-    <el-button>replies</el-button>
+    <tw-button>replies</tw-button>
   </el-badge>
 
   <el-dropdown trigger="click">

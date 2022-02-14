@@ -36,22 +36,22 @@
               @blur="handleConfirm"
             />
           </span>
-          <el-button
+          <tw-button
             size="small"
             type="text"
             :class="ns.be('dropdown', 'link-btn')"
             @click="clear"
           >
             {{ t('el.colorpicker.clear') }}
-          </el-button>
-          <el-button
+          </tw-button>
+          <tw-button
             plain
             size="small"
             :class="ns.be('dropdown', 'btn')"
             @click="confirmValue"
           >
             {{ t('el.colorpicker.confirm') }}
-          </el-button>
+          </tw-button>
         </div>
       </div>
     </template>

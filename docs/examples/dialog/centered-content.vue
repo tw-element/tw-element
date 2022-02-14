@@ -1,6 +1,6 @@
 <template>
-  <el-button type="text" @click="centerDialogVisible = true"
-    >Click to open the Dialog</el-button
+  <tw-button type="text" @click="centerDialogVisible = true"
+    >Click to open the Dialog</tw-button
   >
 
   <el-dialog v-model="centerDialogVisible" title="Warning" width="30%" center>
@@ -10,9 +10,9 @@
     >
     <template #footer>
       <span class="dialog-footer">
-        <el-button @click="centerDialogVisible = false">Cancel</el-button>
-        <el-button type="primary" @click="centerDialogVisible = false"
-          >Confirm</el-button
+        <tw-button @click="centerDialogVisible = false">Cancel</tw-button>
+        <tw-button type="primary" @click="centerDialogVisible = false"
+          >Confirm</tw-button
         >
       </span>
     </template>

@@ -1,6 +1,6 @@
 <template>
   <el-tooltip content="I am an el-tooltip">
-    <el-button>trigger me</el-button>
+    <tw-button>trigger me</tw-button>
   </el-tooltip>
 </template>
 

@@ -12,7 +12,7 @@ const reComponentName: InstallOptions['reComponentName'] = (title: string) =>
     .toLowerCase()}`
 
 const reDocUrl: InstallOptions['reDocUrl'] = (fileName, header) => {
-  const docs = 'https://element-plus.org/en-US/component/'
+  const docs = 'https://tw-element.org/en-US/component/'
   const _header = header ? header.replaceAll(/\s+/g, '-').toLowerCase() : ''
 
   return `${docs}${fileName}.html${_header ? '#' : ''}${_header}`

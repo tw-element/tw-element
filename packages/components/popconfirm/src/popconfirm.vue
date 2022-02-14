@@ -23,12 +23,12 @@
           {{ title }}
         </div>
         <div :class="ns.e('action')">
-          <el-button size="small" :type="cancTwButtonType" @click="cancel">
+          <tw-button size="small" :type="cancTwButtonType" @click="cancel">
             {{ finalCancTwButtonText }}
-          </el-button>
-          <el-button size="small" :type="confirmButtonType" @click="confirm">
+          </tw-button>
+          <tw-button size="small" :type="confirmButtonType" @click="confirm">
             {{ finalConfirmButtonText }}
-          </el-button>
+          </tw-button>
         </div>
       </div>
     </template>

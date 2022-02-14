@@ -35,14 +35,14 @@
       }"
     >
       <el-input v-model="domain.value"></el-input>
-      <el-button class="mt-2" @click.prevent="removeDomain(domain)"
-        >Delete</el-button
+      <tw-button class="mt-2" @click.prevent="removeDomain(domain)"
+        >Delete</tw-button
       >
     </el-form-item>
     <el-form-item>
-      <el-button type="primary" @click="submitForm(formRef)">Submit</el-button>
-      <el-button @click="addDomain">New domain</el-button>
-      <el-button @click="resetForm(formRef)">Reset</el-button>
+      <tw-button type="primary" @click="submitForm(formRef)">Submit</tw-button>
+      <tw-button @click="addDomain">New domain</tw-button>
+      <tw-button @click="resetForm(formRef)">Reset</tw-button>
     </el-form-item>
   </el-form>
 </template>

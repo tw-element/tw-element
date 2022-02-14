@@ -132,7 +132,7 @@ describe('MessageBox', () => {
     await rAF()
     const btn = document
       .querySelector(selector)
-      .querySelector('.el-button--primary') as HTMLButtonElement
+      .querySelector('.tw-button--primary') as HTMLButtonElement
     btn.click()
     await rAF()
     const msgbox: HTMLElement = document.querySelector(selector)
@@ -202,7 +202,7 @@ describe('MessageBox', () => {
     await rAF()
     ;(
       document.querySelector(
-        '.el-message-box__btns .el-button--primary'
+        '.el-message-box__btns .tw-button--primary'
       ) as HTMLButtonElement
     ).click()
     await rAF()
@@ -219,7 +219,7 @@ describe('MessageBox', () => {
       )
       await rAF()
       const btn = document.querySelector(
-        '.el-message-box__btns .el-button--primary'
+        '.el-message-box__btns .tw-button--primary'
       ) as HTMLButtonElement
       btn.click()
       await rAF()
@@ -234,7 +234,7 @@ describe('MessageBox', () => {
         }
       )
       await rAF()
-      const btn = document.querySelector('.el-message-box__btns .el-button')
+      const btn = document.querySelector('.el-message-box__btns .tw-button')
       ;(btn as HTMLButtonElement).click()
       await rAF()
       expect(msgAction).toEqual('cancel')

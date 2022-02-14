@@ -16,7 +16,7 @@ const parsed = computed(() => {
     .render(props.content)
     .replace(
       /#([0-9]+) by/g,
-      `<a href="https://github.com/element-plus/element-plus/pull/$1" ${attr}>#$1</a> by`
+      `<a href="https://github.com/tw-element/tw-element/pull/$1" ${attr}>#$1</a> by`
     )
     .replace(
       /@([A-Za-z0-9_-]+)/g,

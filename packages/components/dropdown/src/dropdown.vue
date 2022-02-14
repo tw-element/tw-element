@@ -52,24 +52,24 @@
       </template>
     </el-tooltip>
     <template v-if="splitButton">
-      <el-button-group>
-        <el-button
+      <tw-button-group>
+        <tw-button
           ref="referenceElementRef"
           :size="dropdownSize"
           :type="type"
           @click="handlerMainButtonClick"
         >
           <slot name="default" />
-        </el-button>
-        <el-button
+        </tw-button>
+        <tw-button
           ref="triggeringElementRef"
           :size="dropdownSize"
           :type="type"
           :class="ns.e('caret-button')"
         >
           <el-icon :class="ns.e('icon')"><arrow-down /></el-icon>
-        </el-button>
-      </el-button-group>
+        </tw-button>
+      </tw-button-group>
     </template>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <el-row>
+  <tw-row>
     <el-col :sm="12" :lg="6">
       <el-result
         icon="success"
@@ -7,7 +7,7 @@
         sub-title="Please follow the instructions"
       >
         <template #extra>
-          <el-button type="primary">Back</el-button>
+          <tw-button type="primary">Back</tw-button>
         </template>
       </el-result>
     </el-col>
@@ -18,7 +18,7 @@
         sub-title="Please follow the instructions"
       >
         <template #extra>
-          <el-button type="primary">Back</el-button>
+          <tw-button type="primary">Back</tw-button>
         </template>
       </el-result>
     </el-col>
@@ -29,7 +29,7 @@
         sub-title="Please follow the instructions"
       >
         <template #extra>
-          <el-button type="primary">Back</el-button>
+          <tw-button type="primary">Back</tw-button>
         </template>
       </el-result>
     </el-col>
@@ -40,9 +40,9 @@
         sub-title="Please follow the instructions"
       >
         <template #extra>
-          <el-button type="primary">Back</el-button>
+          <tw-button type="primary">Back</tw-button>
         </template>
       </el-result>
     </el-col>
-  </el-row>
+  </tw-row>
 </template>

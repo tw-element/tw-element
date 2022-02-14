@@ -1,6 +1,6 @@
 <template>
-  <el-button :plain="true" @click="open">Show message</el-button>
-  <el-button :plain="true" @click="openVn">VNode</el-button>
+  <tw-button :plain="true" @click="open">Show message</tw-button>
+  <tw-button :plain="true" @click="openVn">VNode</tw-button>
 </template>
 
 <script lang="ts" setup>

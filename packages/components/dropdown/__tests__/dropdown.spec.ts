@@ -257,7 +257,7 @@ describe('Dropdown', () => {
       typeof ElTooltip
     >
     const triggerElm = wrapper.find('.el-dropdown__caret-button')
-    const button = wrapper.find('.el-button')
+    const button = wrapper.find('.tw-button')
     expect(content.open).toBe(false)
     await button.trigger('click')
     expect(handleClick).toHaveBeenCalled()

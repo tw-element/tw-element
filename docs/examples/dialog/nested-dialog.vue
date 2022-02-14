@@ -1,6 +1,6 @@
 <template>
-  <el-button type="text" @click="outerVisible = true"
-    >open the outer Dialog</el-button
+  <tw-button type="text" @click="outerVisible = true"
+    >open the outer Dialog</tw-button
   >
 
   <el-dialog v-model="outerVisible" title="Outer Dialog">
@@ -15,9 +15,9 @@
     </template>
     <template #footer>
       <div class="dialog-footer">
-        <el-button @click="outerVisible = false">Cancel</el-button>
-        <el-button type="primary" @click="innerVisible = true"
-          >open the inner Dialog</el-button
+        <tw-button @click="outerVisible = false">Cancel</tw-button>
+        <tw-button type="primary" @click="innerVisible = true"
+          >open the inner Dialog</tw-button
         >
       </div>
     </template>

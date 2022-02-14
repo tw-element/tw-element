@@ -1,6 +1,6 @@
 <template>
-  <el-button plain @click="open1"> Closes automatically </el-button>
-  <el-button plain @click="open2"> Won't close automatically </el-button>
+  <tw-button plain @click="open1"> Closes automatically </tw-button>
+  <tw-button plain @click="open2"> Won't close automatically </tw-button>
 </template>
 
 <script lang="ts" setup>

@@ -3,6 +3,6 @@
     content="<span>The content can be <strong>HTML</strong></span>"
     raw-content
   >
-    <el-button>hover me</el-button>
+    <tw-button>hover me</tw-button>
   </el-tooltip>
 </template>

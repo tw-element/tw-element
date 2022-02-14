@@ -19,13 +19,13 @@
   >
     <template v-if="loading">
       <slot v-if="$slots.loading" name="loading"></slot>
-      <el-icon v-else :class="ns.is('loading')">
+      <tw-icon v-else :class="ns.is('loading')">
         <component :is="loadingIcon" />
-      </el-icon>
+      </tw-icon>
     </template>
-    <el-icon v-else-if="icon">
+    <tw-icon v-else-if="icon">
       <component :is="icon" />
-    </el-icon>
+    </tw-icon>
     <span
       v-if="$slots.default"
       :class="{ [ns.em('text', 'expand')]: shouldAddSpace }"
@@ -39,6 +39,7 @@
 import { computed, inject, defineComponent, Text, ref } from 'vue'
 import { useCssVar } from '@vueuse/core'
 import { TinyColor } from '@ctrl/tinycolor'
+import { Loading } from '@element-plus/icons-vue'
 import { TwIcon } from '@tw-element/components/icon'
 import {
   useDisabled,
@@ -48,7 +49,6 @@ import {
   useSize,
 } from '@tw-element/hooks'
 import { buttonGroupContextKey } from '@tw-element/tokens'
-import { Loading } from '@element-plus/icons-vue'
 
 import { buttonEmits, buttonProps } from './button'
 

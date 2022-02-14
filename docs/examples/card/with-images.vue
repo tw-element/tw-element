@@ -1,5 +1,5 @@
 <template>
-  <el-row>
+  <tw-row>
     <el-col
       v-for="(o, index) in 2"
       :key="o"
@@ -15,12 +15,12 @@
           <span>Yummy hamburger</span>
           <div class="bottom">
             <time class="time">{{ currentDate }}</time>
-            <el-button type="text" class="button">Operating</el-button>
+            <tw-button type="text" class="button">Operating</tw-button>
           </div>
         </div>
       </el-card>
     </el-col>
-  </el-row>
+  </tw-row>
 </template>
 
 <script lang="ts" setup>

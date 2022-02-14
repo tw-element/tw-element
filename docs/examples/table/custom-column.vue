@@ -23,14 +23,14 @@
     </el-table-column>
     <el-table-column label="Operations">
       <template #default="scope">
-        <el-button size="small" @click="handleEdit(scope.$index, scope.row)"
-          >Edit</el-button
+        <tw-button size="small" @click="handleEdit(scope.$index, scope.row)"
+          >Edit</tw-button
         >
-        <el-button
+        <tw-button
           size="small"
           type="danger"
           @click="handleDelete(scope.$index, scope.row)"
-          >Delete</el-button
+          >Delete</tw-button
         >
       </template>
     </el-table-column>

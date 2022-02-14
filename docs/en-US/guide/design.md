@@ -34,7 +34,7 @@ lang: en-US
 # Design Disciplines
 
 <div class="guide__design">
-  <div class="el-row cards" style="margin-left: -7px; margin-right: -7px;">
+  <div class="tw-row cards" style="margin-left: -7px; margin-right: -7px;">
     <div class="el-col el-col-24 el-col-xs-12 el-col-sm-6 is-guttered">
       <div class="card">
         <img src="/images/consistency.png" alt="Consistency">

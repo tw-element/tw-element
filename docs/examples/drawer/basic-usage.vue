@@ -6,12 +6,12 @@
     <el-radio label="btt">bottom to top</el-radio>
   </el-radio-group>
 
-  <el-button type="primary" style="margin-left: 16px" @click="drawer = true">
+  <tw-button type="primary" style="margin-left: 16px" @click="drawer = true">
     open
-  </el-button>
-  <el-button type="primary" style="margin-left: 16px" @click="drawer2 = true">
+  </tw-button>
+  <tw-button type="primary" style="margin-left: 16px" @click="drawer2 = true">
     with footer
-  </el-button>
+  </tw-button>
 
   <el-drawer
     v-model="drawer"
@@ -37,8 +37,8 @@
     </template>
     <template #footer>
       <div style="flex: auto">
-        <el-button @click="cancelClick">cancel</el-button>
-        <el-button type="primary" @click="confirmClick">confirm</el-button>
+        <tw-button @click="cancelClick">cancel</tw-button>
+        <tw-button type="primary" @click="confirmClick">confirm</tw-button>
       </div>
     </template>
   </el-drawer>

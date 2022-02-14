@@ -1,16 +1,16 @@
 <template>
-  <el-button-group>
-    <el-button type="primary" :icon="ArrowLeft">Previous Page</el-button>
-    <el-button type="primary">
+  <tw-button-group>
+    <tw-button type="primary" :icon="ArrowLeft">Previous Page</tw-button>
+    <tw-button type="primary">
       Next Page<el-icon class="el-icon--right"><ArrowRight /></el-icon>
-    </el-button>
-  </el-button-group>
+    </tw-button>
+  </tw-button-group>
 
-  <el-button-group class="ml-4">
-    <el-button type="primary" :icon="Edit"></el-button>
-    <el-button type="primary" :icon="Share"></el-button>
-    <el-button type="primary" :icon="Delete"></el-button>
-  </el-button-group>
+  <tw-button-group class="ml-4">
+    <tw-button type="primary" :icon="Edit"></tw-button>
+    <tw-button type="primary" :icon="Share"></tw-button>
+    <tw-button type="primary" :icon="Delete"></tw-button>
+  </tw-button-group>
 </template>
 
 <script setup lang="ts">

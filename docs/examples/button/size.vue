@@ -1,25 +1,25 @@
 <template>
-  <el-row>
-    <el-button size="large">Large</el-button>
-    <el-button>Default</el-button>
-    <el-button size="small">Small</el-button>
-    <el-button size="large" :icon="Search">Search</el-button>
-    <el-button :icon="Search">Search</el-button>
-    <el-button size="small" :icon="Search">Search</el-button>
-  </el-row>
-  <el-row class="my-4">
-    <el-button size="large" round>Large</el-button>
-    <el-button round>Default</el-button>
-    <el-button size="small" round>Small</el-button>
-    <el-button size="large" :icon="Search" round>Search</el-button>
-    <el-button :icon="Search" round>Search</el-button>
-    <el-button size="small" :icon="Search" round>Search</el-button>
-  </el-row>
-  <el-row>
-    <el-button :icon="Search" size="large" circle></el-button>
-    <el-button :icon="Search" circle></el-button>
-    <el-button :icon="Search" size="small" circle></el-button>
-  </el-row>
+  <tw-row>
+    <tw-button size="large">Large</tw-button>
+    <tw-button>Default</tw-button>
+    <tw-button size="small">Small</tw-button>
+    <tw-button size="large" :icon="Search">Search</tw-button>
+    <tw-button :icon="Search">Search</tw-button>
+    <tw-button size="small" :icon="Search">Search</tw-button>
+  </tw-row>
+  <tw-row class="my-4">
+    <tw-button size="large" round>Large</tw-button>
+    <tw-button round>Default</tw-button>
+    <tw-button size="small" round>Small</tw-button>
+    <tw-button size="large" :icon="Search" round>Search</tw-button>
+    <tw-button :icon="Search" round>Search</tw-button>
+    <tw-button size="small" :icon="Search" round>Search</tw-button>
+  </tw-row>
+  <tw-row>
+    <tw-button :icon="Search" size="large" circle></tw-button>
+    <tw-button :icon="Search" circle></tw-button>
+    <tw-button :icon="Search" size="small" circle></tw-button>
+  </tw-row>
 </template>
 
 <script setup lang="ts">

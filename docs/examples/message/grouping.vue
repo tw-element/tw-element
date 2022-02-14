@@ -1,5 +1,5 @@
 <template>
-  <el-button :plain="true" @click="open">Show message</el-button>
+  <tw-button :plain="true" @click="open">Show message</tw-button>
 </template>
 
 <script lang="ts" setup>

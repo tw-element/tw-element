@@ -49,7 +49,7 @@ button/icon
 
 Displayed as a button group, can be used to group a series of similar operations.
 
-:::demo Use tag `<el-button-group>` to group your buttons.
+:::demo Use tag `<tw-button-group>` to group your buttons.
 
 button/group
 

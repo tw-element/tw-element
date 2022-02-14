@@ -2,7 +2,7 @@
   <div style="display: flex; align-items: center">
     <el-popover placement="right" :width="400" trigger="click">
       <template #reference>
-        <el-button style="margin-right: 16px">Click to activate</el-button>
+        <tw-button style="margin-right: 16px">Click to activate</tw-button>
       </template>
       <el-table :data="gridData">
         <el-table-column

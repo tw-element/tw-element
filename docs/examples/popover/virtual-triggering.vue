@@ -1,6 +1,6 @@
 <template>
-  <el-button ref="buttonRef" v-click-outside="onClickOutside"
-    >Click me</el-button
+  <tw-button ref="buttonRef" v-click-outside="onClickOutside"
+    >Click me</tw-button
   >
 
   <el-popover

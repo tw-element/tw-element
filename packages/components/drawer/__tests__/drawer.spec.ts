@@ -46,8 +46,8 @@ describe('Drawer', () => {
       `
       <el-drawer :title='title' v-model='visible'>
         <span>this is a sentence</span>
-        <el-button @click='dialogVisible = false'>cancel</el-button>
-        <el-button type='primary' @click='dialogVisible = false'>confirm</el-button>
+        <tw-button @click='dialogVisible = false'>cancel</tw-button>
+        <tw-button type='primary' @click='dialogVisible = false'>confirm</tw-button>
       </el-drawer>
       `,
       () => ({
@@ -62,7 +62,7 @@ describe('Drawer', () => {
     expect(wrapper.find('.el-drawer__body span').element.textContent).toEqual(
       'this is a sentence'
     )
-    const footerBtns = wrapper.findAll('.el-button')
+    const footerBtns = wrapper.findAll('.tw-button')
     expect(footerBtns.length).toEqual(2)
     expect(footerBtns[0].find('span').element.textContent).toEqual('cancel')
     expect(footerBtns[1].find('span').element.textContent).toEqual('confirm')
