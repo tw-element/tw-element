@@ -36,8 +36,8 @@
     "prepare": "husky install",
     "postinstall": "pnpm gen:version",
     "preinstall": "npx only-allow pnpm -y",
-    "twwatch": "npx tailwindcss -i tailwind.css -o tailwinds.css --watch",
-    "twmin": "npx tailwindcss -i tailwind.css -o tailwinds.css --minify"
+    "twwatch": "npx tailwindcss --postcss -i tailwind.css -o packages/theme-chalk/tailwind.css --watch",
+    "twmin": "npx tailwindcss --postcss -i tailwind.css -o packages/theme-chalk/tailwind.css --minify"
   },
   "config": {
     "commitizen": {

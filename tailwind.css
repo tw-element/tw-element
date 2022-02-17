@@ -2,9 +2,4 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* @import './packages/theme-chalk/te-main.css'; */
-@import 'te-main.css';
-
-/* .tw-text-cc-500 {
-  @apply tw-text-indigo-600;
-} */
+@import 'packages/theme-chalk/te/index.css';

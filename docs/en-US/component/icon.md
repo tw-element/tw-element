@@ -59,7 +59,7 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
 <TwRow>
   <div>
     <TwIcon :size="30">
-      <Edit />
+      <edit></edit>
     </TwIcon>
     <Edit />
   </div>
@@ -103,10 +103,10 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
   </p>
   <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
     <TwIcon :size="20">
-      <Edit />
+      <edit />
     </TwIcon>
     <TwIcon color="#409EFC" class="no-inherit">
-      <Share />
+      <share />
     </TwIcon>
     <TwIcon>
       <Delete />

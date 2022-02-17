@@ -31,7 +31,7 @@ const copyContent = async (content) => {
 
 const copySvgIcon = async (name, refs) => {
   if (copyIcon.value) {
-    await copyContent(`<el-icon><${hyphenate(name)} /></el-icon>`)
+    await copyContent(`<tw-icon><${hyphenate(name)} /></tw-icon>`)
   } else {
     const content = refs[name]?.[0].querySelector('svg')?.outerHTML ?? ''
     await copyContent(content)
@@ -41,12 +41,12 @@ const copySvgIcon = async (name, refs) => {
 
 <template>
   <div style="text-align: right">
-    <el-switch
+    <tw-switch
       v-model="copyIcon"
       active-text="Copy icon code"
       inactive-text="Copy SVG content"
     >
-    </el-switch>
+    </tw-switch>
   </div>
   <ul class="demo-icon-list">
     <li
@@ -87,7 +87,7 @@ const copySvgIcon = async (name, refs) => {
     transition: background-color var(--tw-transition-duration);
     &:hover {
       background-color: var(--tw-border-color-extra-light);
-      .el-icon {
+      .tw-icon {
         color: var(--brand-color-light);
       }
       color: var(--brand-color-light);

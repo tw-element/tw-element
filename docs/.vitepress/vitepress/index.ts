@@ -1,8 +1,9 @@
 import 'normalize.css'
 // import 'tw-element/dist/index.css'
 // for dev
-// import '../../../packages/theme-chalk/src/index.scss'
-import '../../../tailwinds.css'
+import '../../../packages/theme-chalk/src/index.scss'
+import '../../../packages/theme-chalk/tailwind.css'
+
 import './styles/app.scss'
 
 import VPApp from './components/vp-app.vue'
