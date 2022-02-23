@@ -1,0 +1,6 @@
+.tw-icon {
+  @apply tw-justify-center tw-items-center tw-w-4 tw-h-4 tw-inline-flex tw-fill-current;
+}
+.tw-icon svg {
+  @apply tw-w-4 tw-h-4;
+}

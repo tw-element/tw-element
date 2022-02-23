@@ -452,32 +452,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.tw-text-lg {
-  font-size: 1.125rem !important;
-  line-height: 1.75rem !important;
+@keyframes tw-spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.tw-text-sm {
-  font-size: 0.875rem !important;
-  line-height: 1.25rem !important;
+.is-loading {
+  animation: tw-spin 1s linear infinite;
 }
 
-.tw-text-blue-500 {
-  --tw-text-opacity: 1 !important;
-  color: rgb(59 130 246 / var(--tw-text-opacity)) !important;
+.tw-icon {
+  display: inline-flex;
+  height: 1rem;
+  width: 1rem;
+  align-items: center;
+  justify-content: center;
+  fill: currentColor;
 }
 
-.tw-text-purple-600 {
-  --tw-text-opacity: 1 !important;
-  color: rgb(147 51 234 / var(--tw-text-opacity)) !important;
-}
-
-.tw-text-red-500 {
-  --tw-text-opacity: 1 !important;
-  color: rgb(239 68 68 / var(--tw-text-opacity)) !important;
-}
-
-.tw-text-purple-600 {
-  --tw-text-opacity: 1 !important;
-  color: rgb(147 51 234 / var(--tw-text-opacity)) !important;
+.tw-icon svg {
+  height: 1rem;
+  width: 1rem;
 }

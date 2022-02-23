@@ -9,6 +9,10 @@ export const iconProps = buildProps({
   color: {
     type: String,
   },
+  loading: {
+    type: Boolean,
+    default: false,
+  },
   class: {
     type: String,
   },

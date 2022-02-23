@@ -75,7 +75,7 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
     with extra class <b>is-loading</b>, your icon is able to rotate 360 deg in 2
     seconds, you can also override this
   </p>
-  <tw-icon :size="20">
+  <tw-icon :size="20"  class="is-loading">
     <edit />
   </tw-icon>
   <tw-icon color="#409EFC" class="no-inherit">
@@ -102,7 +102,7 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
     seconds, you can also override this
   </p>
   <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-    <TwIcon :size="20">
+    <TwIcon :size="20"  class="is-loading">
       <edit />
     </TwIcon>
     <TwIcon color="#409EFC" class="no-inherit">
