@@ -1,5 +1,5 @@
 <template>
-  <i :class="ns.b()" :style="style" v-bind="$attrs">
+  <i :class="[load, color, style]" v-bind="$attrs" class="tw-icon">
     <slot></slot>
   </i>
 </template>
@@ -19,20 +19,38 @@ export default defineComponent({
   props: iconProps,
 
   setup(props) {
-    const ns = useNamespace('icon')
+    // const style = computed<CSSProperties>(() => {
+    //   if (!props.size && !props.color) return {}
 
-    const style = computed<CSSProperties>(() => {
-      if (!props.size && !props.color) return {}
+    //   return {
+    //     fontSize: isUndefined(props.size) ? undefined : addUnit(props.size),
+    //     '--color': props.color,
+    //   }
+    // })
 
-      return {
-        fontSize: isUndefined(props.size) ? undefined : addUnit(props.size),
-        '--color': props.color,
+    const style = computed(() => {
+      if (!props.class) return {}
+      return props.class
+    })
+
+    const load = computed(() => {
+      if (props.loading) {
+        return 'is-loading'
       }
+      return {}
+    })
+
+    const color = computed(() => {
+      if (props.color) {
+        return props.color
+      }
+      return {}
     })
 
     return {
-      ns,
       style,
+      load,
+      color,
     }
   },
 })

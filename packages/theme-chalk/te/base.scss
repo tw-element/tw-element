@@ -1,3 +1,36 @@
-.is-loading {
-  @apply tw-animate-spin;
+.svg-xs {
+  @apply w-2 h-2;
+}
+
+.svg-sm {
+  @apply w-3 h-3;
+}
+
+.svg-md {
+  @apply w-4 h-4;
+}
+
+.svg-lg {
+  @apply w-6 h-6;
+}
+
+.svg-xl {
+  @apply w-8 h-8;
+}
+
+.svg-2xl {
+  @apply w-12 h-12;
+}
+
+.svg-3xl {
+  @apply w-16 h-16;
+}
+
+.svg-4xl {
+  @apply w-20 h-20;
+}
+
+.load,
+.spin {
+  @apply animate-spin;
 }

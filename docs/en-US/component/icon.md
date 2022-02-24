@@ -58,10 +58,10 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
 
 <TwRow>
   <div>
-    <TwIcon :size="30">
-      <edit></edit>
+    <TwIcon :size="30" color="text-green-600" class="text-purple-500 svg-2xl">
+      <edit ></edit>
     </TwIcon>
-    <Edit />
+    <Edit class="svg-2xl load text-green-600" />
   </div>
 </TwRow>
 
@@ -75,7 +75,7 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
     with extra class <b>is-loading</b>, your icon is able to rotate 360 deg in 2
     seconds, you can also override this
   </p>
-  <tw-icon :size="20"  class="is-loading">
+  <tw-icon :size="20" >
     <edit />
   </tw-icon>
   <tw-icon color="#409EFC" class="no-inherit">
@@ -84,7 +84,7 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
   <tw-icon>
     <delete />
   </tw-icon>
-  <tw-icon class="is-loading">
+  <tw-icon loading>
     <loading />
   </tw-icon>
   <tw-button type="primary">
@@ -102,16 +102,16 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
     seconds, you can also override this
   </p>
   <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-    <TwIcon :size="20"  class="is-loading">
+    <TwIcon :size="20">
       <edit />
     </TwIcon>
-    <TwIcon color="#409EFC" class="no-inherit">
+    <TwIcon color="text-red-500"  class="no-inherit">
       <share />
     </TwIcon>
-    <TwIcon>
+    <TwIcon class="is-loading">
       <Delete />
     </TwIcon>
-    <TwIcon class="is-loading">
+    <TwIcon loading>
       <Loading />
     </TwIcon>
     <TwButton type="primary">
@@ -130,7 +130,7 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
   <div style="font-size: 20px;">
     <!-- Since svg icons do not carry any attributes by default -->
     <!-- You need to provide attributes directly -->
-    <edit style="width: 1em; height: 1em; margin-right: 8px;" />
+    <edit style="width: 1em; height: 1em; margin-right: 8px;" class="is-loading"/>
     <share style="width: 1em; height: 1em; margin-right: 8px;" />
     <delete style="width: 1em; height: 1em; margin-right: 8px;" />
     <search style="width: 1em; height: 1em; margin-right: 8px;" />
