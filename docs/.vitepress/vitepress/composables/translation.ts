@@ -14,9 +14,9 @@ export const useTranslation = () => {
   const languageMap = {
     'en-US': 'English',
     'zh-CN': '中文',
-    'es-ES': 'Español',
-    'fr-FR': 'Français',
-    'ja-JP': '日本語',
+    // 'es-ES': 'Español',
+    // 'fr-FR': 'Français',
+    // 'ja-JP': '日本語',
   }
 
   const helpTranslate = computed(() => translationLocale[lang.value].help)

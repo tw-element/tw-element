@@ -10,7 +10,7 @@
     </el-table-column>
     <el-table-column label="Name" width="180">
       <template #default="scope">
-        <el-popover effect="light" trigger="hover" placement="top" width="auto">
+        <tw-popover effect="light" trigger="hover" placement="top" width="auto">
           <template #default>
             <div>name: {{ scope.row.name }}</div>
             <div>address: {{ scope.row.address }}</div>
@@ -18,7 +18,7 @@
           <template #reference>
             <el-tag>{{ scope.row.name }}</el-tag>
           </template>
-        </el-popover>
+        </tw-popover>
       </template>
     </el-table-column>
     <el-table-column label="Operations">

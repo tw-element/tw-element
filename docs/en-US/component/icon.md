@@ -5,7 +5,7 @@ lang: en-US
 
 # Icon
 
-Element Plus provides a set of common icons.
+require icons from `Element Plus` or `Heroicons`.
 
 ## Icon Usage
 
@@ -42,112 +42,118 @@ so you need to use an alias in order to render the icon, if you register `Menu` 
 ```vue
 <!-- Use tw-icon to provide attributes to SVG icon -->
 <template>
-  <div>
-    <tw-icon :size="size" :color="color">
-      <edit></edit>
-    </tw-icon>
-    <!-- Or use it independently without derive attributes from parent -->
-    <edit></edit>
+  <div class="w-full flex justify-center space-x-4">
+    <Edit />
+    <AlarmClock />
+    <Apple />
+    <ArrowUp />
   </div>
 </template>
 ```
 
 <script setup>
-import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
+import { Edit, AlarmClock, Apple,  Share, ArrowUp, Delete, Search, Loading } from '@element-plus/icons-vue'
 </script>
 
-<TwRow>
-  <div>
-    <TwIcon :size="30" color="text-green-600" class="text-purple-500 svg-2xl">
-      <edit ></edit>
-    </TwIcon>
-    <Edit class="svg-2xl load text-green-600" />
-  </div>
-</TwRow>
 
-## Combined with tw-icon
+<div class="w-full flex justify-center space-x-4">
+  <Edit />
+  <AlarmClock />
+  <Apple />
+  <ArrowUp />
+</div>
 
-`tw-icon` provides extra attributes for raw SVG icon, for more detail, please read to the end.
+## Size
+可使用本UI设定的`class`：`svg-xs/sm/md/lg/xl/2xl/.../5xl`。若不能满足大小的需求，请使用`tailwind css`的`w-`和`h-`来自定义。
 
 ```vue
-<template>
-  <p>
-    with extra class <b>is-loading</b>, your icon is able to rotate 360 deg in 2
-    seconds, you can also override this
-  </p>
-  <tw-icon :size="20" >
-    <edit />
-  </tw-icon>
-  <tw-icon color="#409EFC" class="no-inherit">
-    <share />
-  </tw-icon>
-  <tw-icon>
-    <delete />
-  </tw-icon>
-  <tw-icon loading>
-    <loading />
-  </tw-icon>
-  <tw-button type="primary">
-    <tw-icon style="vertical-align: middle;">
-      <search />
-    </tw-icon>
-    <span style="vertical-align: middle;"> Search </span>
-  </tw-button>
-</template>
+<div class="w-full flex justify-center space-x-4">
+  <Edit class="svg-xs" />
+  <Edit class="svg-sm" />
+  <Edit class="svg-md" />
+  <Edit class="svg-lg" />
+  <Edit class="svg-xl" />
+  <Edit class="svg-2xl" />
+  <Edit class="svg-3xl" />
+  <Edit class="svg-4xl" />
+  <Edit class="svg-5xl" />
+    <Edit class="w-8 h-8" />
+  <Edit class="w-[16px] h-[16px]" />
+</div>
 ```
 
-<TwRow>
-  <p>
-    with extra class <b>is-loading</b>, your icon is able to rotate 360 deg in 2
-    seconds, you can also override this
-  </p>
-  <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-    <TwIcon :size="20">
-      <edit />
-    </TwIcon>
-    <TwIcon color="text-red-500"  class="no-inherit">
-      <share />
-    </TwIcon>
-    <TwIcon class="is-loading">
-      <Delete />
-    </TwIcon>
-    <TwIcon loading>
-      <Loading />
-    </TwIcon>
-    <TwButton type="primary">
-      <TwIcon style="vertical-align: middle; color: #fff;">
-        <Search />
-      </TwIcon>
-      <span style="vertical-align: middle;"> Search </span>
-    </TwButton>
-  </div>
-</TwRow>
+<div class="w-full flex justify-center space-x-4">
+  <Edit class="svg-xs" />
+  <Edit class="svg-sm" />
+  <Edit class="svg-md" />
+  <Edit class="svg-lg" />
+  <Edit class="svg-xl" />
+  <Edit class="svg-2xl" />
+  <Edit class="svg-3xl" />
+  <Edit class="svg-4xl" />
+  <Edit class="svg-5xl" />
+  <Edit class="w-8 h-8" />
+  <Edit class="w-[16px] h-[16px]" />
+</div>
 
-## Using SVG icon directly
+## Color
+使用`tailwind css`关于`text`定义的颜色来变更`icon`的颜色。[颜色详情](color.md)
 
 ```vue
-<template>
-  <div style="font-size: 20px;">
-    <!-- Since svg icons do not carry any attributes by default -->
-    <!-- You need to provide attributes directly -->
-    <edit style="width: 1em; height: 1em; margin-right: 8px;" class="is-loading"/>
-    <share style="width: 1em; height: 1em; margin-right: 8px;" />
-    <delete style="width: 1em; height: 1em; margin-right: 8px;" />
-    <search style="width: 1em; height: 1em; margin-right: 8px;" />
-  </div>
-</template>
+<div class="w-full flex justify-center space-x-4">
+  <Edit />
+  <Edit class="text-red-500" />
+  <Edit class="text-green-500" />
+  <Edit class="text-blue-500" />
+  <Edit class="text-purple-500" />
+  <Edit class="text-cyan-500" />
+</div>
 ```
 
-<TwRow>
-  <div style="font-size: 20px;">
-    <!-- Since svg icons do not carry any attributes by default -->
-    <!-- You need to provide attributes directly -->
-    <Edit style="width: 1em; height: 1em; margin-right: 8px;" />
-    <Share style="width: 1em; height: 1em; margin-right: 8px;" />
-    <Delete style="width: 1em; height: 1em; margin-right: 8px;" />
-    <Search style="width: 1em; height: 1em; margin-right: 8px;" />
-  </div>
-</TwRow>
+<div class="w-full flex justify-center space-x-4">
+  <Edit />
+  <Edit class="text-red-500" />
+  <Edit class="text-green-500" />
+  <Edit class="text-blue-500" />
+  <Edit class="text-purple-500" />
+  <Edit class="text-cyan-500" />
+</div>
+
+## Animation
+使用`tailwind css`来实现图标动画。本UI已将`tailwind css`默认的动画去除`animate-`前缀，可直接使用对应关键字实现动画效果。
+
+```vue
+<div class="w-full flex justify-center space-x-4">
+  <Edit />
+  <Edit class="load" />
+  <Edit class="animate-spin" />
+  <Edit class="animate-ping" />
+  <Edit class="animate-pulse" />
+  <Edit class="animate-bounce" />
+</div>
+<div class="w-full flex justify-center space-x-4">
+  <Edit class="spin" />
+  <Edit class="ping" />
+  <Edit class="pulse" />
+  <Edit class="bounce" />
+</div>
+```
+
+<div class="w-full flex justify-center space-x-4">
+  <Edit />
+  <Edit class="load" />
+  <Edit class="animate-spin" />
+  <Edit class="animate-ping" />
+  <Edit class="animate-pulse" />
+  <Edit class="animate-bounce" />
+</div>
+<div class="w-full flex justify-center space-x-4 mt-4">
+  <Edit class="spin" />
+  <Edit class="ping" />
+  <Edit class="pulse" />
+  <Edit class="bounce" />
+</div>
+
 
 ## Icon Collection
 
@@ -168,8 +174,3 @@ import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons-vue'
 | color     | SVG tag's fill attribute   | Pick\<CSSProperties, 'color'\> | -                | inherit from color     |
 | size      | SVG icon size, size x size | number \| string               | -                | inherit from font size |
 
-## Icon Slots
-
-| Name | Description               |
-| ---- | ------------------------- |
-| —    | customize default content |

@@ -30,7 +30,22 @@
   @apply w-20 h-20;
 }
 
+.svg-5xl {
+  @apply w-24 h-24;
+}
+
 .load,
 .spin {
   @apply animate-spin;
+}
+
+.ping {
+  @apply animate-ping;
+}
+
+.pulse {
+  @apply animate-pulse;
+}
+.bounce {
+  @apply animate-bounce;
 }

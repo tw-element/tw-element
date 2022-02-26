@@ -3,7 +3,7 @@
     >Click me</tw-button
   >
 
-  <el-popover
+  <tw-popover
     ref="popoverRef"
     :virtual-ref="buttonRef"
     trigger="click"
@@ -11,7 +11,7 @@
     virtual-triggering
   >
     <span> Some content </span>
-  </el-popover>
+  </tw-popover>
 </template>
 
 <script setup lang="ts">

@@ -1,5 +1,5 @@
 <template>
-  <el-popover v-model:visible="visible" placement="top" :width="160">
+  <tw-popover v-model:visible="visible" placement="top" :width="160">
     <p>Are you sure to delete this?</p>
     <div style="text-align: right; margin: 0">
       <tw-button size="small" type="text" @click="visible = false"
@@ -12,7 +12,7 @@
     <template #reference>
       <tw-button @click="visible = true">Delete</tw-button>
     </template>
-  </el-popover>
+  </tw-popover>
 </template>
 
 <script lang="ts" setup>

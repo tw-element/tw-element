@@ -1,5 +1,5 @@
 <template>
-  <el-popover
+  <tw-popover
     placement="top-start"
     title="Title"
     :width="200"
@@ -9,9 +9,9 @@
     <template #reference>
       <tw-button>Hover to activate</tw-button>
     </template>
-  </el-popover>
+  </tw-popover>
 
-  <el-popover
+  <tw-popover
     placement="bottom"
     title="Title"
     :width="200"
@@ -21,9 +21,9 @@
     <template #reference>
       <tw-button>Click to activate</tw-button>
     </template>
-  </el-popover>
+  </tw-popover>
 
-  <el-popover
+  <tw-popover
     ref="popover"
     placement="right"
     title="Title"
@@ -34,9 +34,9 @@
     <template #reference>
       <tw-button>Focus to activate</tw-button>
     </template>
-  </el-popover>
+  </tw-popover>
 
-  <el-popover
+  <tw-popover
     v-model:visible="visible"
     placement="bottom"
     title="Title"
@@ -46,7 +46,7 @@
     <template #reference>
       <tw-button @click="visible = !visible">Manual to activate</tw-button>
     </template>
-  </el-popover>
+  </tw-popover>
 </template>
 
 <script lang="ts" setup>

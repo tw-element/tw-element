@@ -5,8 +5,9 @@
   // docs supported languages
   const langAlias = {
     en: 'en-US',
-    fr: 'fr-FR',
-    es: 'es-ES',
+    // fr: 'fr-FR',
+    // es: 'es-ES',
+    cn: 'zh-CN',
   }
   let userPreferredLang = localStorage.getItem(cacheKey) || navigator.language
   const language =

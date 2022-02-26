@@ -1,6 +1,6 @@
 <template>
   <div style="display: flex; align-items: center">
-    <el-popover placement="right" :width="400" trigger="click">
+    <tw-popover placement="right" :width="400" trigger="click">
       <template #reference>
         <tw-button style="margin-right: 16px">Click to activate</tw-button>
       </template>
@@ -21,9 +21,9 @@
           label="address"
         ></el-table-column>
       </el-table>
-    </el-popover>
+    </tw-popover>
 
-    <el-popover
+    <tw-popover
       :width="300"
       popper-style="box-shadow: rgb(14 18 22 / 35%) 0px 10px 38px -10px, rgb(14 18 22 / 20%) 0px 10px 20px -15px; padding: 20px;"
     >
@@ -61,7 +61,7 @@
           </p>
         </div>
       </template>
-    </el-popover>
+    </tw-popover>
   </div>
 </template>
 

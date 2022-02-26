@@ -52,7 +52,7 @@ import type { StyleValue } from 'vue'
 
 const emits = ['update:visible', 'after-enter', 'after-leave']
 
-const COMPONENT_NAME = 'ElPopover'
+const COMPONENT_NAME = 'TwPopover'
 
 export default defineComponent({
   name: COMPONENT_NAME,

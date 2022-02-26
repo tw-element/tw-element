@@ -58,7 +58,7 @@ _2022-01-25_
 #### Bug fixes
 
 - Components [el-checkbox] is-disabled class is added unexpectedly
-- Components [el-popover] hide-after bug (#5386 by @BigPengZai)
+- Components [tw-popover] hide-after bug (#5386 by @BigPengZai)
 - Components [el-transfer] can't find clearQuery (#5438 by @btea)
 - Components [el-message-box] add default value to button-size (#5620 by @btea)
 
@@ -130,7 +130,7 @@ _2022-01-22_
 - Components [el-table] fixed column position error issue (#5430 by @msidolphin)
 - [input-number] modelValue change to non-required (#4338 by @msidolphin)
 - Components [el-scrollbar] fix cannot selection issue (#5330 by @msidolphin)
-- Components [el-popover] revert hide method (#5344 by @msidolphin)
+- Components [tw-popover] revert hide method (#5344 by @msidolphin)
 - [el-table] fix checkbox cleared when data reference is not changed (#5443 by @msidolphin)
 - Components [el-time-picker] fix adjust scroll position fail issue (#5312 by @msidolphin)
 - Components [el-image] image load error (#4820 by @holynewbie)
@@ -750,7 +750,7 @@ _2021-09-24_
 - Build release script error (#3576 by @JeremyWuuuuu)
 - Components fix message closeAll (#3583 by @sxzz)
 - Components [el-form] fix the methods validate callback invalid (#3589 by @btea)
-- Components [el-popover] fix the title renderIf type error (#3552 by @btea)
+- Components [tw-popover] fix the title renderIf type error (#3552 by @btea)
 - Components sub components no install issue (#3615 by @JeremyWuuuuu)
 - [el-menu] using v-for causing render loop (#3617 by @xiaoxian521)
 - Components [el-popconfirm] fix vue warning (#3618 by @sxzz)

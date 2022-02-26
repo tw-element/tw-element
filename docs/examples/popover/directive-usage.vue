@@ -3,7 +3,7 @@
     >Click me</tw-button
   >
 
-  <el-popover
+  <tw-popover
     ref="popoverRef"
     trigger="click"
     title="With title"
@@ -11,7 +11,7 @@
     persistent
   >
     <span> Some content </span>
-  </el-popover>
+  </tw-popover>
 </template>
 
 <script setup lang="ts">
