@@ -1,9 +1,0 @@
-.tw-icon {
-  @apply justify-center items-center inline-flex fill-current;
-}
-
-svg {
-  @apply fill-inherit stroke-inherit w-4 h-4;
-  font-size: inherit;
-  font-weight: inherit;
-}

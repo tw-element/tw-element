@@ -49,3 +49,9 @@
 .bounce {
   @apply animate-bounce;
 }
+
+svg {
+  @apply fill-inherit stroke-inherit w-4 h-4 to-inherit via-inherit from-inherit text-inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}

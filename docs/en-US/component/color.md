@@ -7,6 +7,8 @@ lang: en-US
 
 Element Plus uses a specific set of palettes to specify colors to provide a consistent look and feel for the products you build.
 
+`tailwind css`预设了：`Slate、Gray、Zinc、Neutral、Stone、Red、Orange、Amber、Yellow、Lime、Green、Emerald、Teal、Cyan、Sky、Blue、Indigo、Violet、Purple、Fuchsia、Pink、Rose`的颜色样式，可用于背景色、文字颜色等。
+
 <style lang="scss">
 .demo-color-box {
   position: relative;
@@ -72,7 +74,6 @@ Element Plus uses a specific set of palettes to specify colors to provide a cons
 </style>
 
 ## Main Color
-
 The main color of Element Plus is bright and friendly blue.
 
 <!-- Do not touch -->

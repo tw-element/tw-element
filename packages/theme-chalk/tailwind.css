@@ -764,18 +764,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   animation: bounce 1s infinite;
 }
 
-.tw-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: currentColor;
-}
-
 svg {
   height: 1rem;
   width: 1rem;
+  --tw-gradient-from: inherit;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 0));
+  --tw-gradient-stops: var(--tw-gradient-from), inherit, var(--tw-gradient-to, rgb(255 255 255 / 0));
+  --tw-gradient-to: inherit;
   fill: inherit;
   stroke: inherit;
+  color: inherit;
   font-size: inherit;
   font-weight: inherit;
 }
