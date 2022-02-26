@@ -1,0 +1,39 @@
+.tw-button {
+  @apply inline-flex justify-center items-center cursor-pointer;
+}
+
+.tw-button--default {
+  @apply py-2 px-3 text-black hover:text-blue-300 border hover:border-blue-300 rounded-lg;
+}
+
+.tw-button--primary {
+  @apply text-white bg-blue-400 rounded-lg;
+}
+
+.tw-button--success {
+  @apply text-white bg-green-400 rounded-lg;
+}
+
+.tw-button--danger {
+  @apply text-white bg-red-400 rounded-lg;
+}
+
+.tw-button--warning {
+  @apply text-white bg-amber-400 rounded-lg;
+}
+
+.tw-button--info {
+  @apply text-white bg-gray-400 rounded-lg;
+}
+
+.is-plain {
+  @apply opacity-50 text-opacity-[100];
+}
+
+.is-round {
+  @apply rounded-full;
+}
+
+.is-circle {
+  @apply rounded-full p-2;
+}

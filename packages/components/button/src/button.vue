@@ -11,7 +11,6 @@
       ns.is('round', round),
       ns.is('circle', circle),
     ]"
-    class="tw-cc-text-700"
     :disabled="buttonDisabled || loading"
     :autofocus="autofocus"
     :type="nativeType"
