@@ -78,7 +78,7 @@ Element Plus has added a global method `$notify` for `app.config.globalPropertie
 ## Local import
 
 ```javascript
-import { TwNotification } from 'element-plus'
+import { TwNotification } from 'tw-element'
 ```
 
 In this case you should call `TwNotification(options)`. We have also registered methods for different types, e.g. `TwNotification.success(options)`. You can call `TwNotification.closeAll()` to manually close all the instances.

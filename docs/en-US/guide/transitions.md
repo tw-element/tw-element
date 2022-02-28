@@ -38,7 +38,7 @@ transition/collapse
 
 ```ts
 // collapse
-import { TwCollapseTransition } from 'element-plus'
+import { TwCollapseTransition } from 'tw-element'
 // fade/zoom
 import 'element-plus/lib/theme-chalk/base.css'
 import App from './App.vue'

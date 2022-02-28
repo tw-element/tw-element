@@ -43,9 +43,9 @@ export function createLoadingComponent(options: LoadingOptionsResolved) {
       }
       removeClass(target, 'el-loading-parent--hidden')
     }
-    remvoeElLoadingChild()
+    remvoeTwLoadingChild()
   }
-  function remvoeElLoadingChild(): void {
+  function remvoeTwLoadingChild(): void {
     vm.$el?.parentNode?.removeChild(vm.$el)
   }
   function close() {
@@ -73,8 +73,8 @@ export function createLoadingComponent(options: LoadingOptionsResolved) {
     destroySelf()
   }
 
-  const elLoadingComponent = {
-    name: 'ElLoading',
+  const TwLoadingComponent = {
+    name: 'TwLoading',
     setup() {
       return () => {
         const svg = data.spinner || data.svg
@@ -140,12 +140,12 @@ export function createLoadingComponent(options: LoadingOptionsResolved) {
     },
   }
 
-  const vm = createApp(elLoadingComponent).mount(document.createElement('div'))
+  const vm = createApp(TwLoadingComponent).mount(document.createElement('div'))
 
   return {
     ...toRefs(data),
     setText,
-    remvoeElLoadingChild,
+    remvoeTwLoadingChild,
     close,
     handleAfterLeave,
     vm,

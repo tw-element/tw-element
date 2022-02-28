@@ -8,7 +8,7 @@
 
 <script lang="ts" setup>
 import { reactive } from 'vue'
-import { TwMessage } from 'element-plus'
+import { TwMessage } from 'tw-element'
 const config = reactive({
   max: 3,
 })

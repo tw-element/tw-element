@@ -11,7 +11,7 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { ElLoading } from 'element-plus'
+import { TwLoading } from 'tw-element'
 
 const fullscreenLoading = ref(false)
 const openFullScreen1 = () => {
@@ -22,7 +22,7 @@ const openFullScreen1 = () => {
 }
 
 const openFullScreen2 = () => {
-  const loading = ElLoading.service({
+  const loading = TwLoading.service({
     lock: true,
     text: 'Loading',
     background: 'rgba(0, 0, 0, 0.7)',

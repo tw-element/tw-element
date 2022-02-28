@@ -48,19 +48,19 @@ loading/fullscreen
 You can also invoke Loading with a service. Import Loading service:
 
 ```ts
-import { ElLoading } from 'tw-element'
+import { TwLoading } from 'tw-element'
 ```
 
 Invoke it:
 
 ```ts
-ElLoading.service(options)
+TwLoading.service(options)
 ```
 
 The parameter `options` is the configuration of Loading, and its details can be found in the following table. `LoadingService` returns a Loading instance, and you can close it by invoking its `close` method:
 
 ```ts
-const loadingInstance = ElLoading.service(options)
+const loadingInstance = TwLoading.service(options)
 nextTick(() => {
   // Loading should be closed asynchronously
   loadingInstance.close()
@@ -70,8 +70,8 @@ nextTick(() => {
 Note that in this case the full screen Loading is singleton. If a new full screen Loading is invoked before an existing one is closed, the existing full screen Loading instance will be returned instead of actually creating another Loading instance:
 
 ```ts
-const loadingInstance1 = ElLoading.service({ fullscreen: true })
-const loadingInstance2 = ElLoading.service({ fullscreen: true })
+const loadingInstance1 = TwLoading.service({ fullscreen: true })
+const loadingInstance2 = TwLoading.service({ fullscreen: true })
 console.log(loadingInstance1 === loadingInstance2) // true
 ```
 

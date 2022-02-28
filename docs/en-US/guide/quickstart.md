@@ -16,7 +16,7 @@ If you don’t care about the bundle size so much, it’s more convenient to use
 ```typescript
 // main.ts
 import { createApp } from 'vue'
-import ElementPlus from 'element-plus'
+import ElementPlus from 'tw-element'
 import 'element-plus/dist/index.css'
 import App from './App.vue'
 
@@ -113,7 +113,7 @@ And refer to the [docs](https://github.com/element-plus/unplugin-element-plus#re
   <tw-button>I am TwButton</tw-button>
 </template>
 <script>
-  import { TwButton } from 'element-plus'
+  import { TwButton } from 'tw-element'
   export default {
     components: { TwButton },
   }
@@ -137,7 +137,7 @@ Example:
 
 ```ts
 import 'element-plus/es/components/message/style/css'
-import { TwMessage } from 'element-plus'
+import { TwMessage } from 'tw-element'
 ```
 
 :::
@@ -157,7 +157,7 @@ Full import:
 
 ```ts
 import { createApp } from 'vue'
-import ElementPlus from 'element-plus'
+import ElementPlus from 'tw-element'
 import App from './App.vue'
 
 const app = createApp(App)
@@ -175,7 +175,7 @@ On-demand:
 
 <script>
 import { defineComponent } from 'vue'
-import { TwConfigProvider } from 'element-plus'
+import { TwConfigProvider } from 'tw-element'
 
 export default defineComponent({
   components: {

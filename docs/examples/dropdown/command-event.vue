@@ -16,7 +16,7 @@
 </template>
 
 <script lang="ts" setup>
-import { TwMessage } from 'element-plus'
+import { TwMessage } from 'tw-element'
 import { ArrowDown } from '@element-plus/icons-vue'
 
 const handleCommand = (command: string | number | object) => {

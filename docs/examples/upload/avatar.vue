@@ -13,7 +13,7 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { TwMessage } from 'element-plus'
+import { TwMessage } from 'tw-element'
 import { Plus } from '@element-plus/icons-vue'
 import type {
   UploadFile,

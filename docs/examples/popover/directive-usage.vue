@@ -16,7 +16,7 @@
 
 <script setup lang="ts">
 import { ref, unref } from 'vue'
-import { ClickOutside as vClickOutside } from 'element-plus'
+import { ClickOutside as vClickOutside } from 'tw-element'
 const buttonRef = ref()
 const popoverRef = ref()
 const onClickOutside = () => {

@@ -26,7 +26,7 @@
 
 <script lang="ts" setup>
 import { ref, nextTick } from 'vue'
-import type { TwInput } from 'element-plus'
+import type { TwInput } from 'tw-element'
 
 const inputValue = ref('')
 const dynamicTags = ref(['Tag 1', 'Tag 2', 'Tag 3'])

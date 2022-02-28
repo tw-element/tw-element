@@ -20,7 +20,7 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { TwMessageBox } from 'element-plus'
+import { TwMessageBox } from 'tw-element'
 
 const drawer = ref(false)
 const innerDrawer = ref(false)

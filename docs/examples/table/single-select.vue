@@ -19,7 +19,7 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import type { TwTable } from 'element-plus'
+import type { TwTable } from 'tw-element'
 
 interface User {
   date: string

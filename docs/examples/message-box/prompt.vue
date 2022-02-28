@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts" setup>
-import { TwMessageBox, TwMessage } from 'element-plus'
+import { TwMessageBox, TwMessage } from 'tw-element'
 
 const open = () => {
   TwMessageBox.prompt('Please input your e-mail', 'Tip', {

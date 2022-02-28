@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts" setup>
-import { TwMessage } from 'element-plus'
+import { TwMessage } from 'tw-element'
 
 const open = () => {
   TwMessage({

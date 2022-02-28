@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts" setup>
-import { TwNotification } from 'element-plus'
+import { TwNotification } from 'tw-element'
 
 const open = () => {
   TwNotification.success({

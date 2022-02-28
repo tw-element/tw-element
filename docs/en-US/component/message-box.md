@@ -119,7 +119,7 @@ If Element Plus is fully imported, it will add the following global methods for 
 If you prefer importing `MessageBox` on demand:
 
 ```ts
-import { TwMessageBox } from 'element-plus'
+import { TwMessageBox } from 'tw-element'
 ```
 
 The corresponding methods are: `TwMessageBox`, `TwMessageBox.alert`, `TwMessageBox.confirm` and `TwMessageBox.prompt`. The parameters are the same as above.

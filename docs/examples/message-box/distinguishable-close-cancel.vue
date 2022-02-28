@@ -3,8 +3,8 @@
 </template>
 
 <script lang="ts" setup>
-import { TwMessageBox, TwMessage } from 'element-plus'
-import type { Action } from 'element-plus'
+import { TwMessageBox, TwMessage } from 'tw-element'
+import type { Action } from 'tw-element'
 const open = () => {
   TwMessageBox.confirm(
     'You have unsaved changes, save and proceed?',

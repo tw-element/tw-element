@@ -106,7 +106,7 @@ If they are mixed together, each hot update of `element-plus` needs to compile a
 import Vue from 'vue'
 
 import './styles/element/index.scss'
-import ElementPlus from 'element-plus'
+import ElementPlus from 'tw-element'
 import App from './App.vue'
 
 const app = createApp(App)

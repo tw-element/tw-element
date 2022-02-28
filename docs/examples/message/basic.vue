@@ -5,7 +5,7 @@
 
 <script lang="ts" setup>
 import { h } from 'vue'
-import { TwMessage } from 'element-plus'
+import { TwMessage } from 'tw-element'
 
 const open = () => {
   TwMessage('this is a message.')

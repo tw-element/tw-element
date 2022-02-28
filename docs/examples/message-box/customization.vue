@@ -4,7 +4,7 @@
 
 <script lang="ts" setup>
 import { h } from 'vue'
-import { TwMessage, TwMessageBox } from 'element-plus'
+import { TwMessage, TwMessageBox } from 'tw-element'
 const open = () => {
   TwMessageBox({
     title: 'Message',

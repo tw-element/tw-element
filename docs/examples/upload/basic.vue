@@ -20,7 +20,7 @@
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { TwMessage, TwMessageBox } from 'element-plus'
+import { TwMessage, TwMessageBox } from 'tw-element'
 import type { UploadFile } from 'element-plus/es/components/upload/src/upload.type'
 
 interface RawFile {

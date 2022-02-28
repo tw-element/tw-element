@@ -61,8 +61,8 @@
 
 <script lang="ts" setup>
 import { reactive, ref } from 'vue'
-import { TwMessageBox } from 'element-plus'
-import type { TwDrawer } from 'element-plus'
+import { TwMessageBox } from 'tw-element'
+import type { TwDrawer } from 'tw-element'
 
 const formLabelWidth = '80px'
 let timer

@@ -35,7 +35,7 @@
 
 <script lang="ts" setup>
 import { ref, reactive } from 'vue'
-import type { TwForm } from 'element-plus'
+import type { TwForm } from 'tw-element'
 
 type FormInstance = InstanceType<typeof TwForm>
 const ruleFormRef = ref<FormInstance>()

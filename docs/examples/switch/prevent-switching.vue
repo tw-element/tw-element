@@ -13,7 +13,7 @@
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { TwMessage } from 'element-plus'
+import { TwMessage } from 'tw-element'
 
 const value1 = ref(false)
 const value2 = ref(false)

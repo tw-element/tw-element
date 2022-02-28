@@ -20,7 +20,7 @@
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue'
-import type { TwUpload } from 'element-plus'
+import type { TwUpload } from 'tw-element'
 
 const uploadRef = ref<InstanceType<typeof TwUpload>>()
 

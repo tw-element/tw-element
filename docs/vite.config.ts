@@ -58,6 +58,23 @@ export default async () => {
         allow: [projRoot],
       },
     },
+    // fix error: [Bug Report] Warning @charset rule when using yarn build
+    // css: {
+    //   postcss: {
+    //     plugins: [
+    //       {
+    //         postcssPlugin: 'internal:charset-removal',
+    //         AtRule: {
+    //           charset: (atRule) => {
+    //             if (atRule.name === 'charset') {
+    //               atRule.remove()
+    //             }
+    //           },
+    //         },
+    //       },
+    //     ],
+    //   },
+    // },
     resolve: {
       alias,
     },

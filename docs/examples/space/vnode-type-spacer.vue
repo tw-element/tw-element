@@ -8,7 +8,7 @@
 
 <script lang="ts" setup>
 import { h, ref } from 'vue'
-import { TwDivider } from 'element-plus'
+import { TwDivider } from 'tw-element'
 
 const size = ref(10)
 const spacer = h(TwDivider, { direction: 'vertical' })

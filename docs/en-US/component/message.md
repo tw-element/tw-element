@@ -80,7 +80,7 @@ Element Plus has added a global method `$message` for `app.config.globalProperti
 ## Local import
 
 ```ts
-import { TwMessage } from 'element-plus'
+import { TwMessage } from 'tw-element'
 ```
 
 In this case you should call `TwMessage(options)`. We have also registered methods for different types, e.g. `TwMessage.success(options)`. You can call `TwMessage.closeAll()` to manually close all the instances.

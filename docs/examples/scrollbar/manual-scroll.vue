@@ -17,7 +17,7 @@
 
 <script lang="ts" setup>
 import { onMounted, ref } from 'vue'
-import type { TwScrollbar } from 'element-plus'
+import type { TwScrollbar } from 'tw-element'
 
 const max = ref(0)
 const value = ref(0)

@@ -5,7 +5,7 @@
 
 <script lang="ts" setup>
 import { h } from 'vue'
-import { TwNotification } from 'element-plus'
+import { TwNotification } from 'tw-element'
 
 const open1 = () => {
   TwNotification({

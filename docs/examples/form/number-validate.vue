@@ -28,7 +28,7 @@
 
 <script lang="ts" setup>
 import { reactive, ref } from 'vue'
-import type { TwForm } from 'element-plus'
+import type { TwForm } from 'tw-element'
 
 type FormInstance = InstanceType<typeof TwForm>
 const formRef = ref<FormInstance>()

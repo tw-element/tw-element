@@ -13,7 +13,7 @@
 
 <script lang="ts" setup>
 import { ref, watch } from 'vue'
-import type { TwTree } from 'element-plus'
+import type { TwTree } from 'tw-element'
 
 interface Tree {
   id: number
